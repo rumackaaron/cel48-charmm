@@ -1,0 +1,1457 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 36b1     August 15, 2011            
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+     Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
+                 Created on  4/27/15 at 15:38:14 by user: rumack      
+
+            Maximum number of ATOMS:    360720, and RESidues:      120240
+ RDTITL> * CEL48F + BGLC + TIP3
+ RDTITL> *
+  
+ CHARMM>     
+  
+ CHARMM>    resize chsize 500000
+Size      Original         New
+MAXA        360720      500000
+MAXB        360720      500000
+MAXT        721440     1000000
+MAXP       1082160     1500000
+MAXIMP      180360      250000
+MAXNB        90180      125000
+MAXPAD      360720      500000
+MAXRES      120240      166666
+MAXSEG       45090       62500
+MAXATC         500
+MAXCB         1500
+MAXCT         5500
+MAXCP        10000
+MAXCI          600
+MAXCH         3200
+MAXCN       125250
+MAXCRT      120240      166666
+  
+ CHARMM>     
+  
+ CHARMM>    bomblev 0
+  
+ CHARMM>     
+  
+ CHARMM>    !open unit 12 read form name top_all36_carb.rtf  !/home/chen/para/newTOPPAR/
+ CHARMM>    !read rtf card unit 12
+ CHARMM>    !close unit 12
+ CHARMM>     
+  
+ CHARMM>    !open unit 13 read form name par_all36_carb.prm  !/home/chen/para/newTOPPAR/
+ CHARMM>    !read param card flex unit 13
+ CHARMM>    !close unit 13
+ CHARMM>     
+  
+ CHARMM>    !open unit 10 read form name top_all22_prot.rtf  !/home/chen/para/newtoppar/
+ CHARMM>    !read rtf card append  unit 10
+ CHARMM>    !close unit 10
+ CHARMM>     
+  
+ CHARMM>    !open unit 11 read form name par_all22_prot.prm  !/home/chen/para/newtoppar/
+ CHARMM>    !read param card flex append unit 11
+ CHARMM>    !close unit 11
+ CHARMM>     
+  
+ CHARMM>    autogenerate angles
+ AUTOGEN: All angles are removed and regenerated.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        0   Number of residues   =        0
+         Number of atoms         =        0   Number of groups     =        0
+         Number of bonds         =        0   Number of angles     =        0
+         Number of dihedrals     =        0   Number of impropers  =        0
+         Number of cross-terms   =        0
+         Number of HB acceptors  =        0   Number of HB donors  =        0
+         Number of NB exclusions =        0   Total charge =    0.00000
+  
+ CHARMM>    autogenerate dihedrals
+ AUTOGEN: All dihedrals are removed and regenerated.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        0   Number of residues   =        0
+         Number of atoms         =        0   Number of groups     =        0
+         Number of bonds         =        0   Number of angles     =        0
+         Number of dihedrals     =        0   Number of impropers  =        0
+         Number of cross-terms   =        0
+         Number of HB acceptors  =        0   Number of HB donors  =        0
+         Number of NB exclusions =        0   Total charge =    0.00000
+  
+ CHARMM>    open unit 9 read card name prot_sequence.txt
+ VOPEN> Attempting to open::prot_sequence.txt::
+ OPNLGU> Unit  9 opened for READONLY access to /home/rumack/charmm/prot_sequence.txt
+  
+ CHARMM>    read sequence card unit 9
+ MAINIO> Sequence information being read from unit   9.
+ TITLE> * WATER PORE SEQUENCE
+ TITLE> *
+  
+ SEQRDR>    639
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    CYS
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    CYS
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    CYS
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    CYS
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    MET
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    SER
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    TYR
+  
+ SEQRDR>    LYS
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    ASN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PRO
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    ARG
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    TRP
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    GLN
+  
+ SEQRDR>    VAL
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    ILE
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    THR
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    ALA
+  
+ SEQRDR>    HSD
+  
+ SEQRDR>    ASP
+  
+ SEQRDR>    GLU
+  
+ SEQRDR>    LEU
+  
+ SEQRDR>    PHE
+  
+ SEQRDR>    GLY
+  
+ SEQRDR>    ALA
+
+          RESIDUE SEQUENCE --   639 RESIDUES
+          SER TYR ASP GLN ALA PHE LEU GLU GLN TYR GLU LYS ILE LYS ASP PRO ALA SER GLY TYR 
+          PHE ARG GLU PHE ASN GLY LEU LEU VAL PRO TYR HSD SER VAL GLU THR MET ILE VAL GLU 
+          ALA PRO ASP HSD GLY HSD GLN THR THR SER GLU ALA PHE SER TYR TYR LEU TRP LEU GLU 
+          ALA TYR TYR GLY ARG VAL THR GLY ASP TRP LYS PRO LEU HSD ASP ALA TRP GLU SER MET 
+          GLU THR PHE ILE ILE PRO GLY THR LYS ASP GLN PRO THR ASN SER ALA TYR ASN PRO ASN 
+          SER PRO ALA THR TYR ILE PRO GLU GLN PRO ASN ALA ASP GLY TYR PRO SER PRO LEU MET 
+          ASN ASN VAL PRO VAL GLY GLN ASP PRO LEU ALA GLN GLU LEU SER SER THR TYR GLY THR 
+          ASN GLU ILE TYR GLY MET HSD TRP LEU LEU ASP VAL ASP ASN VAL TYR GLY PHE GLY PHE 
+          CYS GLY ASP GLY THR ASP ASP ALA PRO ALA TYR ILE ASN THR TYR GLN ARG GLY ALA ARG 
+          GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP PHE THR HSD GLY GLY PRO 
+          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN TYR ALA LYS GLN TRP ARG TYR THR 
+          ASN ALA PRO ASP ALA ASP ALA ARG ALA VAL GLN VAL MET PHE TRP ALA HSD GLU TRP ALA 
+          LYS GLU GLN GLY LYS GLU ASN GLU ILE ALA GLY LEU MET ASP LYS ALA SER LYS MET GLY 
+          ASP TYR LEU ARG TYR ALA MET PHE ASP LYS TYR PHE LYS LYS ILE GLY ASN CYS VAL GLY 
+          ALA THR SER CYS PRO GLY GLY GLN GLY LYS ASP SER ALA HSD TYR LEU LEU SER TRP TYR 
+          TYR SER TRP GLY GLY SER LEU ASP THR SER SER ALA TRP ALA TRP ARG ILE GLY SER SER 
+          SER SER HSD GLN GLY TYR GLN ASN VAL LEU ALA ALA TYR ALA LEU SER GLN VAL PRO GLU 
+          LEU GLN PRO ASP SER PRO THR GLY VAL GLN ASP TRP ALA THR SER PHE ASP ARG GLN LEU 
+          GLU PHE LEU GLN TRP LEU GLN SER ALA GLU GLY GLY ILE ALA GLY GLY ALA THR ASN SER 
+          TRP LYS GLY SER TYR ASP THR PRO PRO THR GLY LEU SER GLN PHE TYR GLY MET TYR TYR 
+          ASP TRP GLN PRO VAL TRP ASN ASP PRO PRO SER ASN ASN TRP PHE GLY PHE GLN VAL TRP 
+          ASN MET GLU ARG VAL ALA GLN LEU TYR TYR VAL THR GLY ASP ALA ARG ALA GLU ALA ILE 
+          LEU ASP LYS TRP VAL PRO TRP ALA ILE GLN HSD THR ASP VAL ASP ALA ASP ASN GLY GLY 
+          GLN ASN PHE GLN VAL PRO SER ASP LEU GLU TRP SER GLY GLN PRO ASP THR TRP THR GLY 
+          THR TYR THR GLY ASN PRO ASN LEU HSD VAL GLN VAL VAL SER TYR SER GLN ASP VAL GLY 
+          VAL THR ALA ALA LEU ALA LYS THR LEU MET TYR TYR ALA LYS ARG SER GLY ASP THR THR 
+          ALA LEU ALA THR ALA GLU GLY LEU LEU ASP ALA LEU LEU ALA HSD ARG ASP SER ILE GLY 
+          ILE ALA THR PRO GLU GLN PRO SER TRP ASP ARG LEU ASP ASP PRO TRP ASP GLY SER GLU 
+          GLY LEU TYR VAL PRO PRO GLY TRP SER GLY THR MET PRO ASN GLY ASP ARG ILE GLU PRO 
+          GLY ALA THR PHE LEU SER ILE ARG SER PHE TYR LYS ASN ASP PRO LEU TRP PRO GLN VAL 
+          GLU ALA HSD LEU ASN ASP PRO GLN ASN VAL PRO ALA PRO ILE VAL GLU ARG HSD ARG PHE 
+          TRP ALA GLN VAL GLU ILE ALA THR ALA PHE ALA ALA HSD ASP GLU LEU PHE GLY ALA 
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS139 TITRATABLE GROUPS
+ THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
+ HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 39
+  
+ CHARMM>    close unit 9
+ VCLOSE: Closing unit    9 with status "KEEP"
+  
+ CHARMM>    generate prot setup
+
+ ***** ERROR in GENIC ***** Residue 'SER   ' was not found.
+
+
+                                                  
+                            /---------\           
+                           /           \          
+                          /             \         
+                         /               \        
+                         !  XXXX   XXXX  !        
+                         !  XXXX   XXXX  !        
+                         !  XXX     XXX  !        
+                         !       X       !        
+                          --\   XXX   /--         
+                           ! !  XXX  ! !          
+                           ! !       ! !          
+                           ! I I I I I !          
+                           !  I I I I  !          
+                            \         /           
+                             --     --            
+                               \---/              
+                        XXX             XXX       
+                       XXXX             XXXX      
+                       XXXXX           XXXXX      
+                          XXX         XXX         
+                            XXX     XXX           
+                               XXXXX              
+                              XXX XXX             
+                            XXX     XXX           
+                          XXX         XXX         
+                       XXXXX           XXXXX      
+                       XXXX             XXXX      
+                        XXX             XXX       
+                                                  
+                                                  
+ Execution terminated due to the detection of a fatal error.
+
+                    ABNORMAL TERMINATION
+                    NO WARNINGS WERE ISSUED
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:     0.02  SECONDS 
+                         CPU TIME:     0.01  SECONDS 

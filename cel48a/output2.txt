@@ -1,0 +1,333 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 36b1     August 15, 2011            
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+     Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
+                 Created on  5/6/15 at 14:30:58 by user: rumack      
+
+            Maximum number of ATOMS:    360720, and RESidues:      120240
+ RDTITL> * CEL48A(SUB)+BGLC
+ RDTITL>  
+  
+ CHARMM>     
+  
+ CHARMM>    bomblev 0
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 12 read form name /home/rumack/charmm/cel48a/top_all36_carb.rtf
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/top_all36_carb.rtf::
+ OPNLGU> Unit 12 opened for READONLY access to /home/rumack/charmm/cel48a/top_all36_carb.rtf
+  
+ CHARMM>    read rtf card unit 12
+ MAINIO> Residue topology file being read from unit  12.
+ TITLE> * $ID: TOP_ALL36_CARB.RTF,V 1.3 2009/06/09 21:49:32 OGUVENCH EXP $
+ TITLE> *>>>>>>>>>>>> ALL-HYDROGEN TOPOLOGIES USED IN THE <<<<<<<<<<<<<<<<
+ TITLE> *>>>>> DEVELOPMENT OF THE CHARMM CARBOHYDRATE  FORCE FIELD<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>> JUNE 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> *>>>>>>>> DIRECT COMMENTS TO ALEXANDER D. MACKERELL JR. <<<<<<<<<<
+ TITLE> *>>>>>>>>>> VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG <<<<<<<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>> PARAMETER SET DISCUSSION FORUM <<<<<<<<<<<<<<<<<<
+ TITLE> *>>>
+ TITLE> *>>> THIS IS A RELEASE VERSION BASED ON CVS TOPOLOGY V 1.83
+ TITLE> *>>> CURRENT TOPOLOGY AND PARAMETER FILES CAN BE OBTAINED FROM
+ TITLE> *>>> HTTP://MACKERELL.UMARYLAND.EDU
+ TITLE> *
+  
+ CHARMM>    close unit 12
+ VCLOSE: Closing unit   12 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 13 read form name /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/par_all36_carb_update.prm::
+ OPNLGU> Unit 13 opened for READONLY access to /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+  
+ CHARMM>    read param card flex unit 13
+
+          PARAMETER FILE BEING READ FROM UNIT 13
+ TITLE> * $ID: PAR_ALL36_CARB.PRM,V 1.3 2009/06/09 21:49:31 OGUVENCH EXP $
+ TITLE> *>>>>>>>>>>>> ALL-HYDROGEN PARAMETERS USED IN THE <<<<<<<<<<<<<<<<
+ TITLE> *>>>>> DEVELOPMENT OF THE CHARMM CARBOHYDRATE  FORCE FIELD<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>> JUNE 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> *>>>>>>>> DIRECT COMMENTS TO ALEXANDER D. MACKERELL JR. <<<<<<<<<<
+ TITLE> *>>>>>>>>>> VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG <<<<<<<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>> PARAMETER SET DISCUSSION FORUM <<<<<<<<<<<<<<<<<<
+ TITLE> *>>>
+ TITLE> *>>> THIS IS A RELEASE VERSION BASED ON CVS PARAMETERS V 1.110
+ TITLE> *>>> CURRENT TOPOLOGY AND PARAMETER FILES CAN BE OBTAINED FROM
+ TITLE> *>>> HTTP://MACKERELL.UMARYLAND.EDU
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    close unit 13
+ VCLOSE: Closing unit   13 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 10 read form name /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/top_all22_prot_remas.rtf::
+ OPNLGU> Unit 10 opened for READONLY access to /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+  
+ CHARMM>    read rtf card append unit 10
+ MAINIO> Residue topology file being read from unit  10.
+ TITLE> *>>>>>>>>CHARMM22 ALL-HYDROGEN TOPOLOGY FILE FOR PROTEINS <<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+*** WARNING **** residue TIP3 already exists (old one deleted)
+          RESI TIP3         0.000
+ There were   1 warning(s) from RTFRDR.
+  
+ CHARMM>    close unit 10
+ VCLOSE: Closing unit   10 with status "KEEP"
+  
+ CHARMM>    open unit 11 read form name /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/par_all22_prot_remas.prm::
+ OPNLGU> Unit 11 opened for READONLY access to /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+  
+ CHARMM>    read param card flex append unit 11
+
+          PARAMETER FILE BEING READ FROM UNIT 11
+ TITLE> *>>>>> CHARMM22 ALL-HYDROGEN PARAMETER FILE FOR PROTEINS <<<<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    close unit 11
+ VCLOSE: Closing unit   11 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>    !(2) build the OT1 and OT2 of the last residue in cel48a
+ CHARMM>    read sequ pdb name cel48a_y213a_y97a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_y97a_step1.pdb::
+ MAINIO> Sequence information being read from unit  90.
+ TITLE>   TEMPORARY
+ TITLE>    DATE:     5/ 6/15     14:30:47      CREATED BY USER: RUMACK
+ TITLE>  *
+
+          RESIDUE SEQUENCE --   639 RESIDUES
+          SER TYR ASP GLN ALA PHE LEU GLU GLN TYR GLU LYS ILE LYS ASP PRO ALA SER GLY TYR 
+          PHE ARG GLU PHE ASN GLY LEU LEU VAL PRO TYR HSD SER VAL GLU THR MET ILE VAL GLU 
+          ALA PRO ASP HSD GLY HSD GLN THR THR SER GLU ALA PHE SER TYR TYR LEU TRP LEU GLU 
+          ALA TYR TYR GLY ARG VAL THR GLY ASP TRP LYS PRO LEU HSD ASP ALA TRP GLU SER MET 
+          GLU THR PHE ILE ILE PRO GLY THR LYS ASP GLN PRO THR ASN SER ALA ALA ASN PRO ASN 
+          SER PRO ALA THR TYR ILE PRO GLU GLN PRO ASN ALA ASP GLY TYR PRO SER PRO LEU MET 
+          ASN ASN VAL PRO VAL GLY GLN ASP PRO LEU ALA GLN GLU LEU SER SER THR TYR GLY THR 
+          ASN GLU ILE TYR GLY MET HSD TRP LEU LEU ASP VAL ASP ASN VAL TYR GLY PHE GLY PHE 
+          CYS GLY ASP GLY THR ASP ASP ALA PRO ALA TYR ILE ASN THR TYR GLN ARG GLY ALA ARG 
+          GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP PHE THR HSD GLY GLY PRO 
+          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN ALA ALA LYS GLN TRP ARG TYR THR 
+          ASN ALA PRO ASP ALA ASP ALA ARG ALA VAL GLN VAL MET PHE TRP ALA HSD GLU TRP ALA 
+          LYS GLU GLN GLY LYS GLU ASN GLU ILE ALA GLY LEU MET ASP LYS ALA SER LYS MET GLY 
+          ASP TYR LEU ARG TYR ALA MET PHE ASP LYS TYR PHE LYS LYS ILE GLY ASN CYS VAL GLY 
+          ALA THR SER CYS PRO GLY GLY GLN GLY LYS ASP SER ALA HSD TYR LEU LEU SER TRP TYR 
+          TYR SER TRP GLY GLY SER LEU ASP THR SER SER ALA TRP ALA TRP ARG ILE GLY SER SER 
+          SER SER HSD GLN GLY TYR GLN ASN VAL LEU ALA ALA TYR ALA LEU SER GLN VAL PRO GLU 
+          LEU GLN PRO ASP SER PRO THR GLY VAL GLN ASP TRP ALA THR SER PHE ASP ARG GLN LEU 
+          GLU PHE LEU GLN TRP LEU GLN SER ALA GLU GLY GLY ILE ALA GLY GLY ALA THR ASN SER 
+          TRP LYS GLY SER TYR ASP THR PRO PRO THR GLY LEU SER GLN PHE TYR GLY MET TYR TYR 
+          ASP TRP GLN PRO VAL TRP ASN ASP PRO PRO SER ASN ASN TRP PHE GLY PHE GLN VAL TRP 
+          ASN MET GLU ARG VAL ALA GLN LEU TYR TYR VAL THR GLY ASP ALA ARG ALA GLU ALA ILE 
+          LEU ASP LYS TRP VAL PRO TRP ALA ILE GLN HSD THR ASP VAL ASP ALA ASP ASN GLY GLY 
+          GLN ASN PHE GLN VAL PRO SER ASP LEU GLU TRP SER GLY GLN PRO ASP THR TRP THR GLY 
+          THR TYR THR GLY ASN PRO ASN LEU HSD VAL GLN VAL VAL SER TYR SER GLN ASP VAL GLY 
+          VAL THR ALA ALA LEU ALA LYS THR LEU MET TYR TYR ALA LYS ARG SER GLY ASP THR THR 
+          ALA LEU ALA THR ALA GLU GLY LEU LEU ASP ALA LEU LEU ALA HSD ARG ASP SER ILE GLY 
+          ILE ALA THR PRO GLU GLN PRO SER TRP ASP ARG LEU ASP ASP PRO TRP ASP GLY SER GLU 
+          GLY LEU TYR VAL PRO PRO GLY TRP SER GLY THR MET PRO ASN GLY ASP ARG ILE GLU PRO 
+          GLY ALA THR PHE LEU SER ILE ARG SER PHE TYR LYS ASN ASP PRO LEU TRP PRO GLN VAL 
+          GLU ALA HSD LEU ASN ASP PRO GLN ASN VAL PRO ALA PRO ILE VAL GLU ARG HSD ARG PHE 
+          TRP ALA GLN VAL GLU ILE ALA THR ALA PHE ALA ALA HSD ASP GLU LEU PHE GLY ALA 
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS137 TITRATABLE GROUPS
+ THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
+ HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 37
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    GENERATE PROT setup
+ THE PATCH 'NTER' WILL BE USED FOR THE FIRST RESIDUE
+ THE PATCH 'CTER' WILL BE USED FOR THE LAST  RESIDUE
+ GENPSF> Segment   1 has been generated. Its identifier is PROT.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        1   Number of residues   =      639
+         Number of atoms         =     9665   Number of groups     =     3006
+         Number of bonds         =     9840   Number of angles     =    17644
+         Number of dihedrals     =    26101   Number of impropers  =     1729
+         Number of cross-terms   =      637
+         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of NB exclusions =        0   Total charge =  -46.00000
+ QXFORM> Expanded format used.
+         More than 4 character atom type used.
+  
+ CHARMM>     
+  
+ CHARMM>    read coor pdb name cel48a_y213a_y97a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_y97a_step1.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 90
+ TITLE>   TEMPORARY
+ TITLE>    DATE:     5/ 6/15     14:30:47      CREATED BY USER: RUMACK
+ TITLE>  *
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    ic fill preserve
+  
+ CHARMM>    ic parameter
+  
+ CHARMM>    ic build
+  
+ CHARMM>     
+  
+ CHARMM>    cons fix sele all .and. ( .not. (resid 639 .and. (type OT1 .or. type OT2))) end
+ SELRPN>   9663 atoms have been selected out of   9665
+  
+ CHARMM>     
+  
+ CHARMM>    mini sd nstep 100
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SHIFt    VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 14.000 CTEXNB =999.000 CTONNB = 10.000 CTOFNB = 12.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are        0 atom  pairs and        0 atom  exclusions.
+ There are        0 group pairs and        0 group exclusions.
+ <MAKINB> with mode   5 found  27484 exclusions and  25397 interactions(1-4)
+ <MAKGRP> found   8792 group exclusions.
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  2777253 ATOM PAIRS AND        0 GROUP PAIRS
+
+ General atom nonbond list generation found:
+      620 ATOM PAIRS WERE FOUND FOR ATOM LIST
+       76 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+
+
+ STEEPD> An energy minimization has been requested.
+
+ NSTEP  =          100   NPRINT =           10
+ STEP   =    0.0200000   TOLFUN =    0.0000000
+ TOLGRD =    0.0000000   TOLSTP =    0.0000000
+
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0     40.64185      0.00000      5.40708      0.02000
+MINI INTERN>        0.00016      0.00001      0.02115      0.00351      0.00001
+MINI EXTERN>       -0.60745     41.22447      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10     39.99503      0.64682      5.41491      0.00896
+MINI INTERN>        0.00314      0.19601      0.15609      0.00541      0.01112
+MINI EXTERN>       -0.80601     40.42927      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20     39.69182      0.30322      1.41235      0.00401
+MINI INTERN>        0.06356      0.21534      0.12012      0.02827      0.02304
+MINI EXTERN>       -0.83940     40.08089      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30     39.44048      0.25134      2.22223      0.00431
+MINI INTERN>        0.09950      0.20194      0.10488      0.07699      0.04071
+MINI EXTERN>       -0.87582     39.79228      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40     39.20570      0.23478      2.60406      0.00464
+MINI INTERN>        0.10984      0.18493      0.09373      0.13956      0.06117
+MINI EXTERN>       -0.90587     39.52234      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       50     38.95609      0.24960      2.84753      0.00498
+MINI INTERN>        0.11358      0.16556      0.08342      0.21739      0.08595
+MINI EXTERN>       -0.93470     39.22490      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       60     38.68906      0.26704      2.06339      0.00536
+MINI INTERN>        0.07448      0.14614      0.07991      0.30071      0.11307
+MINI EXTERN>       -0.96048     38.93522      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       70     38.43780      0.25126      3.53779      0.00576
+MINI INTERN>        0.12678      0.12463      0.06254      0.38560      0.14236
+MINI EXTERN>       -0.98304     38.57893      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       80     38.11165      0.32615      2.30768      0.00619
+MINI INTERN>        0.07331      0.10387      0.06037      0.46746      0.17473
+MINI EXTERN>       -1.00504     38.23694      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       90     37.77897      0.33268      2.50248      0.00665
+MINI INTERN>        0.06761      0.08346      0.04952      0.53388      0.20636
+MINI EXTERN>       -1.02080     37.85895      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      100     37.41297      0.36599      2.54551      0.00715
+MINI INTERN>        0.06760      0.06429      0.04355      0.57610      0.23460
+MINI EXTERN>       -1.03556     37.46240      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ STEEPD> Minimization exiting with number of steps limit (       100) exceeded.
+
+STPD MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+STPD INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+STPD EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+STPD>      100     37.41297      0.36599      2.54551      0.00858
+STPD INTERN>        0.06760      0.06429      0.04355      0.57610      0.23460
+STPD EXTERN>       -1.03556     37.46240      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+  
+ CHARMM>     
+  
+ CHARMM>    write coor pdb name cel48a_y213a_y97a_1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_y97a_1.pdb::
+ RDTITL> * CEL48A FIT TO CELF_RC
+ RDTITL> *
+  Write CHARMM-pdb format
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    stop
+ Parallel load balance (sec.):
+ Node Eext      Eint   Wait    Comm    EComm   List   Integ   Total
+   0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+
+      $$$$$$  New timer profile Local node$$$$$
+
+         Electrostatic & VDW             0.00 Other:            0.00
+      Nonbond force                   0.00 Other:            0.00
+         Bond energy                     0.00 Other:            0.00
+         Angle energy                    0.00 Other:            0.00
+         Dihedral energy                 0.01 Other:            0.00
+         Restraints energy               0.00 Other:            0.00
+      INTRNL energy                   0.01 Other:            0.00
+      Comm force                      0.00 Other:            0.00
+   Energy time                     0.03 Other:            0.01
+ Total time                      0.63 Other:            0.60
+
+         $$$$$$  Average   profile $$$$$
+
+         Electrostatic & VDW             0.00 Other:            0.00
+      Nonbond force                   0.00 Other:            0.00
+         Bond energy                     0.00 Other:            0.00
+         Angle energy                    0.00 Other:            0.00
+         Dihedral energy                 0.01 Other:            0.00
+         Restraints energy               0.00 Other:            0.00
+      INTRNL energy                   0.01 Other:            0.00
+      Comm force                      0.00 Other:            0.00
+   Energy time                     0.03 Other:            0.01
+ Total time                      0.63 Other:            0.60
+
+                    NORMAL TERMINATION BY NORMAL STOP
+                    NO WARNINGS WERE ISSUED
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:     0.63  SECONDS 
+                         CPU TIME:     0.62  SECONDS 

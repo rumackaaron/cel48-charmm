@@ -1,0 +1,54 @@
+* cel48A(sub)+bglc
+
+bomblev 0
+
+open unit 12 read form name /home/rumack/charmm/cel48a/top_all36_carb.rtf
+read rtf card unit 12
+close unit 12
+
+open unit 13 read form name /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+read param card flex unit 13
+close unit 13
+
+open unit 10 read form name /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+read rtf card append unit 10
+close unit 10
+open unit 11 read form name /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+read param card flex append unit 11
+close unit 11
+
+
+
+!(2) build the OT1 and OT2 of the last residue in cel48a
+read sequ pdb name cel48a_y213a_y97a_step1.pdb
+GENERATE PROT setup
+
+read coor pdb name cel48a_y213a_y97a_step1.pdb
+ic fill preserve
+ic parameter
+ic build
+
+cons fix sele all .and. ( .not. (resid 639 .and. (type OT1 .or. type OT2))) end
+
+mini sd nstep 100
+
+write coor pdb name cel48a_y213a_y97a_1.pdb
+* cel48A fit to celF_rc
+*
+
+stop
+
+
+!(1) fit cel48a to recentered celf
+read sequ pdb name cel48a_fit_rc.pdb
+GENERATE PROT setup
+
+read coor pdb name cel48a_fit_rc.pdb
+ic build
+hbuild
+
+write coor pdb name cel48a_fit_rc_1.pdb
+* cel48A fit to celF_rc
+*
+
+stop

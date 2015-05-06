@@ -1,0 +1,384 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 36b1     August 15, 2011            
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+     Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
+                 Created on  4/22/15 at 14:57:37 by user: rumack      
+
+            Maximum number of ATOMS:    360720, and RESidues:      120240
+ RDTITL> * CEL48F(SUB)+BGLC
+ RDTITL> * 1. MUTANT: PORE -> ILES
+ RDTITL> * 2. ADD WAT + ION
+ RDTITL> * 3. EQU RUN
+ RDTITL>  
+  
+ CHARMM>     
+  
+ CHARMM>    resize chsize 500000
+Size      Original         New
+MAXA        360720      500000
+MAXB        360720      500000
+MAXT        721440     1000000
+MAXP       1082160     1500000
+MAXIMP      180360      250000
+MAXNB        90180      125000
+MAXPAD      360720      500000
+MAXRES      120240      166666
+MAXSEG       45090       62500
+MAXATC         500
+MAXCB         1500
+MAXCT         5500
+MAXCP        10000
+MAXCI          600
+MAXCH         3200
+MAXCN       125250
+MAXCRT      120240      166666
+  
+ CHARMM>     
+  
+ CHARMM>    bomblev 0
+  
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 12 read form name top_all36_carb.rtf  !/home/chen/para/newTOPPAR/
+ VOPEN> Attempting to open::top_all36_carb.rtf::
+ OPNLGU> Unit 12 opened for READONLY access to /home/rumack/charmm/cel48a/top_all36_carb.rtf
+  
+ CHARMM>    read rtf card unit 12
+ MAINIO> Residue topology file being read from unit  12.
+ TITLE> * $ID: TOP_ALLXX_SUGAR.INP,V 1.104 2014/01/03 20:55:32 PRABHU EXP $
+ TITLE> *>>>>>>>>>>>> ALL-HYDROGEN TOPOLOGIES USED IN THE <<<<<<<<<<<<<<<<
+ TITLE> *>>>>> DEVELOPMENT OF THE CHARMM CARBOHYDRATE  FORCE FIELD<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>> JUNE 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> *>>>>>>>> DIRECT COMMENTS TO ALEXANDER D. MACKERELL JR. <<<<<<<<<<
+ TITLE> *>>>>>>>>>> VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG <<<<<<<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>> PARAMETER SET DISCUSSION FORUM <<<<<<<<<<<<<<<<<<
+ TITLE> *
+  
+ CHARMM>    close unit 12
+ VCLOSE: Closing unit   12 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 13 read form name par_all36_carb.prm  !/home/chen/para/newTOPPAR/
+ VOPEN> Attempting to open::par_all36_carb.prm::
+ OPNLGU> Unit 13 opened for READONLY access to /home/rumack/charmm/cel48a/par_all36_carb.prm
+  
+ CHARMM>    read param card flex unit 13
+
+          PARAMETER FILE BEING READ FROM UNIT 13
+ TITLE> * $ID: PAR_ALLXX_SUGAR.INP,V 1.130 2013/12/11 16:54:47 PRABHU EXP $
+ TITLE> *>>>>>>>>>>>> ALL-HYDROGEN PARAMETERS USED IN THE <<<<<<<<<<<<<<<<
+ TITLE> *>>>>> DEVELOPMENT OF THE CHARMM CARBOHYDRATE  FORCE FIELD<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>> JUNE 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> *>>>>>>>> DIRECT COMMENTS TO ALEXANDER D. MACKERELL JR. <<<<<<<<<<
+ TITLE> *>>>>>>>>>> VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG <<<<<<<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>> PARAMETER SET DISCUSSION FORUM <<<<<<<<<<<<<<<<<<
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    close unit 13
+ VCLOSE: Closing unit   13 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 10 read form name top_all22_prot.rtf  !/home/chen/para/newtoppar/
+ VOPEN> Attempting to open::top_all22_prot.rtf::
+ OPNLGU> Unit 10 opened for READONLY access to /home/rumack/charmm/cel48a/top_all22_prot.rtf
+  
+ CHARMM>    read rtf card append  unit 10
+ MAINIO> Residue topology file being read from unit  10.
+ TITLE> *>>>>>>>>CHARMM22 ALL-HYDROGEN TOPOLOGY FILE FOR PROTEINS <<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+  
+ CHARMM>    close unit 10
+ VCLOSE: Closing unit   10 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 11 read form name par_all22_prot.prm  !/home/chen/para/newtoppar/
+ VOPEN> Attempting to open::par_all22_prot.prm::
+ OPNLGU> Unit 11 opened for READONLY access to /home/rumack/charmm/cel48a/par_all22_prot.prm
+  
+ CHARMM>    read param card flex append unit 11
+
+          PARAMETER FILE BEING READ FROM UNIT 11
+ TITLE> *>>>>> CHARMM22 ALL-HYDROGEN PARAMETER FILE FOR PROTEINS <<<<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    close unit 11
+ VCLOSE: Closing unit   11 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    !open unit 12 read form name /home/chen/para/newTOPPAR/top_all36_carb.rtf
+ CHARMM>    !read rtf card unit 12
+ CHARMM>    !close unit 12
+ CHARMM>     
+  
+ CHARMM>    !open unit 13 read form name /home/chen/para/newTOPPAR/par_all36_carb_update.prm
+ CHARMM>    !read param card flex unit 13
+ CHARMM>    !close unit 13
+ CHARMM>     
+  
+ CHARMM>    !open unit 10 read form name /home/chen/para/newtoppar/top_all22_prot_remas.rtf
+ CHARMM>    !read rtf card append  unit 10
+ CHARMM>    !close unit 10
+ CHARMM>     
+  
+ CHARMM>    !open unit 11 read form name /home/chen/para/newtoppar/par_all22_prot_remas.prm
+ CHARMM>    !read param card flex append unit 11
+ CHARMM>    !close unit 11
+ CHARMM>     
+  
+ CHARMM>    read psf card name sys_pore_wt.psf
+ VOPEN> Attempting to open::sys_pore_wt.psf::
+ MAINIO> Protein structure file being read from unit  90.
+ PSFRD2> Reading PSF in the expanded format.
+ TITLE>  * SYS CEL48A-PORE-PHE
+ TITLE>  *  DATE:     5/14/12     17:18:53      CREATED BY USER: chen
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        4   Number of residues   =    20935
+         Number of atoms         =    70648   Number of groups     =    23350
+         Number of bonds         =    70787   Number of angles     =    38293
+         Number of dihedrals     =    26759   Number of impropers  =     1729
+         Number of cross-terms   =      637
+         Number of HB acceptors  =    21246   Number of HB donors  =     1038
+         Number of NB exclusions =        0   Total charge =    0.00000
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    read coor card name sys_pore_wt.cor
+ VOPEN> Attempting to open::sys_pore_wt.cor::
+          SPATIAL COORDINATES BEING READ FROM UNIT 90
+ TITLE> * SYS CEL48A-PORE-PHE
+ TITLE> *  DATE:     5/14/12     17:18:52      CREATED BY USER: CHEN
+ TITLE> *
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    coor stat sele all end
+ SELRPN>  70648 atoms have been selected out of  70648
+ STATISTICS FOR     70648 SELECTED ATOMS:
+    XMIN =  -44.959560 XMAX =   44.991780 XAVE =   -0.151358
+    YMIN =  -44.842060 YMAX =   44.987760 YAVE =    0.066494
+    ZMIN =  -44.926170 ZMAX =   44.935280 ZAVE =    0.063619
+    WMIN =    0.000000 WMAX =   99.990000 WAVE =    5.427778
+  
+ CHARMM>     
+  
+ CHARMM>    set dim 92.0
+ Parameter: DIM <- "92.0"
+  
+ CHARMM>     
+  
+ CHARMM>    crystal define cubic @dim @dim @dim 90.0 90.0 90.0
+ Parameter: DIM -> "92.0"
+ Parameter: DIM -> "92.0"
+ Parameter: DIM -> "92.0"
+ Crystal Parameters : Crystal Type = CUBI
+           A     =   92.00000 B    =   92.00000 C     =   92.00000
+           Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
+  
+ CHARMM>    crystal build cutoff 12.0 noper 0
+ XBUILD> Building all transformations with a minimum atom-atom
+         contact distance of less than   12.00 Angstroms.
+
+ Range of Grid Search for Transformation     1 :
+ Lattice Vector A    -2 TO     2
+ Lattice Vector B    -2 TO     2
+ Lattice Vector C    -2 TO     2
+
+
+ The number of transformations generated =    26
+
+
+ Number  Symop   A   B   C   Distance
+
+      1      1  -1  -1  -1     7.7419
+      2      1  -1   0  -1     5.4163
+      3      1  -1   1  -1    10.9998
+      4      1   0  -1  -1     4.8051
+      5      1   0   0  -1     3.1007
+      6      1   0   1  -1     8.8183
+      7      1  -1  -1   0     5.4121
+      8      1  -1   0   0     4.3200
+      9      1  -1   1   0     8.6030
+     10      1   0  -1   0     4.1915
+     11      1   0   1   0     4.1915
+     12      1  -1  -1   1    11.3934
+     13      1  -1   0   1     5.6384
+     14      1  -1   1   1     9.0316
+     15      1   0  -1   1     8.8183
+     16      1   0   0   1     3.1007
+     17      1   0   1   1     4.8051
+     18      1   1   1   1     7.7419
+     19      1   1   0   1     5.4163
+     20      1   1  -1   1    10.9998
+     21      1   1   1   0     5.4121
+     22      1   1   0   0     4.3200
+     23      1   1  -1   0     8.6030
+     24      1   1   1  -1    11.3934
+     25      1   1   0  -1     5.6384
+     26      1   1  -1  -1     9.0316
+                     THERE ARE NO ROTATIONS FOR THIS TRANSFORMATION SET
+    26 Transformations have been processed.
+
+  
+ CHARMM>     
+  
+ CHARMM>    image byres sele resn TIP3 end
+ SELRPN>  60723 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>    image byseg sele segid PROT end
+ SELRPN>   9687 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>    image byres sele resn SOD end
+ SELRPN>     46 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>    image byres sele resn BGLC end
+ SELRPN>    192 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>    shake fast bonH param
+ SHKCOM> SHAKE parameters: TOL =   0.1000D-09 MXITer =    500
+ <CODES>: No atom parameters for atom       1 type  256
+ <CODES>: No atom parameters for atom      10 type  273
+ <CODES>: No atom parameters for atom      13 type  270
+ <CODES>: No atom parameters for atom      14 type  254
+ <CODES>: No atom parameters for atom      42 type  232
+ <CODES>: No atom parameters for atom      43 type  272
+ <CODES>: No atom parameters for atom      59 type  255
+ <CODES>: No atom parameters for atom     256 type  250
+ <CODES>: No atom parameters for atom     257 type  231
+ <CODES>: No atom parameters for atom     260 type  229
+ <CODES>: No atom parameters for atom     262 type  230
+ <CODES>: No atom parameters for atom     352 type  257
+ <CODES>: No atom parameters for atom     515 type  251
+ <CODES>: No atom parameters for atom     520 type  252
+ <CODES>: No atom parameters for atom     591 type  281
+ <CODES>: No atom parameters for atom     905 type  228
+ <CODES>: No atom parameters for atom     908 type  258
+ <CODES>: No atom parameters for atom    9880 type  275
+ <CODES>: No atom parameters for atom   70603 type  300
+ <CODES>: Total number of atoms with no paramter:   22478
+ <CODES>: No bond parameters for     1 (          OC30P   )
+ <CODES>: No bond parameters for     2 ( HCA3M            )
+ <CODES>: No bond parameters for     3 ( HCA3M            )
+ <CODES>: No bond parameters for     4 ( HCA3M            )
+ <CODES>: No bond parameters for     5 ( OC30P    CC311C  )
+ <CODES>: No bond parameters for     6 ( OC2DP    OC30P   )
+ <CODES>: No bond parameters for     7 ( OC2DP    HCP1M   )
+ <CODES>: No bond parameters for     8 ( OC2DP    HCP1M   )
+ <CODES>: No bond parameters for     9 (          OC2DP   )
+ <CODES>: No bond parameters for    10 (          CC321C  )
+ <CODES>: No bond parameters for    11 ( CC3261   OC30P   )
+ <CODES>: No bond parameters for    12 ( CC3261           )
+ <CODES>: No bond parameters for    13 (          CC3261  )
+ <CODES>: No bond parameters for    14 (          CC321C  )
+ <CODES>: No bond parameters for    15 (          OC30P   )
+ <CODES>: No bond parameters for    16 ( OC30P    CC311C  )
+ <CODES>: No bond parameters for    17 ( OC2DP    OC30P   )
+ <CODES>: No bond parameters for    18 ( OC2DP    HCP1M   )
+ <CODES>: No bond parameters for    19 ( OC2DP    HCP1M   )
+ <CODES>: No bond parameters for    20 ( OC312    OC2DP   )
+ <CODES>: No bond parameters for    21 ( OC312    OC312   )
+ <CODES>: No bond parameters for    22 ( OC312    CC321D  )
+ <CODES>: No bond parameters for    23 ( OC312    OC312   )
+ <CODES>: No bond parameters for    24 ( OC312    CC321D  )
+ <CODES>: No bond parameters for    25 ( OC312    OC312   )
+ <CODES>: And more missing bond parameters.
+ <CODES>: No angle parameters for     1 ( HCA3M             HCA3M   )
+ <CODES>: No angle parameters for     2 ( HCA3M             HCA3M   )
+ <CODES>: No angle parameters for     3 ( HCA3M             OC30P   )
+ <CODES>: No angle parameters for     4 ( HCA3M             HCA3M   )
+ <CODES>: No angle parameters for     5 ( HCA3M             OC30P   )
+ <CODES>: No angle parameters for     6 ( HCA3M             OC30P   )
+ <CODES>: No angle parameters for     7 (          OC30P    CC311C  )
+ <CODES>: No angle parameters for     8 (          OC30P    OC2DP   )
+ <CODES>: No angle parameters for     9 (          OC30P    CC3261  )
+ <CODES>: No angle parameters for    10 ( CC311C   OC30P    OC2DP   )
+ <CODES>: No angle parameters for    11 ( CC311C   OC30P    CC3261  )
+ <CODES>: No angle parameters for    12 ( OC2DP    OC30P    CC3261  )
+ <CODES>: No angle parameters for    13 ( OC30P    OC2DP    HCP1M   )
+ <CODES>: No angle parameters for    14 ( OC30P    OC2DP    HCP1M   )
+ <CODES>: No angle parameters for    15 ( OC30P    OC2DP            )
+ <CODES>: No angle parameters for    16 ( HCP1M    OC2DP    HCP1M   )
+ <CODES>: No angle parameters for    17 ( HCP1M    OC2DP            )
+ <CODES>: No angle parameters for    18 ( HCP1M    OC2DP            )
+ <CODES>: No angle parameters for    19 ( OC2DP             CC321C  )
+ <CODES>: No angle parameters for    20 ( OC30P    CC3261           )
+ <CODES>: No angle parameters for    21 ( OC30P    CC3261           )
+ <CODES>: No angle parameters for    22 (          CC3261           )
+ <CODES>: No angle parameters for    23 ( CC3261            CC321C  )
+ <CODES>: No angle parameters for    24 ( CC3261            OC30P   )
+ <CODES>: No angle parameters for    25 ( CC321C            OC30P   )
+ <CODES>: And more missing angle parameters.
+ <CODES>: A TOTAL OF***** MISSING PARAMETERS
+
+      ***** LEVEL -1 WARNING FROM <CODES> *****
+      ***** CODES> MISSING PARAMETERS
+      ******************************************
+      BOMLEV (  0) IS REACHED - TERMINATING. WRNLEV IS  5
+
+
+                                                  
+                            /---------\           
+                           /           \          
+                          /             \         
+                         /               \        
+                         !  XXXX   XXXX  !        
+                         !  XXXX   XXXX  !        
+                         !  XXX     XXX  !        
+                         !       X       !        
+                          --\   XXX   /--         
+                           ! !  XXX  ! !          
+                           ! !       ! !          
+                           ! I I I I I !          
+                           !  I I I I  !          
+                            \         /           
+                             --     --            
+                               \---/              
+                        XXX             XXX       
+                       XXXX             XXXX      
+                       XXXXX           XXXXX      
+                          XXX         XXX         
+                            XXX     XXX           
+                               XXXXX              
+                              XXX XXX             
+                            XXX     XXX           
+                          XXX         XXX         
+                       XXXXX           XXXXX      
+                       XXXX             XXXX      
+                        XXX             XXX       
+                                                  
+                                                  
+ Execution terminated due to the detection of a fatal error.
+
+                    ABNORMAL TERMINATION
+                    MOST SEVERE WARNING WAS AT LEVEL -1
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:     0.82  SECONDS 
+                         CPU TIME:     0.80  SECONDS 

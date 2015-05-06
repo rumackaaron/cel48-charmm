@@ -1,0 +1,54 @@
+* cel48F(sub)+bglc
+* 1. mutant: pore -> Iles
+* 2. add wat + ion
+
+bomblev 0
+
+open unit 12 read form name top_all36_carb.rtf
+read rtf card unit 12
+close unit 12
+
+open unit 13 read form name par_all36_carb.prm
+read param card flex unit 13
+close unit 13
+
+open unit 10 read form name top_all22_prot.rtf
+read rtf card append  unit 10
+close unit 10
+
+open unit 11 read form name par_all22_prot.prm
+read param card flex append unit 11
+close unit 11
+
+read sequ pdb name prot_sequence.txt
+gene PROT setup
+read coor pdb name sys_pore_wt.pdb
+
+read sequ BGLC 9
+gene sub setup
+patch 14bb sub 1 sub 2 setup
+patch 14bb sub 2 sub 3 setup
+patch 14bb sub 3 sub 4 setup
+patch 14bb sub 4 sub 5 setup
+patch 14bb sub 5 sub 6 setup
+patch 14bb sub 6 sub 7 setup
+patch 14bb sub 7 sub 8 setup
+patch 14bb sub 8 sub 9 setup
+autogenerate angle dihedral
+read coor pdb append name cel48f-sub-rc_sub.pdb
+
+read sequ SOD 46
+gene ionp setup
+read coor pdb append name sod.pdb
+
+write coor card name prot+sub+sod.wt.cor
+* sys cel48A-pore
+*
+
+write psf card name prot+sub+sod.wt.psf
+* sys cel48A-pore
+*
+
+
+stop
+

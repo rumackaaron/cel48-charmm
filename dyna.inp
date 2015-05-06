@@ -1,0 +1,77 @@
+* cel48F + bglc + tip3
+* 
+
+resize chsize 500000
+
+bomblev 0
+
+
+open unit 12 read form name top_all36_carb.rtf  !/home/chen/para/newTOPPAR/
+read rtf card unit 12
+close unit 12
+
+open unit 13 read form name par_all36_carb.prm  !/home/chen/para/newTOPPAR/
+read param card flex unit 13
+close unit 13
+
+open unit 10 read form name top_all22_prot.rtf  !/home/chen/para/newtoppar/
+read rtf card append  unit 10
+close unit 10
+
+open unit 11 read form name par_all22_prot.prm  !/home/chen/para/newtoppar/
+read param card flex append unit 11
+close unit 11
+
+open unit 9 card name sequence.txt
+read sequence card unit 9
+close unit 9
+
+generate setup
+
+open unit 8 card name sys_pore_wt.cor
+read coor card unit 8
+close unit 8
+
+set dim 96.20 
+
+crystal define cubic @dim @dim @dim 90.0 90.0 90.0
+crystal build cutoff 12.0 noper 0
+
+!image byres sele resn TIP3 end
+!image byseg sele segid PROT end
+!image byres sele resn SOD end
+!image byres sele resn BGLC end
+
+shake fast bonH param 
+
+!!! production CPT !!!
+!open unit 11 read form name celfsys-bglc-equ.rst
+!open unit 12 write form name celfsys-bglc-dyn-1.rst
+open unit 21 write unform name celfsys-bglc-dyn-1.dcd
+open unit 22 write form name celfsys-bglc-dyn-1.mon
+
+!Dynamics restart cpt timestep 0.001 nstep 500000 iseed 198401235 -
+!FIRSTT 323.0 FinalT 323.0 TEMINC 0.0 -
+!nprint 100 iprfrq 500 -
+!pconstant  PINTernal pmass 400.0 pref 1.0 pgamma 20.0 -    !use extended system meth in P. !NB: pgamma should be 0.0
+!tbath 323.0 tcons -
+!HOOVer tmass 1000.0 reft 323.0 -                      ! use extended system meth in T
+!EWALD PMEWALD KAPPA 0.32  FFTX 90 FFTY 90 FFTZ 90 ORDER 6 -
+!BYCBim  CUTNB 12.0  CTOFNB 10.0 CTONNB 9.0  cutim 12.0 -
+!VDW  VSWITCH NTRFRQ 10 -
+!inbfrq -1 ihbfrq 0 imgfrq -1 -                       ! heuristic update
+!iunread 11 iunwrit 12 iuncrd 21 kunit 22 nsavc 1000   ! nsavc is the frq of writing coords
+
+dynamics cpt timestep 0.001 nstep 10 iseed 198401235 -
+firstt 323.0 finalt 323.0 teminc 0.0 -
+nprint 1 iprfrq 1 -
+pconstant pinternal pmass 400.0 pref 1.0 pgamma 20.0 -
+tbath 323.0 tcons -
+hoover tmass 1000.0 reft 323.0 -
+EWALD PMEWALD KAPPA 0.32  FFTX 90 FFTY 90 FFTZ 90 ORDER 6 -
+BYCBim  CUTNB 12.0  CTOFNB 10.0 CTONNB 9.0 -
+VDW  VSWITCH NTRFRQ 10 -
+inbfrq -1 ihbfrq 0 imgfrq -1 -                       ! heuristic update
+iuncrd 21 kunit 22 nsavc 1   ! nsavc is the frq of writing coords
+
+stop

@@ -1,0 +1,90 @@
+* cel48F(sub)+bglc
+* 1. mutant: pore -> Iles
+* 2. add wat + ion
+
+bomblev 0
+
+open unit 12 read form name /home/rumack/charmm/cel48a/top_all36_carb.rtf
+read rtf card unit 12
+close unit 12
+
+open unit 13 read form name /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+read param card flex unit 13
+close unit 13
+
+open unit 10 read form name /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+read rtf card append unit 10
+close unit 10
+open unit 11 read form name /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+read param card flex append unit 11
+close unit 11
+
+read sequ pdb name cel48a_wt_1.pdb
+gene PROT setup
+read coor pdb name cel48a_wt_1.pdb
+
+read sequ BGLC 9
+gene sub setup
+patch 14bb sub 1 sub 2 setup
+patch 14bb sub 2 sub 3 setup
+patch 14bb sub 3 sub 4 setup
+patch 14bb sub 4 sub 5 setup
+patch 14bb sub 5 sub 6 setup
+patch 14bb sub 6 sub 7 setup
+patch 14bb sub 7 sub 8 setup
+patch 14bb sub 8 sub 9 setup
+autogenerate angle dihedral
+read coor pdb append name cel48f-sub-rc_sub.pdb
+
+read sequ TIP3 32768
+gene wat setup noang nodihe
+read coor card append name tips32keqexp.cor
+
+delete atom sort select .byres. (segid wat .and. type OH2 .and. (.not. (segid wat .or. hydrogen) .around. 2.5 )) end
+
+set watboxsize 90
+calc maxDim = 0.5*@watboxsize
+
+dele atom sele .byres.  prop x .ge.  @maxDim  end
+dele atom sele .byres.  prop x .le. -@maxDim  end
+dele atom sele .byres.  prop y .ge.  @maxDim  end
+dele atom sele .byres.  prop y .le. -@maxDim  end
+dele atom sele .byres.  prop z .ge.  @maxDim  end
+dele atom sele .byres.  prop z .le. -@maxDim  end
+
+! add 46 cations SOD
+define watrepl sele segid WAT .and. (resid  16185 .or. resid  13501 -
+.or. resid  11927 .or. resid  28608 -
+.or. resid  30485 .or. resid  30486 .or. resid  26284 .or. resid  16254 -
+.or. resid  5794 .or. resid  1843 .or. resid  1866 .or. resid  9152 -
+.or. resid  1019 .or. resid  13232 .or. resid  22887 .or. resid  16996 -
+.or. resid  17399 .or. resid  2148 .or. resid  8381 .or. resid  8423 -
+.or. resid  26065 .or. resid  27042 .or. resid  25823 .or. resid  187 -
+.or. resid  6770 .or. resid  6921 .or. resid  6011 .or. resid  12851 -
+.or. resid  12855 .or. resid  32383 .or. resid  31324 .or. resid  24238 -
+.or. resid  24350 .or. resid  12679 .or. resid  12342 .or. resid  15480 -
+.or. resid  31944 .or. resid  27194 .or. resid  3443 .or. resid  1732 -
+.or. resid  12382 .or. resid  30668 .or. resid  29882 .or. resid  4961 -
+.or. resid  13943 .or. resid  32592 ) end 
+
+coor stat sele watrepl .and. .not. hydrogen end
+
+set nions 46
+read sequence SOD @nions
+gene ionp setup
+coor dupl sele watrepl .and. .not. hydrogen end sele segid ionp end
+delete atom sele .byres. watrepl end
+join wat renumber ! fix numbering of residues in the modified water segment
+return
+
+write coor card name sys_pore_wt_step3.cor
+* sys cel48A-pore-phe 
+*
+
+write psf card name sys_pore_wt_step3.psf
+* sys cel48A-pore-phe
+*
+
+
+stop
+

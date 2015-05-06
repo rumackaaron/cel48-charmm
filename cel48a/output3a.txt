@@ -1,0 +1,461 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 36b1     August 15, 2011            
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+     Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
+                 Created on  4/29/15 at 14:52:19 by user: rumack      
+
+            Maximum number of ATOMS:    360720, and RESidues:      120240
+ RDTITL> * CEL48F(SUB)+BGLC
+ RDTITL> * 1. DYNAMICS
+ RDTITL>  
+  
+ CHARMM>     
+  
+ CHARMM>    !resize chsize 500000
+ CHARMM>     
+  
+ CHARMM>    bomblev 0
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 12 read form name /home/rumack/charmm/cel48a/top_all36_carb.rtf
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/top_all36_carb.rtf::
+ OPNLGU> Unit 12 opened for READONLY access to /home/rumack/charmm/cel48a/top_all36_carb.rtf
+  
+ CHARMM>    read rtf card unit 12
+ MAINIO> Residue topology file being read from unit  12.
+ TITLE> * $ID: TOP_ALL36_CARB.RTF,V 1.3 2009/06/09 21:49:32 OGUVENCH EXP $
+ TITLE> *>>>>>>>>>>>> ALL-HYDROGEN TOPOLOGIES USED IN THE <<<<<<<<<<<<<<<<
+ TITLE> *>>>>> DEVELOPMENT OF THE CHARMM CARBOHYDRATE  FORCE FIELD<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>> JUNE 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> *>>>>>>>> DIRECT COMMENTS TO ALEXANDER D. MACKERELL JR. <<<<<<<<<<
+ TITLE> *>>>>>>>>>> VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG <<<<<<<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>> PARAMETER SET DISCUSSION FORUM <<<<<<<<<<<<<<<<<<
+ TITLE> *>>>
+ TITLE> *>>> THIS IS A RELEASE VERSION BASED ON CVS TOPOLOGY V 1.83
+ TITLE> *>>> CURRENT TOPOLOGY AND PARAMETER FILES CAN BE OBTAINED FROM
+ TITLE> *>>> HTTP://MACKERELL.UMARYLAND.EDU
+ TITLE> *
+  
+ CHARMM>    close unit 12
+ VCLOSE: Closing unit   12 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 13 read form name /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/par_all36_carb_update.prm::
+ OPNLGU> Unit 13 opened for READONLY access to /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+  
+ CHARMM>    read param card flex unit 13
+
+          PARAMETER FILE BEING READ FROM UNIT 13
+ TITLE> * $ID: PAR_ALL36_CARB.PRM,V 1.3 2009/06/09 21:49:31 OGUVENCH EXP $
+ TITLE> *>>>>>>>>>>>> ALL-HYDROGEN PARAMETERS USED IN THE <<<<<<<<<<<<<<<<
+ TITLE> *>>>>> DEVELOPMENT OF THE CHARMM CARBOHYDRATE  FORCE FIELD<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>> JUNE 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> *>>>>>>>> DIRECT COMMENTS TO ALEXANDER D. MACKERELL JR. <<<<<<<<<<
+ TITLE> *>>>>>>>>>> VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG <<<<<<<<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>> PARAMETER SET DISCUSSION FORUM <<<<<<<<<<<<<<<<<<
+ TITLE> *>>>
+ TITLE> *>>> THIS IS A RELEASE VERSION BASED ON CVS PARAMETERS V 1.110
+ TITLE> *>>> CURRENT TOPOLOGY AND PARAMETER FILES CAN BE OBTAINED FROM
+ TITLE> *>>> HTTP://MACKERELL.UMARYLAND.EDU
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    close unit 13
+ VCLOSE: Closing unit   13 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    open unit 10 read form name /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/top_all22_prot_remas.rtf::
+ OPNLGU> Unit 10 opened for READONLY access to /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+  
+ CHARMM>    read rtf card append unit 10
+ MAINIO> Residue topology file being read from unit  10.
+ TITLE> *>>>>>>>>CHARMM22 ALL-HYDROGEN TOPOLOGY FILE FOR PROTEINS <<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+*** WARNING **** residue TIP3 already exists (old one deleted)
+          RESI TIP3         0.000
+ There were   1 warning(s) from RTFRDR.
+  
+ CHARMM>    close unit 10
+ VCLOSE: Closing unit   10 with status "KEEP"
+  
+ CHARMM>    open unit 11 read form name /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+ VOPEN> Attempting to open::/home/rumack/charmm/cel48a/par_all22_prot_remas.prm::
+ OPNLGU> Unit 11 opened for READONLY access to /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+  
+ CHARMM>    read param card flex append unit 11
+
+          PARAMETER FILE BEING READ FROM UNIT 11
+ TITLE> *>>>>> CHARMM22 ALL-HYDROGEN PARAMETER FILE FOR PROTEINS <<<<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    close unit 11
+ VCLOSE: Closing unit   11 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    read psf card name "sys-mini.psf"
+ VOPEN> Attempting to open::sys-mini.psf::
+ MAINIO> Protein structure file being read from unit  90.
+ PSFRD2> Reading PSF in the expanded format.
+ TITLE>  * CEL48F(SUB)+BGLC
+ TITLE>  * 1. MUTANT: PORE -> ILES
+ TITLE>  * 2. ADD WAT + ION
+ TITLE>  * 3. EQU RUN
+ TITLE>  *  DATE:     4/29/15     14:17:25      CREATED BY USER: rumack
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        4   Number of residues   =    20935
+         Number of atoms         =    70648   Number of groups     =    23350
+         Number of bonds         =    70787   Number of angles     =    38293
+         Number of dihedrals     =    26759   Number of impropers  =     1729
+         Number of cross-terms   =      637
+         Number of HB acceptors  =    21246   Number of HB donors  =     1038
+         Number of NB exclusions =        0   Total charge =    0.00000
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    read coor card name "sys-mini.cor"
+ VOPEN> Attempting to open::sys-mini.cor::
+          SPATIAL COORDINATES BEING READ FROM UNIT 90
+ TITLE> * CEL48F(SUB)+BGLC
+ TITLE> * 1. MUTANT: PORE -> ILES
+ TITLE> * 2. ADD WAT + ION
+ TITLE> * 3. EQU RUN
+ TITLE> *  DATE:     4/29/15     14:17:25      CREATED BY USER: RUMACK
+ TITLE> *
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    coor stat sele all end
+ SELRPN>  70648 atoms have been selected out of  70648
+ STATISTICS FOR     70648 SELECTED ATOMS:
+    XMIN =  -45.277224 XMAX =   45.621766 XAVE =   -0.151383
+    YMIN =  -45.467640 YMAX =   45.245288 YAVE =    0.066461
+    ZMIN =  -45.408897 ZMAX =   45.083417 ZAVE =    0.063630
+    WMIN =    0.000000 WMAX =   99.990000 WAVE =    5.427778
+  
+ CHARMM>     
+  
+ CHARMM>    set dim 92.0
+ Parameter: DIM <- "92.0"
+  
+ CHARMM>     
+  
+ CHARMM>    crystal define cubic @dim @dim @dim 90.0 90.0 90.0
+ Parameter: DIM -> "92.0"
+ Parameter: DIM -> "92.0"
+ Parameter: DIM -> "92.0"
+ Crystal Parameters : Crystal Type = CUBI
+           A     =   92.00000 B    =   92.00000 C     =   92.00000
+           Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
+  
+ CHARMM>    crystal build cutoff 12.0 noper 0
+ XBUILD> Building all transformations with a minimum atom-atom
+         contact distance of less than   12.00 Angstroms.
+
+ Range of Grid Search for Transformation     1 :
+ Lattice Vector A    -2 TO     2
+ Lattice Vector B    -2 TO     2
+ Lattice Vector C    -2 TO     2
+
+
+ The number of transformations generated =    26
+
+
+ Number  Symop   A   B   C   Distance
+
+      1      1  -1  -1  -1     7.7993
+      2      1  -1   0  -1     5.7393
+      3      1  -1   1  -1    10.7126
+      4      1   0  -1  -1     5.3161
+      5      1   0   0  -1     3.4890
+      6      1   0   1  -1     9.0343
+      7      1  -1  -1   0     5.7467
+      8      1  -1   0   0     4.3309
+      9      1  -1   1   0     8.4688
+     10      1   0  -1   0     4.3852
+     11      1   0   1   0     4.3852
+     12      1  -1  -1   1    11.6760
+     13      1  -1   0   1     5.7646
+     14      1  -1   1   1     8.9952
+     15      1   0  -1   1     9.0343
+     16      1   0   0   1     3.4890
+     17      1   0   1   1     5.3161
+     18      1   1   1   1     7.7993
+     19      1   1   0   1     5.7393
+     20      1   1  -1   1    10.7126
+     21      1   1   1   0     5.7467
+     22      1   1   0   0     4.3309
+     23      1   1  -1   0     8.4688
+     24      1   1   1  -1    11.6760
+     25      1   1   0  -1     5.7646
+     26      1   1  -1  -1     8.9952
+                     THERE ARE NO ROTATIONS FOR THIS TRANSFORMATION SET
+    26 Transformations have been processed.
+
+  
+ CHARMM>     
+  
+ CHARMM>    image byres sele resn TIP3 end
+ SELRPN>  60723 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>    image byseg sele segid PROT end
+ SELRPN>   9687 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>    image byres sele resn SOD end
+ SELRPN>     46 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>    image byres sele resn BGLC end
+ SELRPN>    192 atoms have been selected out of  70648
+ IMAGE CENTERING ON FOR SOME ATOMS
+  
+ CHARMM>     
+  
+ CHARMM>    shake fast bonH param
+ SHKCOM> SHAKE parameters: TOL =   0.1000D-09 MXITer =    500
+
+           65436 constraints will held by SHAKE.
+ FSSHKINI: Fast shake initialized with    4713 bond contraints and    20241 water constraints (3-center).
+ FSSHKINI:     4713 constraints are in groups of:    20241
+ FSSHKINI:   2013 2-body (CH),    876 3-body(CH2),    316 4-body(CH3),      0 >4-body. 
+ FSSHKINI: Fast shake initialized with    4713 bond contraints and    20241 water constraints (3-center).
+ FSSHKINI:     4713 constraints are in groups of:    20241
+ FSSHKINI:   2013 2-body (CH),    876 3-body(CH2),    316 4-body(CH3),      0 >4-body. 
+   ==== COLLCT_FSTSHK ====
+ FSSHKINI: =========== Totals for all nodes:   65436 total constraints
+ FSSHKINI: Fast shake initialized with    4713 bond contraints and    20241 water constraints (3-center).
+ FSSHKINI:   2013 2-body (CH),    876 3-body(CH2),    316 4-body(CH3),      0 >4-body. 
+  
+ CHARMM>     
+  
+ CHARMM>    !!! Equilibration!!!
+ CHARMM>     
+  
+ CHARMM>    !open unit 11 read form name sys-equ_step5.rst
+ CHARMM>    open unit 12 write form name sys-equ_step5.rst
+ VOPEN> Attempting to open::sys-equ_step5.rst::
+ OPNLGU> Unit 12 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step5.rst
+  
+ CHARMM>    open unit 21 write unform name sys-equ_step5.dcd
+ VOPEN> Attempting to open::sys-equ_step5.dcd::
+ OPNLGU> Unit 21 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step5.dcd
+  
+ CHARMM>    open unit 22 write form name sys-equ_step5.mon
+ VOPEN> Attempting to open::sys-equ_step5.mon::
+ OPNLGU> Unit 22 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step5.mon
+  
+ CHARMM>     
+  
+ CHARMM>    Dynamics start cpt timestep 0.001 nstep 10 -
+ CHARMM>    FIRSTT 100.0 FinalT 323.0 TEMINC 5.0 ihtfrq 1000 -
+ CHARMM>    PCONst BEREndsen COMPressibility 4.63e-5 PCOUpling 5.0 PREFerence 1.0 - ! Berendsen meth P
+ CHARMM>    Tcons tcoupling 10 Tref 323.0 -                                         ! Berendsen meth T
+ CHARMM>    nprint 1 iprfrq 500 -
+ CHARMM>    EWALD PMEWALD KAPPA 0.32  FFTX 90 FFTY 90 FFTZ 90 ORDER 6 -
+ CHARMM>    BYCBim  CUTNB 12.0  CTOFNB 10.0 CTONNB 9.0  cutim 12.0 -
+ CHARMM>    VDW  VSWITCH NTRFRQ 10 -
+ CHARMM>    inbfrq -1 ihbfrq 0 imgfrq -1 -                       ! heuristic update
+ CHARMM>    iunread 11 iunwrit 12 iuncrd 21 kunit 22 nsavc 1000   ! nsavc is the frq of writing coords
+  IUNREA = 11         IUNWRI = 12          IUNOS = -1
+  IUNCRD = 21         IUNVEL = -1          KUNIT = 22
+
+ SELECTED IMAGES ATOMS BEING CENTERED ABOUT  0.000000  0.000000  0.000000
+ <PME> Total heap storage needed =     3597357
+ Fill Ewald table: Number of points=     10000 EWXmax=    3.360000
+ fill erfc table: linear inter has rms error = 0.688344D-08 maximum error = 0.136719D-07
+ fill erfc table: cubic spline has rms error = 0.199973D-11 maximum error = 0.535849D-11
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SHIFt    VATOm    VSWItch 
+     BYCB     NOEXtnd  EWALd   
+ CUTNB  = 12.000 CTEXNB =999.000 CTONNB =  9.000 CTOFNB = 10.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ PME EWALD OPTIONS: KAPPA  =  0.320  QCOR =  0.000  Bspline order = 6
+ FFTX=  90  FFTY=  90  FFTZ=  90
+                Using Pub FFT
+                Real-to-Complex FFT
+ There are        0 atom  pairs and        0 atom  exclusions.
+ There are        0 group pairs and        0 group exclusions.
+ <MAKINB> with mode   5 found  88839 exclusions and  26022 interactions(1-4)
+ <MAKGRP> found   8961 group exclusions.
+Using Image CUBE search
+Using Image CUBE search
+ DCNTRL> Constant pressure requested.
+         Isothermal compressibility =    0.0000463 atm**-1.
+         Pressure coupling constant =    5.0000000 ps.
+
+         Reference pressure tensor (XX,YY,ZZ)=        1.0       1.0       1.0 atm.
+
+         Reference pressure tensor (XY,XZ,YZ)=        0.0       0.0       0.0 atm.
+
+ DCNTRL> Constant temperature requested.
+         Reference temperature         =  323.0000000 K.
+         Temperature coupling constant =   10.0000000 ps.
+
+   NSTEP =       10    NSAVC =     1000    NSAVV =       10
+  ISCALE =        0   ISCVEL =        0   IASORS =        0
+  IASVEL =        1   ICHECW =        1   NTRFRQ =       10
+  IHTFRQ =     1000   IEQFRQ =        0   NPRINT =        1
+  INBFRQ =       -1   IHBFRQ =        0   IPRFRQ =       10
+  ILBFRQ =       50   IMGFRQ =       -1
+  ISVFRQ =        0   NCYCLE =       10    NSNOS =       10
+  FIRSTT =   100.000  TEMINC =     5.000  TSTRUC =  -999.000
+  FINALT =   323.000  TWINDH =    10.000  TWINDL =   -10.000
+
+  TIME STEP =  2.04548E-02 AKMA       1.00000E-03 PS
+
+  RANDOM NUM. GEN. SEED(S) = 1118622010 1118622010 1118622010 1118622010
+
+           SHAKE TOLERANCE =     0.10000E-09
+ NUMBER OF DEGREES OF FREEDOM = 146505
+
+          GAUSSIAN OPTION                  IS            1
+          VELOCITIES ASSIGNED AT TEMPERATURE =    125.0000
+          SEED FOR RANDOM NUMBER GENERATOR IS:
+          SEEDS> 1118622010 1118622010 1118622010 1118622010
+
+     DETAILS ABOUT CENTRE OF MASS
+     POSITION          :  -0.15834319       9.27241779E-02   3.65524745E-02
+     VELOCITY          :  -1.78159056E-04   6.07326046E-04  -8.51726506E-05
+     ANGULAR MOMENTUM  :   -3838.2783       -9835.3317        861.38510    
+     KINETIC ENERGY    :   8.94437507E-02
+ WARNING FROM EANGLFASTER. Angle17682  is almost linear.
+ Derivatives may be affected for atoms: 9686 9685 9687
+     I ATOM:       34.92364        2.40308        5.60567
+     J ATOM:       34.00700        1.50362        5.84135
+     K ATOM:       34.92364        2.40308        5.60567
+     DXIR  :        0.70204        0.68889       -0.18050
+     DXJR  :        0.70204        0.68889       -0.18050
+     CST   :        1.00000        0.00000     -124.00000
+ EIPHIFS: WARNING.  dihedral 1729 is almost linear.
+ derivatives may be affected for atoms: 9685 9679 9687 9686
+DYNA DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
+DYNA PROP:             GRMS      HFCTote        HFCKe       EHFCor        VIRKe
+DYNA INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+DYNA CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+DYNA EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+DYNA IMAGES:        IMNBvdw       IMELec       IMHBnd       RXNField    EXTElec
+DYNA EWALD:          EWKSum       EWSElf       EWEXcl       EWQCor       EWUTil
+DYNA PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>        0      0.00000-211653.16717  18213.99651-229867.16368    125.12474
+DYNA PROP>         15.65003-211650.02921  18223.40822      3.13796  54859.13020
+DYNA INTERN>      593.39481   2521.87842    147.92111   3361.02466    110.76482
+DYNA CROSS>      -960.16994      0.00000      0.00000      0.00000
+DYNA EXTERN>    16502.39369-224195.47135      0.00000      0.00000      0.00000
+DYNA IMAGES>     -277.22871   -335.70612      0.00000      0.00000      0.00000
+DYNA EWALD>       5605.3170-1328710.5339 1295769.2519       0.0000       0.0000
+DYNA PRESS>     18682.71369 -55255.46716  -1645.12769  -3795.79458 778688.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ Crystal Parameters : Crystal Type = CUBI
+      DYNA A     =   92.00000 B    =   92.00000 C     =   92.00000
+      DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
+      DYNA PIXX =    -4555.69 PIYY =   -3796.81 PIZZ =   -3034.88
+      DYNA PIXY =       83.18 PIXZ =    -499.85 PIYZ =    -221.60
+      DYNA Gradient Norm =  609.21892
+
+ EIPHIFS: WARNING.  dihedral 1729 is almost linear.
+ derivatives may be affected for atoms: 9685 9679 9687 9686
+DYNA>        1      0.00100-211319.91687  18055.25312-229375.16999    124.03422
+DYNA PROP>         15.82792-211402.39455  18069.32143    -82.47768  53726.32153
+DYNA INTERN>      617.07363   2574.68158    500.75983   3366.85980    114.59326
+DYNA CROSS>      -960.84639      0.00000      0.00000      0.00000
+DYNA EXTERN>    16590.75863-224213.35533      0.00000      0.00000      0.00000
+DYNA IMAGES>     -277.17632   -336.08380      0.00000      0.00000      0.00000
+DYNA EWALD>       5587.9140-1328710.5339 1295770.1850       0.0000       0.0000
+DYNA PRESS>     18674.53893 -54492.08662  -1644.92829  -3738.85688 778441.62975
+DYNA XTLE>                 -211639.13276    531.98508     11.35639      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ Crystal Parameters : Crystal Type = CUBI
+      DYNA A     =   91.99030 B    =   91.99030 C     =   91.99030
+      DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
+      DYNA PIXX =    -4497.35 PIYY =   -3733.79 PIZZ =   -2985.43
+      DYNA PIXY =       87.03 PIXZ =    -501.58 PIYZ =    -225.90
+      DYNA Gradient Norm =  609.01659
+
+ EPHI: WARNING. bent improper torsion angle is 
+
+far from minimum for;
+    IPHI= 1729  with deltaPHI=-170.8459 MIN=   0.0000 ATOMS: 9685 9679 9687 9686
+DYNA>        2      0.00200-195856.45821  32239.85170-228096.30992    221.47819
+DYNA PROP>        175.46455-205859.80764  46883.73942 -10003.34943  52099.04077
+DYNA INTERN>      687.90452   2715.73040    511.48329   3380.90580    976.82925
+DYNA CROSS>      -960.94465      0.00000      0.00000      0.00000
+DYNA EXTERN>    16698.27824-224086.92210      0.00000      0.00000      0.00000
+DYNA IMAGES>     -277.11650   -336.47974      0.00000      0.00000      0.00000
+DYNA EWALD>       5533.2787-1328710.5339 1295771.2768       0.0000       0.0000
+DYNA PRESS>     18680.23423 -53412.92808  -1645.94286  -1952.34680 778199.05611
+DYNA XTLE>                 -211392.10188    526.69786     11.35280      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ Crystal Parameters : Crystal Type = CUBI
+      DYNA A     =   91.98074 B    =   91.98074 C     =   91.98074
+      DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
+      DYNA PIXX =    -3862.52 PIYY =   -1390.89 PIZZ =    -603.63
+      DYNA PIXY =    -1048.26 PIXZ =   -1654.59 PIYZ =    2069.15
+      DYNA Gradient Norm =  609.26562
+
+ UPDECI: Image update at step         2
+
+ SELECTED IMAGES ATOMS BEING CENTERED ABOUT  0.000000  0.000000  0.000000
+ UPDECI: Nonbond update at step         2
+Using Image CUBE search
+DYNA>        3      0.00300          NaN          NaN-205840.44734          NaN
+DYNA PROP>       1443.11008          NaN          NaN          NaN          NaN
+DYNA INTERN>     1092.99525   2508.11585    223.64239   3401.37279    191.22471
+DYNA CROSS>      -960.58238      0.00000      0.00000      0.00000
+DYNA EXTERN>    39629.07298-223822.12606      0.00000      0.00000      0.00000
+DYNA IMAGES>     -276.96875   -336.83508      0.00000      0.00000      0.00000
+DYNA EWALD>       5441.0648-1328710.5339 1295779.1101       0.0000       0.0000
+DYNA PRESS>     18696.80458          NaN  -1647.67105          NaN 778072.40498
+DYNA XTLE>                 -205849.42511    942.74927     11.34926      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ Crystal Parameters : Crystal Type = CUBI
+      DYNA A     =   91.97575 B    =   91.97575 C     =   91.97575
+      DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
+      DYNA PIXX =         NaN PIYY =        NaN PIZZ =        NaN
+      DYNA PIXY =         NaN PIXZ =        NaN PIYZ =        NaN
+      DYNA Gradient Norm =  609.83916
+
+ EPHI: WARNING. bent improper torsion angle is 
+
+far from minimum for;
+    IPHI=    1  with deltaPHI= 180.0000 MIN=   0.0000 ATOMS:   12    5   14   13
+ EPHI: WARNING. bent improper torsion angle is 
+
+far from minimum for;
+    IPHI=    2  with deltaPHI= 180.0000 MIN=   0.0000 ATOMS:   14   12   16   15
+ EPHI: WARNING. bent improper torsion angle is 
+
+far from minimum for;
+    IPHI=    3  with deltaPHI= 180.0000 MIN=   0.0000 ATOMS:   33   16   35   34
+ EPHI: WARNING. bent improper torsion angle is 
+
+far from minimum for;
+    IPHI=    4  with deltaPHI= 180.0000 MIN=   0.0000 ATOMS:   35   33   37   36
+ EPHI: WARNING. bent improper torsion angle is 
+
+far from minimum for;
+    IPHI=    5  with deltaPHI= 180.0000 MIN=   0.0000 ATOMS:   42   39   44   43
+ EIPHIFASTER> Total of  1729 WARNINGs issued.

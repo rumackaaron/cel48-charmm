@@ -1,0 +1,53 @@
+* cel48F(sub)+bglc
+*
+
+!resize chsize 600000
+
+bomblev 0
+
+
+open unit 12 read form name /home/chen/para/newTOPPAR/top_all36_carb_bios.rtf
+read rtf card unit 12
+close unit 12
+
+open unit 13 read form name /home/chen/para/newTOPPAR/par_all36_carb_update-1.prm
+read param card flex unit 13
+close unit 13
+
+open unit 10 read form name /home/chen/para/newtoppar/top_all22_prot_remas.rtf
+read rtf card append  unit 10
+close unit 10
+
+open unit 11 read form name /home/chen/para/newtoppar/par_all22_prot_remas.prm
+read param card flex append unit 11
+close unit 11
+
+
+read psf card name sys1-lig-9mer.psf
+read coor card name sys1-lig-9mer.cor
+
+read sequ TIP3 32768
+gene wat setup noang nodihe
+read coor card append name tips32keqexp.cor
+
+delete atom sort select .byres. (segid wat .and. type OH2 .and. (.not. (segid wat .or. hydrogen) .around. 2.5 )) end
+
+set watboxsize 90
+calc maxDim = 0.5*@watboxsize
+
+dele atom sele .byres.  prop x .ge.  @maxDim  end
+dele atom sele .byres.  prop x .le. -@maxDim  end
+dele atom sele .byres.  prop y .ge.  @maxDim  end
+dele atom sele .byres.  prop y .le. -@maxDim  end
+dele atom sele .byres.  prop z .ge.  @maxDim  end
+dele atom sele .byres.  prop z .le. -@maxDim  end
+
+write coor card name sys2-lig-9mer.cor
+* cel48F-lig + tip3
+*
+
+write psf card name sys2-lig-9mer.psf
+* cel48F-lig + tip3
+*
+
+stop

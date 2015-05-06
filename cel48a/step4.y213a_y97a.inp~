@@ -1,0 +1,73 @@
+* cel48F(sub)+bglc
+* 1. mutant: pore -> Iles
+* 2. add wat + ion
+* 3. equ run
+
+resize chsize 500000
+
+bomblev 0
+
+open unit 12 read form name /home/rumack/charmm/cel48a/top_all36_carb.rtf
+read rtf card unit 12
+close unit 12
+
+open unit 13 read form name /home/rumack/charmm/cel48a/par_all36_carb_update.prm
+read param card flex unit 13
+close unit 13
+
+open unit 10 read form name /home/rumack/charmm/cel48a/top_all22_prot_remas.rtf
+read rtf card append unit 10
+close unit 10
+open unit 11 read form name /home/rumack/charmm/cel48a/par_all22_prot_remas.prm
+read param card flex append unit 11
+close unit 11
+
+read psf card name sys_pore_y213a_y97a_step3.psf
+read coor card name sys_pore_y213a_y97a_step3.cor
+
+coor stat sele all end
+
+set dim 92.0
+
+crystal define cubic @dim @dim @dim 90.0 90.0 90.0
+crystal build cutoff 12.0 noper 0
+
+image byres sele resn TIP3 end
+image byseg sele segid PROT end
+image byres sele resn SOD end
+image byres sele resn BGLC end
+
+
+shake fast bonH param
+mini sd nstep 50 nprint 10
+mini abnr nstep 100 nprint 10
+
+write psf card name "sys-mini_y213a_y97a.psf"
+write coor card name "sys-mini_y213a_y97a.cor"
+
+!!! Equilibration!!!
+
+open unit 12 write form name sys-equ_step4_y213a_y97a.rst
+open unit 21 write unform name sys-equ_step4_y213a_y97a.dcd
+open unit 22 write form name sys-equ_step4_y213a_y97a.mon
+
+Dynamics start cpt timestep 0.001 nstep 100 iseed 198401235 -
+FIRSTT 100.0 FinalT 323.0 TEMINC 5.0 ihtfrq 1000 -
+PCONst BEREndsen COMPressibility 4.63e-5 PCOUpling 5.0 PREFerence 1.0 - ! Berendsen meth P
+Tcons tcoupling 10 Tref 323.0 -                                         ! Berendsen meth T
+nprint 1 iprfrq 500 -
+EWALD PMEWALD KAPPA 0.32  FFTX 90 FFTY 90 FFTZ 90 ORDER 6 -
+BYCBim  CUTNB 12.0  CTOFNB 10.0 CTONNB 9.0  cutim 12.0 -
+VDW  VSWITCH NTRFRQ 10 -
+inbfrq -1 ihbfrq 0 imgfrq -1 -                       ! heuristic update
+iunread 11 iunwrit 12 iuncrd 21 kunit 22 nsavc 1   ! nsavc is the frq of writing coords
+!CENT NCRES 1
+
+write coor card name sys-equ_y213a_y97a.cor
+* sys cel48-pore-phe
+*
+
+stop
+
+
+
