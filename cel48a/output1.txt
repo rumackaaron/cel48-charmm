@@ -4,7 +4,7 @@
        Copyright(c) 1984-2001  President and Fellows of Harvard College
                               All Rights Reserved
      Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
-                 Created on  5/8/15 at 13:37:11 by user: rumack      
+                 Created on  5/8/15 at 13:55:27 by user: rumack      
 
             Maximum number of ATOMS:    360720, and RESidues:      120240
  RDTITL> * CEL48A(SUB)+BGLC
@@ -276,36 +276,35 @@
  CHARMM>     
   
  CHARMM>    ! Delete side chain atoms (delete everything not in backbone)
- CHARMM>    delete atom select (resid 213 .and. .not. (type n .or. type ca .or. type c .or. type o .or. type ha .or. type hn)) end
- SELRPN>     15 atoms have been selected out of   9687
+ CHARMM>    delete atom select (resid 313 .and. .not. (type n .or. type ca .or. type c .or. type o .or. type ha .or. type hn)) end
+ SELRPN>     18 atoms have been selected out of   9687
 
  Message from MAPIC: Atom numbers are changed.
- DELTIC:        16 bonds deleted
- DELTIC:        28 angles deleted
- DELTIC:        45 dihedrals deleted
+ DELTIC:        20 bonds deleted
+ DELTIC:        36 angles deleted
+ DELTIC:        59 dihedrals deleted
  DELTIC:         1 donors deleted
- DELTIC:         1 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        1   Number of residues   =      639
-         Number of atoms         =     9672   Number of groups     =     3011
-         Number of bonds         =     9848   Number of angles     =    17654
-         Number of dihedrals     =    26120   Number of impropers  =     1729
+         Number of atoms         =     9669   Number of groups     =     3012
+         Number of bonds         =     9844   Number of angles     =    17646
+         Number of dihedrals     =    26106   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1004   Number of HB donors  =     1037
+         Number of HB acceptors  =     1005   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>     
   
- CHARMM>    rename resname ala select resid 213 end
- SELRPN>      6 atoms have been selected out of   9672
- FOR SEGMENT 'PROT    ' RESIDUE '213     ', RESNAME 'TYR     ' IS RENAMED TO 'ALA     '
+ CHARMM>    rename resname ala select resid 313 end
+ SELRPN>      6 atoms have been selected out of   9669
+ FOR SEGMENT 'PROT    ' RESIDUE '313     ', RESNAME 'TRP     ' IS RENAMED TO 'ALA     '
   
  CHARMM>     
   
  CHARMM>    ! Delete side chain atoms (delete everything not in backbone)
  CHARMM>    delete atom select (resid 195 .and. .not. (type n .or. type ca .or. type c .or. type o .or. type ha .or. type hn)) end
- SELRPN>     14 atoms have been selected out of   9672
+ SELRPN>     14 atoms have been selected out of   9669
 
  Message from MAPIC: Atom numbers are changed.
  DELTIC:        15 bonds deleted
@@ -314,17 +313,17 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        1   Number of residues   =      639
-         Number of atoms         =     9658   Number of groups     =     3004
-         Number of bonds         =     9833   Number of angles     =    17627
-         Number of dihedrals     =    26077   Number of impropers  =     1729
+         Number of atoms         =     9655   Number of groups     =     3005
+         Number of bonds         =     9829   Number of angles     =    17619
+         Number of dihedrals     =    26063   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1004   Number of HB donors  =     1037
+         Number of HB acceptors  =     1005   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>     
   
  CHARMM>    rename resname ala select resid 195 end
- SELRPN>      6 atoms have been selected out of   9658
+ SELRPN>      6 atoms have been selected out of   9655
  FOR SEGMENT 'PROT    ' RESIDUE '195     ', RESNAME 'PHE     ' IS RENAMED TO 'ALA     '
   
  CHARMM>     
@@ -338,7 +337,7 @@
  RDTITL> * TEMPORARY
  RDTITL> *
   Write CHARMM-pdb format
- SELRPN>   9658 atoms have been selected out of   9658
+ SELRPN>   9655 atoms have been selected out of   9655
   
  CHARMM>    close unit 14
  VCLOSE: Closing unit   14 with status "KEEP"
@@ -347,20 +346,20 @@
   
  CHARMM>    ! Remove all memory of the protein
  CHARMM>    delete atom select all end
- SELRPN>   9658 atoms have been selected out of   9658
+ SELRPN>   9655 atoms have been selected out of   9655
 
  Message from MAPIC: Atom numbers are changed.
 
  Message from MAPIC:        639 residues deleted.
 
  Message from MAPIC:          1 segments deleted.
- DELTIC:      9833 bonds deleted
- DELTIC:     17627 angles deleted
- DELTIC:     26077 dihedrals deleted
+ DELTIC:      9829 bonds deleted
+ DELTIC:     17619 angles deleted
+ DELTIC:     26063 dihedrals deleted
  DELTIC:      1729 improper dihedrals deleted
  DELTIC:       637 crossterm maps deleted
  DELTIC:      1037 donors deleted
- DELTIC:      1004 acceptors deleted
+ DELTIC:      1005 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        0   Number of residues   =        0
@@ -381,7 +380,7 @@
  CHARMM>    read sequence pdb unit 14
  MAINIO> Sequence information being read from unit  14.
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 8/15     13:37:12      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13:55:28      CREATED BY USER: RUMACK
  TITLE>  *
 
           RESIDUE SEQUENCE --   639 RESIDUES
@@ -395,12 +394,12 @@
           ASN     GLU     ILE     TYR     GLY     MET     HSD     TRP     LEU     LEU     ASP     VAL     ASP     ASN     VAL     TYR     GLY     PHE     GLY     PHE     
           CYS     GLY     ASP     GLY     THR     ASP     ASP     ALA     PRO     ALA     TYR     ILE     ASN     THR     TYR     GLN     ARG     GLY     ALA     ARG     
           GLU     SER     VAL     TRP     GLU     THR     ILE     PRO     HSD     PRO     SER     CYS     ASP     ASP     ALA     THR     HSD     GLY     GLY     PRO     
-          ASN     GLY     TYR     LEU     ASP     LEU     PHE     THR     ASP     ASP     GLN     ASN     ALA     ALA     LYS     GLN     TRP     ARG     TYR     THR     
+          ASN     GLY     TYR     LEU     ASP     LEU     PHE     THR     ASP     ASP     GLN     ASN     TYR     ALA     LYS     GLN     TRP     ARG     TYR     THR     
           ASN     ALA     PRO     ASP     ALA     ASP     ALA     ARG     ALA     VAL     GLN     VAL     MET     PHE     TRP     ALA     HSD     GLU     TRP     ALA     
           LYS     GLU     GLN     GLY     LYS     GLU     ASN     GLU     ILE     ALA     GLY     LEU     MET     ASP     LYS     ALA     SER     LYS     MET     GLY     
           ASP     TYR     LEU     ARG     TYR     ALA     MET     PHE     ASP     LYS     TYR     PHE     LYS     LYS     ILE     GLY     ASN     CYS     VAL     GLY     
           ALA     THR     SER     CYS     PRO     GLY     GLY     GLN     GLY     LYS     ASP     SER     ALA     HSD     TYR     LEU     LEU     SER     TRP     TYR     
-          TYR     SER     TRP     GLY     GLY     SER     LEU     ASP     THR     SER     SER     ALA     TRP     ALA     TRP     ARG     ILE     GLY     SER     SER     
+          TYR     SER     TRP     GLY     GLY     SER     LEU     ASP     THR     SER     SER     ALA     ALA     ALA     TRP     ARG     ILE     GLY     SER     SER     
           SER     SER     HSD     GLN     GLY     TYR     GLN     ASN     VAL     LEU     ALA     ALA     TYR     ALA     LEU     SER     GLN     VAL     PRO     GLU     
           LEU     GLN     PRO     ASP     SER     PRO     THR     GLY     VAL     GLN     ASP     TRP     ALA     THR     SER     PHE     ASP     ARG     GLN     LEU     
           GLU     PHE     LEU     GLN     TRP     LEU     GLN     SER     ALA     GLU     GLY     GLY     ILE     ALA     GLY     GLY     ALA     THR     ASN     SER     
@@ -417,9 +416,9 @@
           GLY     ALA     THR     PHE     LEU     SER     ILE     ARG     SER     PHE     TYR     LYS     ASN     ASP     PRO     LEU     TRP     PRO     GLN     VAL     
           GLU     ALA     HSD     LEU     ASN     ASP     PRO     GLN     ASN     VAL     PRO     ALA     PRO     ILE     VAL     GLU     ARG     HSD     ARG     PHE     
           TRP     ALA     GLN     VAL     GLU     ILE     ALA     THR     ALA     PHE     ALA     ALA     HSD     ASP     GLU     LEU     PHE     GLY     ALA     
- ***** Message from SEQRDR ***** THE SYSTEM CONTAINS138 TITRATABLE GROUPS
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS139 TITRATABLE GROUPS
  THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
- HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 38
+ HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 39
   
  CHARMM>    generate prot setup
  THE PATCH 'NTER' WILL BE USED FOR THE FIRST RESIDUE
@@ -428,11 +427,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        1   Number of residues   =      639
-         Number of atoms         =     9666   Number of groups     =     3006
-         Number of bonds         =     9841   Number of angles     =    17645
-         Number of dihedrals     =    26103   Number of impropers  =     1729
+         Number of atoms         =     9663   Number of groups     =     3007
+         Number of bonds         =     9837   Number of angles     =    17637
+         Number of dihedrals     =    26089   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1004   Number of HB donors  =     1037
+         Number of HB acceptors  =     1005   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    rewind unit 14
@@ -442,18 +441,18 @@
   read CHARMM-pdb format
           SPATIAL COORDINATES BEING READ FROM UNIT 14
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 8/15     13:37:12      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13:55:28      CREATED BY USER: RUMACK
  TITLE>  *
  ** WARNING ** After reading, there are no coordinates for selected atom:  2948   195 ALA  CB  
  ** WARNING ** After reading, there are no coordinates for selected atom:  2949   195 ALA  HB1 
  ** WARNING ** After reading, there are no coordinates for selected atom:  2950   195 ALA  HB2 
  ** WARNING ** After reading, there are no coordinates for selected atom:  2951   195 ALA  HB3 
- ** WARNING ** After reading, there are no coordinates for selected atom:  3198   213 ALA  CB  
- ** WARNING ** After reading, there are no coordinates for selected atom:  3199   213 ALA  HB1 
- ** WARNING ** After reading, there are no coordinates for selected atom:  3200   213 ALA  HB2 
- ** WARNING ** After reading, there are no coordinates for selected atom:  3201   213 ALA  HB3 
- ** WARNING ** After reading, there are no coordinates for selected atom:  9665   639 ALA  OT1 
- ** WARNING ** After reading, there are no coordinates for selected atom:  9666   639 ALA  OT2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  4733   313 ALA  CB  
+ ** WARNING ** After reading, there are no coordinates for selected atom:  4734   313 ALA  HB1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  4735   313 ALA  HB2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  4736   313 ALA  HB3 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  9662   639 ALA  OT1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  9663   639 ALA  OT2 
 
  ** A total of    10 selected atoms have no coordinates
  *** LEVEL  2 WARNING *** BOMLEV IS   -1
@@ -494,12 +493,12 @@
  CHARMM>    resid 507 .or. resid 511 .or. resid 625 .or. -
  CHARMM>    resid 628 .or. resid 632 .or. resid 636 .or. -
  CHARMM>    resid 431 .or. resid 635 ) ) end
- SELRPN>    554 atoms have been selected out of   9666
+ SELRPN>    554 atoms have been selected out of   9663
   
  CHARMM>     
   
  CHARMM>    cons fix sele all .and. .not. pore end
- SELRPN>   9112 atoms have been selected out of   9666
+ SELRPN>   9109 atoms have been selected out of   9663
   
  CHARMM>     
   
@@ -519,10 +518,10 @@
  NBXMOD =      5
  There are        0 atom  pairs and        0 atom  exclusions.
  There are        0 group pairs and        0 group exclusions.
- <MAKINB> with mode   5 found  27486 exclusions and  25399 interactions(1-4)
- <MAKGRP> found   8792 group exclusions.
+ <MAKINB> with mode   5 found  27474 exclusions and  25390 interactions(1-4)
+ <MAKGRP> found   8802 group exclusions.
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR  2777541 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR  2776679 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
    487877 ATOM PAIRS WERE FOUND FOR ATOM LIST
@@ -583,7 +582,7 @@ STPD EXTERN>     -107.07445  -1612.31645      0.00000      0.00000      0.00000
              255 constraints will held by SHAKE.
   
  CHARMM>    SCAL FBETA SET 60.0 SELE pore END
- SELRPN>    554 atoms have been selected out of   9666
+ SELRPN>    554 atoms have been selected out of   9663
   
  CHARMM>    DYNA LANG LEAP STRT -
  CHARMM>       TIMEstep 0.001 -     !timestep in picoseconds
@@ -630,8 +629,8 @@ STPD EXTERN>     -107.07445  -1612.31645      0.00000      0.00000      0.00000
  CGONNB =  0.000 CGOFNB = 10.000
  WMIN   =  1.000 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
  NBXMOD =      5
- There are   487877 atom  pairs and    52885 atom  exclusions.
- There are        0 group pairs and     8792 group exclusions.
+ There are   487877 atom  pairs and    52864 atom  exclusions.
+ There are        0 group pairs and     8802 group exclusions.
 
       ***** LEVEL  5 WARNING FROM <RNGMODSEEDS> *****
       ***** Only one seed number specified! See random.doc for syntax.
@@ -840,8 +839,8 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write coor pdb name cel48a_y213a_f195a_step1.pdb
- VOPEN> Attempting to open::cel48a_y213a_f195a_step1.pdb::
+ CHARMM>    write coor pdb name cel48a_w313a_f195a_step1.pdb
+ VOPEN> Attempting to open::cel48a_w313a_f195a_step1.pdb::
  RDTITL>  
  RDTITL> No title read.
   Write CHARMM-pdb format
@@ -849,8 +848,8 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write coor card name cel48a_y213a_f195a_step1.cor
- VOPEN> Attempting to open::cel48a_y213a_f195a_step1.cor::
+ CHARMM>    write coor card name cel48a_w313a_f195a_step1.cor
+ VOPEN> Attempting to open::cel48a_w313a_f195a_step1.cor::
  RDTITL>  
  RDTITL> No title read.
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -858,8 +857,8 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write psf card name cel48a_y213a_f195a_step1.psf
- VOPEN> Attempting to open::cel48a_y213a_f195a_step1.psf::
+ CHARMM>    write psf card name cel48a_w313a_f195a_step1.psf
+ VOPEN> Attempting to open::cel48a_w313a_f195a_step1.psf::
  RDTITL> * PSF
  RDTITL> *
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -877,19 +876,19 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
    First List                      0.04 Other:            0.00
    Shake time                      0.06 Other:            0.00
       Comm coords                     0.00 Other:            0.00
-      dynamc                          0.51 Other:            0.00
-   Dynamics total                  0.60 Other:            0.09
-   List time                       1.37 Other:            0.00
+      dynamc                          0.52 Other:            0.00
+   Dynamics total                  0.62 Other:            0.09
+   List time                       1.39 Other:            0.00
          Electrostatic & VDW             0.43 Other:            0.00
-      Nonbond force                   8.70 Other:            8.27
+      Nonbond force                   8.65 Other:            8.23
          Bond energy                     0.02 Other:            0.00
          Angle energy                    0.11 Other:            0.00
          Dihedral energy                 0.28 Other:            0.00
          Restraints energy               0.00 Other:            0.00
       INTRNL energy                   0.44 Other:            0.03
       Comm force                      0.00 Other:            0.00
-   Energy time                     9.32 Other:            0.18
- Total time                     12.63 Other:            1.24
+   Energy time                     9.28 Other:            0.18
+ Total time                     12.62 Other:            1.24
 
          $$$$$$  Average   profile $$$$$
 
@@ -897,23 +896,23 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
    First List                      0.04 Other:            0.00
    Shake time                      0.06 Other:            0.00
       Comm coords                     0.00 Other:            0.00
-      dynamc                          0.51 Other:            0.00
-   Dynamics total                  0.60 Other:            0.09
-   List time                       1.37 Other:            0.00
+      dynamc                          0.52 Other:            0.00
+   Dynamics total                  0.62 Other:            0.09
+   List time                       1.39 Other:            0.00
          Electrostatic & VDW             0.43 Other:            0.00
-      Nonbond force                   8.70 Other:            8.27
+      Nonbond force                   8.65 Other:            8.23
          Bond energy                     0.02 Other:            0.00
          Angle energy                    0.11 Other:            0.00
          Dihedral energy                 0.28 Other:            0.00
          Restraints energy               0.00 Other:            0.00
       INTRNL energy                   0.44 Other:            0.03
       Comm force                      0.00 Other:            0.00
-   Energy time                     9.32 Other:            0.18
- Total time                     12.63 Other:            1.24
+   Energy time                     9.28 Other:            0.18
+ Total time                     12.62 Other:            1.24
 
                     NORMAL TERMINATION BY NORMAL STOP
                     MOST SEVERE WARNING WAS AT LEVEL  2
 
                     $$$$$ JOB ACCOUNTING INFORMATION $$$$$
-                     ELAPSED TIME:    12.63  SECONDS 
-                         CPU TIME:    12.63  SECONDS 
+                     ELAPSED TIME:    12.62  SECONDS 
+                         CPU TIME:    12.60  SECONDS 
