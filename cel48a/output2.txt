@@ -4,7 +4,7 @@
        Copyright(c) 1984-2001  President and Fellows of Harvard College
                               All Rights Reserved
      Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
-                 Created on  5/6/15 at 14:30:58 by user: rumack      
+                 Created on  5/8/15 at 13:08:14 by user: rumack      
 
             Maximum number of ATOMS:    360720, and RESidues:      120240
  RDTITL> * CEL48A(SUB)+BGLC
@@ -110,11 +110,11 @@
  CHARMM>     
   
  CHARMM>    !(2) build the OT1 and OT2 of the last residue in cel48a
- CHARMM>    read sequ pdb name cel48a_y213a_y97a_step1.pdb
- VOPEN> Attempting to open::cel48a_y213a_y97a_step1.pdb::
+ CHARMM>    read sequ pdb name cel48a_y97a_f195a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y97a_f195a_step1.pdb::
  MAINIO> Sequence information being read from unit  90.
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 6/15     14:30:47      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13: 7:59      CREATED BY USER: RUMACK
  TITLE>  *
 
           RESIDUE SEQUENCE --   639 RESIDUES
@@ -127,8 +127,8 @@
           ASN ASN VAL PRO VAL GLY GLN ASP PRO LEU ALA GLN GLU LEU SER SER THR TYR GLY THR 
           ASN GLU ILE TYR GLY MET HSD TRP LEU LEU ASP VAL ASP ASN VAL TYR GLY PHE GLY PHE 
           CYS GLY ASP GLY THR ASP ASP ALA PRO ALA TYR ILE ASN THR TYR GLN ARG GLY ALA ARG 
-          GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP PHE THR HSD GLY GLY PRO 
-          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN ALA ALA LYS GLN TRP ARG TYR THR 
+          GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP ALA THR HSD GLY GLY PRO 
+          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN TYR ALA LYS GLN TRP ARG TYR THR 
           ASN ALA PRO ASP ALA ASP ALA ARG ALA VAL GLN VAL MET PHE TRP ALA HSD GLU TRP ALA 
           LYS GLU GLN GLY LYS GLU ASN GLU ILE ALA GLY LEU MET ASP LYS ALA SER LYS MET GLY 
           ASP TYR LEU ARG TYR ALA MET PHE ASP LYS TYR PHE LYS LYS ILE GLY ASN CYS VAL GLY 
@@ -150,9 +150,9 @@
           GLY ALA THR PHE LEU SER ILE ARG SER PHE TYR LYS ASN ASP PRO LEU TRP PRO GLN VAL 
           GLU ALA HSD LEU ASN ASP PRO GLN ASN VAL PRO ALA PRO ILE VAL GLU ARG HSD ARG PHE 
           TRP ALA GLN VAL GLU ILE ALA THR ALA PHE ALA ALA HSD ASP GLU LEU PHE GLY ALA 
- ***** Message from SEQRDR ***** THE SYSTEM CONTAINS137 TITRATABLE GROUPS
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS138 TITRATABLE GROUPS
  THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
- HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 37
+ HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 38
  VCLOSE: Closing unit   90 with status "KEEP"
   
  CHARMM>    GENERATE PROT setup
@@ -162,23 +162,23 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        1   Number of residues   =      639
-         Number of atoms         =     9665   Number of groups     =     3006
-         Number of bonds         =     9840   Number of angles     =    17644
-         Number of dihedrals     =    26101   Number of impropers  =     1729
+         Number of atoms         =     9666   Number of groups     =     3006
+         Number of bonds         =     9841   Number of angles     =    17645
+         Number of dihedrals     =    26103   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
  QXFORM> Expanded format used.
          More than 4 character atom type used.
   
  CHARMM>     
   
- CHARMM>    read coor pdb name cel48a_y213a_y97a_step1.pdb
- VOPEN> Attempting to open::cel48a_y213a_y97a_step1.pdb::
+ CHARMM>    read coor pdb name cel48a_y97a_f195a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y97a_f195a_step1.pdb::
   read CHARMM-pdb format
           SPATIAL COORDINATES BEING READ FROM UNIT 90
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 6/15     14:30:47      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13: 7:59      CREATED BY USER: RUMACK
  TITLE>  *
  VCLOSE: Closing unit   90 with status "KEEP"
   
@@ -191,7 +191,7 @@
  CHARMM>     
   
  CHARMM>    cons fix sele all .and. ( .not. (resid 639 .and. (type OT1 .or. type OT2))) end
- SELRPN>   9663 atoms have been selected out of   9665
+ SELRPN>   9664 atoms have been selected out of   9666
   
  CHARMM>     
   
@@ -206,10 +206,10 @@
  NBXMOD =      5
  There are        0 atom  pairs and        0 atom  exclusions.
  There are        0 group pairs and        0 group exclusions.
- <MAKINB> with mode   5 found  27484 exclusions and  25397 interactions(1-4)
+ <MAKINB> with mode   5 found  27486 exclusions and  25399 interactions(1-4)
  <MAKGRP> found   8792 group exclusions.
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR  2777253 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR  2777541 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
       620 ATOM PAIRS WERE FOUND FOR ATOM LIST
@@ -285,8 +285,8 @@ STPD EXTERN>       -1.03556     37.46240      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write coor pdb name cel48a_y213a_y97a_1.pdb
- VOPEN> Attempting to open::cel48a_y213a_y97a_1.pdb::
+ CHARMM>    write coor pdb name cel48a_y97a_f195a_1.pdb
+ VOPEN> Attempting to open::cel48a_y97a_f195a_1.pdb::
  RDTITL> * CEL48A FIT TO CELF_RC
  RDTITL> *
   Write CHARMM-pdb format
@@ -310,7 +310,7 @@ STPD EXTERN>       -1.03556     37.46240      0.00000      0.00000      0.00000
       INTRNL energy                   0.01 Other:            0.00
       Comm force                      0.00 Other:            0.00
    Energy time                     0.03 Other:            0.01
- Total time                      0.63 Other:            0.60
+ Total time                      0.62 Other:            0.60
 
          $$$$$$  Average   profile $$$$$
 
@@ -323,11 +323,11 @@ STPD EXTERN>       -1.03556     37.46240      0.00000      0.00000      0.00000
       INTRNL energy                   0.01 Other:            0.00
       Comm force                      0.00 Other:            0.00
    Energy time                     0.03 Other:            0.01
- Total time                      0.63 Other:            0.60
+ Total time                      0.62 Other:            0.60
 
                     NORMAL TERMINATION BY NORMAL STOP
                     NO WARNINGS WERE ISSUED
 
                     $$$$$ JOB ACCOUNTING INFORMATION $$$$$
-                     ELAPSED TIME:     0.63  SECONDS 
+                     ELAPSED TIME:     0.62  SECONDS 
                          CPU TIME:     0.62  SECONDS 

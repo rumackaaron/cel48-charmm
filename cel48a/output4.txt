@@ -4,7 +4,7 @@
        Copyright(c) 1984-2001  President and Fellows of Harvard College
                               All Rights Reserved
      Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
-                 Created on  5/6/15 at 14:35:47 by user: rumack      
+                 Created on  5/8/15 at 13:09:01 by user: rumack      
 
             Maximum number of ATOMS:    360720, and RESidues:      120240
  RDTITL> * CEL48F(SUB)+BGLC
@@ -130,41 +130,41 @@ MAXCRT      120240      166666
   
  CHARMM>     
   
- CHARMM>    read psf card name sys_pore_y213a_y97a_step3.psf
- VOPEN> Attempting to open::sys_pore_y213a_y97a_step3.psf::
+ CHARMM>    read psf card name sys_pore_y97a_f195a_step3.psf
+ VOPEN> Attempting to open::sys_pore_y97a_f195a_step3.psf::
  MAINIO> Protein structure file being read from unit  90.
  PSFRD2> Reading PSF in the expanded format.
  TITLE>  * SYS CEL48A-PORE-PHE
- TITLE>  *  DATE:     5/ 6/15     14:31:27      CREATED BY USER: rumack
+ TITLE>  *  DATE:     5/ 8/15     13: 8:44      CREATED BY USER: rumack
  TITLE>  *
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        4   Number of residues   =    20944
-         Number of atoms         =    70653   Number of groups     =    23347
-         Number of bonds         =    70790   Number of angles     =    38264
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        4   Number of residues   =    20940
+         Number of atoms         =    70642   Number of groups     =    23343
+         Number of bonds         =    70779   Number of angles     =    38261
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    21253   Number of HB donors  =     1036
+         Number of HB acceptors  =    21250   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =    0.00000
  VCLOSE: Closing unit   90 with status "KEEP"
   
- CHARMM>    read coor card name sys_pore_y213a_y97a_step3.cor
- VOPEN> Attempting to open::sys_pore_y213a_y97a_step3.cor::
+ CHARMM>    read coor card name sys_pore_y97a_f195a_step3.cor
+ VOPEN> Attempting to open::sys_pore_y97a_f195a_step3.cor::
           SPATIAL COORDINATES BEING READ FROM UNIT 90
  TITLE> * SYS CEL48A-PORE-PHE
- TITLE> *  DATE:     5/ 6/15     14:31:27      CREATED BY USER: RUMACK
+ TITLE> *  DATE:     5/ 8/15     13: 8:43      CREATED BY USER: RUMACK
  TITLE> *
  VCLOSE: Closing unit   90 with status "KEEP"
   
  CHARMM>     
   
  CHARMM>    coor stat sele all end
- SELRPN>  70653 atoms have been selected out of  70653
- STATISTICS FOR     70653 SELECTED ATOMS:
-    XMIN =  -44.959560 XMAX =   44.991780 XAVE =   -0.157135
-    YMIN =  -44.842060 YMAX =   44.987760 YAVE =    0.066350
-    ZMIN =  -44.926170 ZMAX =   44.935280 ZAVE =    0.064525
-    WMIN =    0.000000 WMAX =   99.990000 WAVE =    5.407581
+ SELRPN>  70642 atoms have been selected out of  70642
+ STATISTICS FOR     70642 SELECTED ATOMS:
+    XMIN =  -44.959560 XMAX =   44.991780 XAVE =   -0.151965
+    YMIN =  -44.842060 YMAX =   44.987760 YAVE =    0.066705
+    ZMIN =  -44.926170 ZMAX =   44.935280 ZAVE =    0.063166
+    WMIN =    0.000000 WMAX =   99.990000 WAVE =    5.408423
   
  CHARMM>     
   
@@ -229,19 +229,19 @@ MAXCRT      120240      166666
  CHARMM>     
   
  CHARMM>    image byres sele resn TIP3 end
- SELRPN>  60750 atoms have been selected out of  70653
+ SELRPN>  60738 atoms have been selected out of  70642
  IMAGE CENTERING ON FOR SOME ATOMS
   
  CHARMM>    image byseg sele segid PROT end
- SELRPN>   9665 atoms have been selected out of  70653
+ SELRPN>   9666 atoms have been selected out of  70642
  IMAGE CENTERING ON FOR SOME ATOMS
   
  CHARMM>    image byres sele resn SOD end
- SELRPN>     46 atoms have been selected out of  70653
+ SELRPN>     46 atoms have been selected out of  70642
  IMAGE CENTERING ON FOR SOME ATOMS
   
  CHARMM>    image byres sele resn BGLC end
- SELRPN>    192 atoms have been selected out of  70653
+ SELRPN>    192 atoms have been selected out of  70642
  IMAGE CENTERING ON FOR SOME ATOMS
   
  CHARMM>     
@@ -251,19 +251,19 @@ MAXCRT      120240      166666
  CHARMM>    shake fast bonH param
  SHKCOM> SHAKE parameters: TOL =   0.1000D-09 MXITer =    500
 
-           65455 constraints will held by SHAKE.
- FSSHKINI: Fast shake initialized with    4705 bond contraints and    20250 water constraints (3-center).
- FSSHKINI:     4705 constraints are in groups of:    20250
+           65443 constraints will held by SHAKE.
+ FSSHKINI: Fast shake initialized with    4705 bond contraints and    20246 water constraints (3-center).
+ FSSHKINI:     4705 constraints are in groups of:    20246
  FSSHKINI:   2003 2-body (CH),    874 3-body(CH2),    318 4-body(CH3),      0 >4-body. 
- FSSHKINI: Fast shake initialized with    4705 bond contraints and    20250 water constraints (3-center).
- FSSHKINI:     4705 constraints are in groups of:    20250
+ FSSHKINI: Fast shake initialized with    4705 bond contraints and    20246 water constraints (3-center).
+ FSSHKINI:     4705 constraints are in groups of:    20246
  FSSHKINI:   2003 2-body (CH),    874 3-body(CH2),    318 4-body(CH3),      0 >4-body. 
    ==== COLLCT_FSTSHK ====
- FSSHKINI: =========== Totals for all nodes:   65455 total constraints
- FSSHKINI: Fast shake initialized with    4705 bond contraints and    20250 water constraints (3-center).
+ FSSHKINI: =========== Totals for all nodes:   65443 total constraints
+ FSSHKINI: Fast shake initialized with    4705 bond contraints and    20246 water constraints (3-center).
  FSSHKINI:   2003 2-body (CH),    874 3-body(CH2),    318 4-body(CH3),      0 >4-body. 
   
- CHARMM>    mini sd nstep 50 nprint 10
+ CHARMM>    mini sd nstep 5 nprint 5
 
  SELECTED IMAGES ATOMS BEING CENTERED ABOUT  0.000000  0.000000  0.000000
 
@@ -282,7 +282,7 @@ MAXCRT      120240      166666
    12  C012 has      21       7       7        7.92
    13  C013 has     706     238     238        3.88
    14  C014 has      54      18      18        6.73
- Total of    102285 atoms and     33914 groups and     31506 residues were included
+ Total of    102274 atoms and     33910 groups and     31502 residues were included
 
 
  NONBOND OPTION FLAGS: 
@@ -294,30 +294,30 @@ MAXCRT      120240      166666
  NBXMOD =      5
  There are        0 atom  pairs and        0 atom  exclusions.
  There are        0 group pairs and        0 group exclusions.
- <MAKINB> with mode   5 found  88804 exclusions and  25964 interactions(1-4)
+ <MAKINB> with mode   5 found  88794 exclusions and  25966 interactions(1-4)
  <MAKGRP> found   8913 group exclusions.
  <MAKGRP> found      0 image group exclusions.
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 20302257 ATOM PAIRS AND        0 GROUP PAIRS
- == PRIMARY == SPACE FOR 30453404 ATOM PAIRS AND        0 GROUP PAIRS
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 20299096 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 30448664 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33689412 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1983758 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677611 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1983079 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3520114 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3520019 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   339267 GROUP PAIRS REQUIRED ATOM SEARCHES
+   339242 GROUP PAIRS REQUIRED ATOM SEARCHES
 
 
 
  STEEPD> An energy minimization has been requested.
 
- NSTEP  =           50   NPRINT =           10
+ NSTEP  =            5   NPRINT =            5
  STEP   =    0.0200000   TOLFUN =    0.0000000
  TOLGRD =    0.0000000   TOLSTP =    0.0000000
 
@@ -327,505 +327,95 @@ MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
 MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
 MINI IMAGES:        IMNBvdw       IMELec       IMHBnd       RXNField    EXTElec
  ----------       ---------    ---------    ---------    ---------    ---------
-MINI>        0 450707054.10         0.00  22413636.94         0.02
-MINI INTERN>     1612.69230   2484.04010    566.99091   3292.27055    205.29472
+MINI>        0 450706307.90         0.00  22415381.94         0.02
+MINI INTERN>     1613.43634   2483.27718    565.39400   3298.00920    205.29472
 MINI CROSS>      -854.16528      0.00000      0.00000      0.00000
-MINI EXTERN>   450915205.96   -215244.66         0.00         0.00         0.00
+MINI EXTERN>   450914394.82   -215183.84         0.00         0.00         0.00
 MINI IMAGES>     -348.07717    133.74919      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  UPDECI: Nonbond update at step         1
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33689651 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979503 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677851 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978824 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3519814 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519718 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338347 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338322 GROUP PAIRS REQUIRED ATOM SEARCHES
 
  UPDECI: Nonbond update at step         2
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33689632 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979474 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677830 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978793 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3519814 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519718 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338347 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338322 GROUP PAIRS REQUIRED ATOM SEARCHES
 
  UPDECI: Nonbond update at step         3
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33689579 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979452 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677795 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978768 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3519881 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519786 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338349 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338324 GROUP PAIRS REQUIRED ATOM SEARCHES
 
  UPDECI: Nonbond update at step         4
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33689574 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979526 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677790 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978839 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3519881 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519786 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338349 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338324 GROUP PAIRS REQUIRED ATOM SEARCHES
 
  UPDECI: Nonbond update at step         5
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33689589 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979539 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677801 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978853 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519889 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338359 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step         6
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689607 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979541 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3519887 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519792 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338360 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step         7
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689608 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979517 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519948 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338373 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step         8
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689720 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979225 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519942 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338397 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI= 154.9769 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI=-154.9769 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step         9
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689706 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979137 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519934 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338396 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=-163.4235 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= 163.4235 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=-152.8522 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= 152.8522 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
-MINI>       10   -165829.77 450872883.86        19.61         0.00
-MINI INTERN>    12858.06427   3978.98044   1072.22584   3338.72867    827.22776
-MINI CROSS>      -864.90112      0.00000      0.00000      0.00000
-MINI EXTERN>    29112.75596-215922.61281      0.00000      0.00000      0.00000
-MINI IMAGES>     -347.95973    117.72234      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=-144.5894 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= 144.5894 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step        12
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689256 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978972 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519971 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338396 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=-122.1629 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= 122.1629 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step        15
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689361 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978186 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519847 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338280 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI= -94.5978 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI=  94.5978 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step        18
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689621 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978073 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519529 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338299 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step        19
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689782 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978384 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519302 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338264 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=-117.2915 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= 117.2915 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step        20
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689695 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978449 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3519063 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338243 GROUP PAIRS REQUIRED ATOM SEARCHES
-
-MINI>       20-198392.41851  32562.65014      9.50246      0.00963
-MINI INTERN>     3423.44927   3371.37227    673.32738   3333.45922    255.53085
-MINI CROSS>      -919.98718      0.00000      0.00000      0.00000
-MINI EXTERN>    18686.27817-226676.13513      0.00000      0.00000      0.00000
-MINI IMAGES>     -345.19634   -194.51703      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Nonbond update at step        21
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689768 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978797 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518852 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338196 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=-110.3201 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= 110.3201 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step        22
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689737 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978742 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518822 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338184 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI= 118.9116 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI=-118.9116 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI= -97.3546 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI=  97.3546 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
- UPDECI: Nonbond update at step        24
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33689877 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978614 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518759 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338153 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step        27
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33691431 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978576 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518387 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338014 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step        28
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33691413 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978571 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518389 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   338023 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step        29
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33691478 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978547 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518408 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   337979 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- UPDECI: Nonbond update at step        30
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33691911 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978737 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518411 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   337978 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=  93.3946 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= -93.3946 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
-MINI>       30-208032.20373   9639.78522      9.52072      0.00431
-MINI INTERN>     2399.23186   2680.97078    362.60141   3320.66054    379.18656
-MINI CROSS>      -930.88441      0.00000      0.00000      0.00000
-MINI EXTERN>    16968.21677-232480.65924      0.00000      0.00000      0.00000
-MINI IMAGES>     -343.01858   -388.50942      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Nonbond update at step        32
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33692595 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978646 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3518179 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   337911 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  581  with deltaPHI=  87.1350 MIN=   0.0000 ATOMS: 3186 3183 3188 3187
- EPHI: WARNING. bent improper torsion angle is 
-
-far from minimum for;
-    IPHI=  582  with deltaPHI= -87.1350 MIN=   0.0000 ATOMS: 3186 3188 3183 3187
-MINI>       40-214982.77226   6950.56852      2.29206      0.00193
-MINI INTERN>      596.84980   2361.96165    255.93381   3314.90271    144.97857
-MINI CROSS>      -935.33199      0.00000      0.00000      0.00000
-MINI EXTERN>    15914.03506-235796.00208      0.00000      0.00000      0.00000
-MINI IMAGES>     -341.58613   -498.51367      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Image update at step        50
-
- <MKIMAT2>: updating the image atom lists and remapping
- Transformation   Atoms  Groups  Residues  Min-Distance
-    1  C001 has      48      16      16        4.90
-    2  C002 has     738     248     248        3.50
-    3  C003 has      30      10      10        6.84
-    4  C004 has     801     267     267        3.75
-    5  C005 has    9083    3031    3031        1.91
-    6  C006 has     657     219     219        3.65
-    7  C007 has     740     248     248        2.88
-    8  C008 has    9030    3019    3017        1.97
-    9  C009 has     663     221     221        4.24
-   10  C010 has    9159    3058    3055        1.86
-   12  C012 has      21       7       7        7.79
-   13  C013 has     715     241     241        3.70
-   14  C014 has      48      16      16        6.46
- Total of    102386 atoms and     33948 groups and     31540 residues were included
-
- <MAKGRP> found      0 image group exclusions.
- UPDECI: Nonbond update at step        50
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33697213 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979026 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3516608 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   337446 GROUP PAIRS REQUIRED ATOM SEARCHES
-
-MINI>       50-219116.86525   4134.09299      3.42947      0.00208
-MINI INTERN>      794.28183   2285.91933    227.40675   3308.84708    127.62928
-MINI CROSS>      -939.14369      0.00000      0.00000      0.00000
-MINI EXTERN>    15195.75513-239171.35056      0.00000      0.00000      0.00000
-MINI IMAGES>     -339.98202   -606.22838      0.00000      0.00000      0.00000
+   338337 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>        5    118067.18 450588240.72     10347.20         0.01
+MINI INTERN>    20155.24883   4044.88272   1383.74156   3351.09851    313.90477
+MINI CROSS>      -854.88477      0.00000      0.00000      0.00000
+MINI EXTERN>   305232.72332-215343.51461      0.00000      0.00000      0.00000
+MINI IMAGES>     -348.06478    132.04632      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
 
- STEEPD> Minimization exiting with number of steps limit (        50) exceeded.
+ STEEPD> Minimization exiting with number of steps limit (         5) exceeded.
 
 STPD MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
 STPD INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
@@ -833,33 +423,33 @@ STPD CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
 STPD EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
 STPD IMAGES:        IMNBvdw       IMELec       IMHBnd       RXNField    EXTElec
  ----------       ---------    ---------    ---------    ---------    ---------
-STPD>       50-219116.86525   4134.09299      3.42947      0.00249
-STPD INTERN>      794.28183   2285.91933    227.40675   3308.84708    127.62928
-STPD CROSS>      -939.14369      0.00000      0.00000      0.00000
-STPD EXTERN>    15195.75513-239171.35056      0.00000      0.00000      0.00000
-STPD IMAGES>     -339.98202   -606.22838      0.00000      0.00000      0.00000
+STPD>        5    118067.18 450588240.72     10347.20         0.00
+STPD INTERN>    20155.24883   4044.88272   1383.74156   3351.09851    313.90477
+STPD CROSS>      -854.88477      0.00000      0.00000      0.00000
+STPD EXTERN>   305232.72332-215343.51461      0.00000      0.00000      0.00000
+STPD IMAGES>     -348.06478    132.04632      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
   
- CHARMM>    mini abnr nstep 100 nprint 10
+ CHARMM>    mini abnr nstep 20 nprint 10
 
  SELECTED IMAGES ATOMS BEING CENTERED ABOUT  0.000000  0.000000  0.000000
 
  <MKIMAT2>: updating the image atom lists and remapping
  Transformation   Atoms  Groups  Residues  Min-Distance
-    1  C001 has      48      16      16        4.90
-    2  C002 has     738     248     248        3.50
-    3  C003 has      30      10      10        6.84
-    4  C004 has     801     267     267        3.75
-    5  C005 has    9083    3031    3031        1.91
-    6  C006 has     657     219     219        3.65
-    7  C007 has     740     248     248        2.88
-    8  C008 has    9030    3019    3017        1.97
-    9  C009 has     663     221     221        4.24
-   10  C010 has    9159    3058    3055        1.86
-   12  C012 has      21       7       7        7.79
-   13  C013 has     715     241     241        3.70
-   14  C014 has      48      16      16        6.46
- Total of    102386 atoms and     33948 groups and     31540 residues were included
+    1  C001 has      48      16      16        5.02
+    2  C002 has     732     246     246        3.62
+    3  C003 has      30      10      10        7.08
+    4  C004 has     792     264     264        3.93
+    5  C005 has    9002    3004    3004        2.14
+    6  C006 has     669     223     223        3.93
+    7  C007 has     737     247     247        3.03
+    8  C008 has    9042    3023    3021        2.05
+    9  C009 has     672     224     224        4.47
+   10  C010 has    9115    3043    3040        2.17
+   12  C012 has      21       7       7        7.93
+   13  C013 has     706     238     238        3.88
+   14  C014 has      54      18      18        6.73
+ Total of    102262 atoms and     33906 groups and     31498 residues were included
 
  <MAKGRP> found      0 image group exclusions.
 
@@ -870,28 +460,28 @@ STPD IMAGES>     -339.98202   -606.22838      0.00000      0.00000      0.00000
  CGONNB =  0.000 CGOFNB = 10.000
  WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
  NBXMOD =      5
- There are 33697213 atom  pairs and   114768 atom  exclusions.
+ There are 33677801 atom  pairs and   114760 atom  exclusions.
  There are        0 group pairs and     8913 group exclusions.
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33697213 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979026 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677790 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978839 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3516608 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519786 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   337446 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338324 GROUP PAIRS REQUIRED ATOM SEARCHES
 
 
 
  ABNER> An energy minimization has been requested.
 
  EIGRNG =    0.0005000   MINDIM =            5
- NPRINT =           10   NSTEP  =          100
+ NPRINT =           10   NSTEP  =           20
  PSTRCT =    0.0000000   SDSTP  =    0.0200000
  STPLIM =    1.0000000   STRICT =    0.1000000
  TOLFUN =    0.0000000   TOLGRD =    0.0000000
@@ -903,189 +493,71 @@ MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
 MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
 MINI IMAGES:        IMNBvdw       IMELec       IMHBnd       RXNField    EXTElec
  ----------       ---------    ---------    ---------    ---------    ---------
-MINI>        0-219116.86525   4134.09299      3.42947      0.00000
-MINI INTERN>      794.28183   2285.91933    227.40675   3308.84708    127.62928
-MINI CROSS>      -939.14369      0.00000      0.00000      0.00000
-MINI EXTERN>    15195.75513-239171.35056      0.00000      0.00000      0.00000
-MINI IMAGES>     -339.98202   -606.22838      0.00000      0.00000      0.00000
+MINI>        0-119550.46199 237617.64385    755.96979      0.00000
+MINI INTERN>    18731.83936   3985.53162   1512.59130   3347.66206    222.18658
+MINI CROSS>      -854.31624      0.00000      0.00000      0.00000
+MINI EXTERN>    69026.65215-215307.36674      0.00000      0.00000      0.00000
+MINI IMAGES>     -348.07047    132.82838      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
-MINI>       10-222764.82084   3647.95559      1.42266      0.61509
-MINI INTERN>      511.02547   2192.79681    208.94547   3306.54959    124.83598
-MINI CROSS>      -942.48690      0.00000      0.00000      0.00000
-MINI EXTERN>    14751.31079-241886.92132      0.00000      0.00000      0.00000
-MINI IMAGES>     -338.49699   -692.37974      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
-MINI>       20-227770.28785   5005.46701      1.12386      1.65486
-MINI INTERN>      503.11032   2119.41092    186.58646   3300.64836    119.77167
-MINI CROSS>      -946.68939      0.00000      0.00000      0.00000
-MINI EXTERN>    14258.38100-246155.31063      0.00000      0.00000      0.00000
-MINI IMAGES>     -334.02819   -822.16838      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
-MINI>       30-231838.78736   4068.49951      1.41670      7.42045
-MINI INTERN>      541.98171   2066.28015    171.36302   3293.02447    116.85665
-MINI CROSS>      -951.46837      0.00000      0.00000      0.00000
-MINI EXTERN>    14188.00298-250011.88184      0.00000      0.00000      0.00000
-MINI IMAGES>     -328.24241   -924.70371      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Nonbond update at step        34
+ UPDECI: Nonbond update at step        10
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33709481 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1978554 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677811 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1978212 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3506895 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519791 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   336347 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338375 GROUP PAIRS REQUIRED ATOM SEARCHES
 
-MINI>       40-235177.55186   3338.76449      1.91929      7.18708
-MINI INTERN>      613.22229   2039.88422    160.87843   3295.26427    117.06988
-MINI CROSS>      -956.10249      0.00000      0.00000      0.00000
-MINI EXTERN>    14369.42723-253474.79549      0.00000      0.00000      0.00000
-MINI IMAGES>     -324.84865  -1017.55153      0.00000      0.00000      0.00000
+MINI>       10-174565.82522  55015.36323     12.94239      0.36906
+MINI INTERN>     6352.06428   3560.36169   1030.28600   3344.03965    182.37447
+MINI CROSS>      -865.84440      0.00000      0.00000      0.00000
+MINI EXTERN>    28091.84834-216027.07239      0.00000      0.00000      0.00000
+MINI IMAGES>     -347.93256    114.04971      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Image update at step        50
-
- <MKIMAT2>: updating the image atom lists and remapping
- Transformation   Atoms  Groups  Residues  Min-Distance
-    1  C001 has      48      16      16        4.51
-    2  C002 has     708     238     238        3.44
-    3  C003 has      30      10      10        6.75
-    4  C004 has     801     267     267        3.42
-    5  C005 has    9218    3076    3076        1.65
-    6  C006 has     648     216     216        3.44
-    7  C007 has     737     247     247        2.60
-    8  C008 has    9045    3024    3022        1.26
-    9  C009 has     660     220     220        3.95
-   10  C010 has    9086    3033    3029        1.46
-   12  C012 has      21       7       7        7.57
-   13  C013 has     712     240     240        3.34
-   14  C014 has      48      16      16        6.19
- Total of    102415 atoms and     33957 groups and     31548 residues were included
-
- <MAKGRP> found      0 image group exclusions.
- UPDECI: Nonbond update at step        50
+ UPDECI: Nonbond update at step        13
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33716818 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1979050 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677383 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1977708 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3498728 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519901 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   336173 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338329 GROUP PAIRS REQUIRED ATOM SEARCHES
 
-MINI>       50-237903.07686   2725.52500      2.07421      6.96106
-MINI INTERN>      651.50535   2031.96557    154.14144   3305.17721    126.32199
-MINI CROSS>      -959.45524      0.00000      0.00000      0.00000
-MINI EXTERN>    14736.94839-256528.89044      0.00000      0.00000      0.00000
-MINI IMAGES>     -318.64772  -1102.14341      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
-MINI>       60-240027.07022   2123.99336      2.07875      4.04528
-MINI INTERN>      673.66959   2042.47170    154.10583   3322.52423    138.81608
-MINI CROSS>      -962.06878      0.00000      0.00000      0.00000
-MINI EXTERN>    15260.04410-259171.06651      0.00000      0.00000      0.00000
-MINI IMAGES>     -314.45881  -1171.10766      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
-MINI>       70-241812.38667   1785.31645      1.40858      2.35084
-MINI INTERN>      611.71678   2050.57474    153.55897   3341.26148    151.41737
-MINI CROSS>      -963.22489      0.00000      0.00000      0.00000
-MINI EXTERN>    15920.78228-261533.26698      0.00000      0.00000      0.00000
-MINI IMAGES>     -312.69139  -1232.51502      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Nonbond update at step        75
+ UPDECI: Nonbond update at step        19
  Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
+ == PRIMARY == SPACE FOR 45673016 ATOM PAIRS AND        0 GROUP PAIRS
 
  General atom nonbond list generation found:
- 33727948 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1980597 GROUP PAIRS REQUIRED ATOM SEARCHES
+ 33677513 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  1977189 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3485325 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   335172 GROUP PAIRS REQUIRED ATOM SEARCHES
-
-MINI>       80-243052.25435   1239.86768      2.56250      3.79484
-MINI INTERN>      766.45990   2077.30232    154.37721   3358.26233    136.65879
-MINI CROSS>      -962.93520      0.00000      0.00000      0.00000
-MINI EXTERN>    16621.72232-263605.39372      0.00000      0.00000      0.00000
-MINI IMAGES>     -310.62558  -1288.08272      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
-MINI>       90-244561.94647   1509.69211      1.20863      1.32318
-MINI INTERN>      609.59744   2062.91543    149.07235   3363.81721    110.49641
-MINI CROSS>      -961.93340      0.00000      0.00000      0.00000
-MINI EXTERN>    17113.43422-265366.00383      0.00000      0.00000      0.00000
-MINI IMAGES>     -308.21167  -1335.13063      0.00000      0.00000      0.00000
- ----------       ---------    ---------    ---------    ---------    ---------
- UPDECI: Nonbond update at step        94
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33738466 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1981856 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
+ SPACE FOR 15089704 ATOM PAIRS AND        0 GROUP PAIRS
 
  Image nonbond list generation found:
-  3474966 ATOM PAIRS WERE FOUND FOR ATOM LIST
+  3519539 ATOM PAIRS WERE FOUND FOR ATOM LIST
         0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   334288 GROUP PAIRS REQUIRED ATOM SEARCHES
+   338242 GROUP PAIRS REQUIRED ATOM SEARCHES
 
- UPDECI: Image update at step       100
-
- <MKIMAT2>: updating the image atom lists and remapping
- Transformation   Atoms  Groups  Residues  Min-Distance
-    1  C001 has      39      13      13        4.15
-    2  C002 has     699     235     235        2.89
-    3  C003 has      27       9       9        6.66
-    4  C004 has     783     261     261        2.97
-    5  C005 has    9146    3052    3052        1.36
-    6  C006 has     651     217     217        3.29
-    7  C007 has     734     246     246        2.18
-    8  C008 has    9084    3037    3035        0.99
-    9  C009 has     633     211     211        3.70
-   10  C010 has    9077    3030    3026        1.17
-   12  C012 has      21       7       7        7.31
-   13  C013 has     699     235     235        3.07
-   14  C014 has      48      16      16        6.13
- Total of    102294 atoms and     33916 groups and     31507 residues were included
-
- <MAKGRP> found      0 image group exclusions.
- UPDECI: Nonbond update at step       100
- Generating nonbond list with Exclusion mode = 5
- == PRIMARY == SPACE FOR 45680124 ATOM PAIRS AND        0 GROUP PAIRS
-
- General atom nonbond list generation found:
- 33742463 ATOM PAIRS WERE FOUND FOR ATOM LIST
-  1982440 GROUP PAIRS REQUIRED ATOM SEARCHES
-
- SPACE FOR 15092640 ATOM PAIRS AND        0 GROUP PAIRS
-
- Image nonbond list generation found:
-  3471057 ATOM PAIRS WERE FOUND FOR ATOM LIST
-        0 ATOM PAIRS WERE FOUND FOR ATOM SELF LIST
-   334149 GROUP PAIRS REQUIRED ATOM SEARCHES
-
-MINI>      100-245910.76273   1348.81626      1.29029      3.55991
-MINI INTERN>      619.22860   2061.46826    144.58832   3370.28880    106.07064
-MINI CROSS>      -959.70134      0.00000      0.00000      0.00000
-MINI EXTERN>    17701.02998-267260.74436      0.00000      0.00000      0.00000
-MINI IMAGES>     -304.03012  -1388.96151      0.00000      0.00000      0.00000
+MINI>       20-194582.73831  20016.91309      4.68129      2.75810
+MINI INTERN>     1268.94656   3326.38106    652.91140   3350.71986    133.76085
+MINI CROSS>      -907.37022      0.00000      0.00000      0.00000
+MINI EXTERN>    20430.86421-222428.99235      0.00000      0.00000      0.00000
+MINI IMAGES>     -346.46424    -63.49543      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
 
- ABNER> Minimization exiting with number of steps limit (  100) exceeded.
+ ABNER> Minimization exiting with number of steps limit (   20) exceeded.
 
 ABNR MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
 ABNR INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
@@ -1093,23 +565,23 @@ ABNR CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
 ABNR EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
 ABNR IMAGES:        IMNBvdw       IMELec       IMHBnd       RXNField    EXTElec
  ----------       ---------    ---------    ---------    ---------    ---------
-ABNR>      100-245910.76273   1348.81626      1.29029      3.20392
-ABNR INTERN>      619.22860   2061.46826    144.58832   3370.28880    106.07064
-ABNR CROSS>      -959.70134      0.00000      0.00000      0.00000
-ABNR EXTERN>    17701.02998-267260.74436      0.00000      0.00000      0.00000
-ABNR IMAGES>     -304.03012  -1388.96151      0.00000      0.00000      0.00000
+ABNR>       20-194582.73831  20016.91309      4.68129      2.48229
+ABNR INTERN>     1268.94656   3326.38106    652.91140   3350.71986    133.76085
+ABNR CROSS>      -907.37022      0.00000      0.00000      0.00000
+ABNR EXTERN>    20430.86421-222428.99235      0.00000      0.00000      0.00000
+ABNR IMAGES>     -346.46424    -63.49543      0.00000      0.00000      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
   
  CHARMM>     
   
- CHARMM>    write psf card name "sys-mini_y213a_y97a.psf"
- VOPEN> Attempting to open::sys-mini_y213a_y97a.psf::
- RDTITL> WRITE COOR CARD NAME "sys-mini_y213a_y97a.cor"
+ CHARMM>    write psf card name "sys-mini_y97a_f195a.psf"
+ VOPEN> Attempting to open::sys-mini_y97a_f195a.psf::
+ RDTITL> WRITE COOR CARD NAME "sys-mini_y97a_f195a.cor"
  RDTITL> No title read.
  VCLOSE: Closing unit   90 with status "KEEP"
   
- CHARMM>    write coor card name "sys-mini_y213a_y97a.cor"
- VOPEN> Attempting to open::sys-mini_y213a_y97a.cor::
+ CHARMM>    write coor card name "sys-mini_y97a_f195a.cor"
+ VOPEN> Attempting to open::sys-mini_y97a_f195a.cor::
  RDTITL>  
  RDTITL> No title read.
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -1120,17 +592,17 @@ ABNR IMAGES>     -304.03012  -1388.96151      0.00000      0.00000      0.00000
  CHARMM>    !!! Equilibration!!!
  CHARMM>     
   
- CHARMM>    open unit 12 write form name sys-equ_step4_y213a_y97a.rst
- VOPEN> Attempting to open::sys-equ_step4_y213a_y97a.rst::
- OPNLGU> Unit 12 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step4_y213a_y97a.rst
+ CHARMM>    open unit 12 write form name sys-equ_step4_y97a_f195a.rst
+ VOPEN> Attempting to open::sys-equ_step4_y97a_f195a.rst::
+ OPNLGU> Unit 12 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step4_y97a_f195a.rst
   
- CHARMM>    open unit 21 write unform name sys-equ_step4_y213a_y97a.dcd
- VOPEN> Attempting to open::sys-equ_step4_y213a_y97a.dcd::
- OPNLGU> Unit 21 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step4_y213a_y97a.dcd
+ CHARMM>    open unit 21 write unform name sys-equ_step4_y97a_f195a.dcd
+ VOPEN> Attempting to open::sys-equ_step4_y97a_f195a.dcd::
+ OPNLGU> Unit 21 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step4_y97a_f195a.dcd
   
- CHARMM>    open unit 22 write form name sys-equ_step4_y213a_y97a.mon
- VOPEN> Attempting to open::sys-equ_step4_y213a_y97a.mon::
- OPNLGU> Unit 22 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step4_y213a_y97a.mon
+ CHARMM>    open unit 22 write form name sys-equ_step4_y97a_f195a.mon
+ VOPEN> Attempting to open::sys-equ_step4_y97a_f195a.mon::
+ OPNLGU> Unit 22 opened for WRITE access to /home/rumack/charmm/cel48a/sys-equ_step4_y97a_f195a.mon
   
  CHARMM>     
   
@@ -1148,7 +620,7 @@ ABNR IMAGES>     -304.03012  -1388.96151      0.00000      0.00000      0.00000
   IUNCRD = 21         IUNVEL = -1          KUNIT = 22
 
  SELECTED IMAGES ATOMS BEING CENTERED ABOUT  0.000000  0.000000  0.000000
- <PME> Total heap storage needed =     3597557
+ <PME> Total heap storage needed =     3597117
  Fill Ewald table: Number of points=     10000 EWXmax=    3.360000
  fill erfc table: linear inter has rms error = 0.688344D-08 maximum error = 0.136719D-07
  fill erfc table: cubic spline has rms error = 0.199973D-11 maximum error = 0.535849D-11
@@ -1164,7 +636,7 @@ ABNR IMAGES>     -304.03012  -1388.96151      0.00000      0.00000      0.00000
  FFTX=  90  FFTY=  90  FFTZ=  90
                 Using Pub FFT
                 Real-to-Complex FFT
- There are 33742463 atom  pairs and   114768 atom  exclusions.
+ There are 33677513 atom  pairs and   114760 atom  exclusions.
  There are        0 group pairs and     8913 group exclusions.
 Using Image CUBE search
 Using Image CUBE search
@@ -1201,7 +673,7 @@ Using Image CUBE search
   RANDOM NUM. GEN. SEED(S) = 198401235 198401235 198401235 198401235
 
            SHAKE TOLERANCE =     0.10000E-09
- NUMBER OF DEGREES OF FREEDOM = 146501
+ NUMBER OF DEGREES OF FREEDOM = 146480
 
           GAUSSIAN OPTION                  IS            1
           VELOCITIES ASSIGNED AT TEMPERATURE =    125.0000
@@ -1209,10 +681,10 @@ Using Image CUBE search
           SEEDS> 198401235 198401235 198401235 198401235
 
      DETAILS ABOUT CENTRE OF MASS
-     POSITION          :  -0.16082910       9.29592792E-02   3.62939040E-02
-     VELOCITY          :   1.29192195E-03   1.28896284E-04  -3.63528816E-04
-     ANGULAR MOMENTUM  :   -17749.136       -12503.711       -2524.7945    
-     KINETIC ENERGY    :   0.39864985    
+     POSITION          :  -0.16023661       9.06147377E-02   3.84316673E-02
+     VELOCITY          :   6.43891080E-04   1.05606543E-04   2.07151960E-04
+     ANGULAR MOMENTUM  :   -16193.589       -2401.5259       -8238.4281    
+     KINETIC ENERGY    :   0.10276403    
 DYNA DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
 DYNA PROP:             GRMS      HFCTote        HFCKe       EHFCor        VIRKe
 DYNA INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
@@ -1222,174 +694,179 @@ DYNA IMAGES:        IMNBvdw       IMELec       IMHBnd       RXNField    EXTElec
 DYNA EWALD:          EWKSum       EWSElf       EWEXcl       EWQCor       EWUTil
 DYNA PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
  ----------       ---------    ---------    ---------    ---------    ---------
-DYNA>        0      0.00000-215689.18509  18205.75313-233894.93821    125.07152
-DYNA PROP>         15.89714-215685.97250  18215.38075      3.21259  51039.83173
-DYNA INTERN>      619.22860   2061.46826    144.58832   3370.28880    106.07064
-DYNA CROSS>      -959.70134      0.00000      0.00000      0.00000
-DYNA EXTERN>    18185.86062-229037.61924      0.00000      0.00000      0.00000
-DYNA IMAGES>     -269.19391   -410.93039      0.00000      0.00000      0.00000
-DYNA EWALD>       5212.1332-1329208.0435 1296290.9117       0.0000       0.0000
-DYNA PRESS>     20313.62237 -54340.17685  -1788.73922  -3715.66889 778688.00000
+DYNA>        0      0.00000-166111.59110  18202.18999-184313.78109    125.06497
+DYNA PROP>         15.73175-166084.63077  18283.10783     26.96033 -44287.60626
+DYNA INTERN>     1268.94656   3326.38106    652.91140   3350.71986    133.76085
+DYNA CROSS>      -907.37022      0.00000      0.00000      0.00000
+DYNA EXTERN>    20917.00177-192714.42145      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.88137     61.86740      0.00000      0.00000      0.00000
+DYNA EWALD>      12774.1086-1328985.5489 1296118.7433       0.0000       0.0000
+DYNA PRESS>      7573.19656  21951.87428   -666.86647   3006.29065 778688.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
       DYNA A     =   92.00000 B    =   92.00000 C     =   92.00000
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -4403.66 PIYY =   -3714.73 PIZZ =   -3028.62
-      DYNA PIXY =       71.73 PIXZ =    -377.06 PIYZ =    -184.36
-      DYNA Gradient Norm =  662.40073
+      DYNA PIXX =     2469.94 PIYY =    3547.39 PIZZ =    3001.53
+      DYNA PIXY =     -422.48 PIXZ =    -532.39 PIYZ =     176.54
+      DYNA Gradient Norm =  246.95206
 
-DYNA>        1      0.00100-215702.71680  18041.33221-233744.04900    123.94197
-DYNA PROP>         15.93981-215668.57124  18053.54952     34.14555  49731.23091
-DYNA INTERN>      638.86224   2117.81862    152.21452   3374.34106    108.15128
-DYNA CROSS>      -958.61878      0.00000      0.00000      0.00000
-DYNA EXTERN>    18282.27910-229057.66540      0.00000      0.00000      0.00000
-DYNA IMAGES>     -269.42819   -411.27770      0.00000      0.00000      0.00000
-DYNA EWALD>       5196.7586-1329208.0435 1296290.5591       0.0000       0.0000
-DYNA PRESS>     20351.98757 -53506.14151  -1792.67273  -3652.91137 778446.82849
-DYNA XTLE>                 -215675.06526    480.34580     11.35639      0.00000
+DYNA>        1      0.00100-166116.14412  18363.96773-184480.11185    126.17653
+DYNA PROP>         15.74023-166110.21549  18443.63074      5.92863 -42837.55263
+DYNA INTERN>     1276.58142   3350.72823    652.15143   3352.36824    135.09577
+DYNA CROSS>      -907.06250      0.00000      0.00000      0.00000
+DYNA EXTERN>    20800.75048-192728.26973      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.72986     61.84091      0.00000      0.00000      0.00000
+DYNA EWALD>      12702.8990-1328985.5489 1296119.0837       0.0000       0.0000
+DYNA PRESS>      7619.95313  20938.41529   -670.81565   2925.78296 778883.04720
+DYNA XTLE>                 -166072.91190     -3.32616     11.35639      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.99050 B    =   91.99050 C     =   91.99050
+      DYNA A     =   92.00768 B    =   92.00768 C     =   92.00768
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -4340.20 PIYY =   -3639.79 PIZZ =   -2978.74
-      DYNA PIXY =       72.82 PIXZ =    -378.21 PIYZ =    -175.60
-      DYNA Gradient Norm =  663.72030
+      DYNA PIXX =     2382.04 PIYY =    3471.48 PIZZ =    2923.82
+      DYNA PIXY =     -418.50 PIXZ =    -527.93 PIYZ =     176.97
+      DYNA Gradient Norm =  248.45599
 
-DYNA>        2      0.00200-215711.15825  17583.44660-233294.60485    120.79635
-DYNA PROP>         16.04415-215682.11492  17600.22119     29.04333  47912.95958
-DYNA INTERN>      703.27618   2267.28844    172.50910   3386.59346    114.65685
-DYNA CROSS>      -957.03827      0.00000      0.00000      0.00000
-DYNA EXTERN>    18398.03935-228927.18170      0.00000      0.00000      0.00000
-DYNA IMAGES>     -269.65512   -411.67200      0.00000      0.00000      0.00000
-DYNA EWALD>       5146.0812-1329208.0435 1296290.5412       0.0000       0.0000
-DYNA PRESS>     20408.16742 -52350.14047  -1798.16870  -3578.79464 778209.82674
-DYNA XTLE>                 -215658.25243    471.29007     11.35287      0.00000
+DYNA>        2      0.00200-166119.50790  18786.82249-184906.33039    129.08191
+DYNA PROP>         15.76350-166112.81919  18865.44493      6.68870 -40399.57739
+DYNA INTERN>     1283.85016   3416.46224    647.99337   3359.52274    140.39866
+DYNA CROSS>      -906.49280      0.00000      0.00000      0.00000
+DYNA EXTERN>    20634.81788-192863.19760      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.58335     60.19532      0.00000      0.00000      0.00000
+DYNA EWALD>      12496.5663-1328985.5489 1296119.6856       0.0000       0.0000
+DYNA PRESS>      7761.22128  19171.83031   -683.08553   2794.33817 779072.93232
+DYNA XTLE>                 -166098.00671     -1.37001     11.35924      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.98116 B    =   91.98116 C     =   91.98116
+      DYNA A     =   92.01516 B    =   92.01516 C     =   92.01516
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -4263.38 PIYY =   -3555.57 PIZZ =   -2917.44
-      DYNA PIXY =       73.18 PIXZ =    -379.17 PIYZ =    -165.79
-      DYNA Gradient Norm =  665.62000
+      DYNA PIXX =     2244.19 PIYY =    3344.21 PIZZ =    2794.61
+      DYNA PIXY =     -414.03 PIXZ =    -520.40 PIYZ =     173.08
+      DYNA Gradient Norm =  253.04161
 
-DYNA>        3      0.00300-215716.97593  16903.53460-232620.51053    116.12543
-DYNA PROP>         16.17944-215694.89037  16926.62159     22.08556  45648.45125
-DYNA INTERN>      794.85404   2473.31565    201.38805   3405.34025    124.78803
-DYNA CROSS>      -955.14672      0.00000      0.00000      0.00000
-DYNA EXTERN>    18530.50736-228658.44640      0.00000      0.00000      0.00000
-DYNA IMAGES>     -269.87365   -412.13057      0.00000      0.00000      0.00000
-DYNA EWALD>       5062.0002-1329208.0435 1296290.9368       0.0000       0.0000
-DYNA PRESS>     20482.03682 -50914.33765  -1805.21576  -3492.89133 777977.72617
-DYNA XTLE>                 -215671.89743    462.28643     11.34942      0.00000
+DYNA>        3      0.00300-166122.75783  19450.31066-185573.06849    133.64065
+DYNA PROP>         15.78975-166114.57007  19527.79861      8.18776 -37223.88528
+DYNA INTERN>     1285.09154   3507.80437    640.91887   3372.06259    149.09628
+DYNA CROSS>      -905.77642      0.00000      0.00000      0.00000
+DYNA EXTERN>    20440.13787-193107.72284      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.44458     56.96222      0.00000      0.00000      0.00000
+DYNA EWALD>      12163.7851-1328985.5489 1296120.5654       0.0000       0.0000
+DYNA PRESS>      7993.05087  16822.87266   -703.32569   2625.85278 779254.34197
+DYNA XTLE>                 -166100.48347      0.18995     11.36201      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.97202 B    =   91.97202 C     =   91.97202
+      DYNA A     =   92.02230 B    =   92.02230 C     =   92.02230
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -4172.71 PIYY =   -3462.18 PIZZ =   -2843.79
-      DYNA PIXY =       72.55 PIXZ =    -379.74 PIYZ =    -155.09
-      DYNA Gradient Norm =  668.09570
+      DYNA PIXX =     2074.87 PIYY =    3178.62 PIZZ =    2624.07
+      DYNA PIXY =     -409.19 PIXZ =    -512.97 PIYZ =     165.84
+      DYNA Gradient Norm =  260.57980
 
-DYNA>        4      0.00400-215721.62387  16102.79944-231824.42331    110.62446
-DYNA PROP>         16.30676-215706.83683  16132.44083     14.78704  43034.41413
-DYNA INTERN>      890.19245   2686.42103    233.12109   3428.09636    137.32582
-DYNA CROSS>      -953.17846      0.00000      0.00000      0.00000
-DYNA EXTERN>    18676.02810-228271.17909      0.00000      0.00000      0.00000
-DYNA IMAGES>     -270.08268   -412.64529      0.00000      0.00000      0.00000
-DYNA EWALD>       4947.7039-1329208.0435 1296291.8170       0.0000       0.0000
-DYNA PRESS>     20571.20235 -49260.81177  -1813.60237  -3394.80337 777751.28478
-DYNA XTLE>                 -215684.59592    453.67852     11.34603      0.00000
+DYNA>        4      0.00400-166126.36096  20326.78985-186453.15081    139.66283
+DYNA PROP>         15.80510-166115.69860  20402.97850     10.66235 -33596.25043
+DYNA INTERN>     1274.29261   3605.27792    631.65679   3389.27856    160.44628
+DYNA CROSS>      -905.08261      0.00000      0.00000      0.00000
+DYNA EXTERN>    20237.83288-193443.38118      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.31551     52.19991      0.00000      0.00000      0.00000
+DYNA EWALD>      11718.4828-1328985.5489 1296121.7096       0.0000       0.0000
+DYNA PRESS>      8308.97564  14088.52464   -730.96464   2436.05824 779424.86168
+DYNA XTLE>                 -166102.22606     -1.24359     11.36465      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.96310 B    =   91.96310 C     =   91.96310
+      DYNA A     =   92.02901 B    =   92.02901 C     =   92.02901
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -4067.91 PIYY =   -3359.53 PIZZ =   -2756.97
-      DYNA PIXY =       70.70 PIXZ =    -379.55 PIYZ =    -143.84
-      DYNA Gradient Norm =  671.06927
+      DYNA PIXX =     1889.82 PIYY =    2991.81 PIZZ =    2426.55
+      DYNA PIXY =     -402.95 PIXZ =    -509.21 PIYZ =     156.57
+      DYNA Gradient Norm =  270.85945
 
-DYNA>        5      0.00500-215726.52179  15286.92309-231013.44487    105.01948
-DYNA PROP>         16.39125-215717.82226  15321.88913      8.69953  40183.31311
-DYNA INTERN>      966.86104   2857.64316    261.62826   3452.02511    150.81422
-DYNA CROSS>      -951.36883      0.00000      0.00000      0.00000
-DYNA EXTERN>    18830.64078-227790.85405      0.00000      0.00000      0.00000
-DYNA IMAGES>     -270.28107   -413.21649      0.00000      0.00000      0.00000
-DYNA EWALD>       4807.4859-1329208.0435 1296293.2206       0.0000       0.0000
-DYNA PRESS>     20672.94736 -47461.82276  -1823.08812  -3284.76517 777531.28535
-DYNA XTLE>                 -215696.44940    445.75638     11.34273      0.00000
+DYNA>        5      0.00500-166129.32890  21378.39475-187507.72364    146.88828
+DYNA PROP>         15.80279-166115.83281  21453.70309     13.49609 -29811.79280
+DYNA INTERN>     1247.79697   3690.39153    621.15130   3410.43592    173.77492
+DYNA CROSS>      -904.59833      0.00000      0.00000      0.00000
+DYNA EXTERN>    20046.79125-193845.75792      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.19727     45.96987      0.00000      0.00000      0.00000
+DYNA EWALD>      11179.0058-1328985.5489 1296123.0612       0.0000       0.0000
+DYNA PRESS>      8701.15139  11173.37715   -765.31010   2240.77313 779583.09700
+DYNA XTLE>                 -166103.34572     -6.65091     11.36714      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.95442 B    =   91.95442 C     =   91.95442
+      DYNA A     =   92.03524 B    =   92.03524 C     =   92.03524
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -3949.50 PIYY =   -3247.88 PIZZ =   -2656.92
-      DYNA PIXY =       67.49 PIXZ =    -378.23 PIYZ =    -132.40
-      DYNA Gradient Norm =  674.45197
+      DYNA PIXX =     1699.66 PIYY =    2804.10 PIZZ =    2218.56
+      DYNA PIXY =     -393.54 PIXZ =    -511.57 PIYZ =     147.56
+      DYNA Gradient Norm =  283.62456
 
-DYNA>        6      0.00600-215732.65820  14542.91001-230275.56821     99.90819
-DYNA PROP>         16.41195-215727.74529  14580.94630      4.91291  37208.15703
-DYNA INTERN>     1009.51438   2951.45180    281.81809   3474.39813    163.77155
-DYNA CROSS>      -949.91130      0.00000      0.00000      0.00000
-DYNA EXTERN>    18990.86970-227246.74637      0.00000      0.00000      0.00000
-DYNA IMAGES>     -270.46769   -413.85170      0.00000      0.00000      0.00000
-DYNA EWALD>       4646.4935-1329208.0435 1296295.1352       0.0000       0.0000
-DYNA PRESS>     20784.59797 -45590.03599  -1833.43604  -3164.12030 777318.49444
-DYNA XTLE>                 -215707.33663    438.73874     11.33952      0.00000
+DYNA>        6      0.00600-166130.77154  22568.83503-188699.60657    155.06765
+DYNA PROP>         15.77697-166115.54483  22643.90607     15.22671 -26006.59923
+DYNA INTERN>     1206.25664   3749.36380    610.40281   3434.93354    188.73714
+DYNA CROSS>      -904.48756      0.00000      0.00000      0.00000
+DYNA EXTERN>    19867.19977-194286.24684      0.00000      0.00000      0.00000
+DYNA IMAGES>     -310.09011     38.35777      0.00000      0.00000      0.00000
+DYNA EWALD>      10566.9967-1328985.5489 1296124.5186       0.0000       0.0000
+DYNA PRESS>      9159.65236   8178.08046   -805.48715   2046.72906 779728.68088
+DYNA XTLE>                 -166103.47375    -15.53701     11.36945      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.94603 B    =   91.94603 C     =   91.94603
+      DYNA A     =   92.04097 B    =   92.04097 C     =   92.04097
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -3819.14 PIYY =   -3128.48 PIZZ =   -2544.74
-      DYNA PIXY =       62.90 PIXZ =    -375.56 PIYZ =    -121.18
-      DYNA Gradient Norm =  678.15643
+      DYNA PIXX =     1506.45 PIYY =    2622.38 PIZZ =    2011.35
+      DYNA PIXY =     -381.66 PIXZ =    -515.56 PIYZ =     142.58
+      DYNA Gradient Norm =  298.55138
 
-DYNA>        7      0.00700-215740.38354  13922.90979-229663.29333     95.64886
-DYNA PROP>         16.36672-215736.58161  13961.44260      3.80193  34211.02329
-DYNA INTERN>     1013.50620   2954.47353    290.64365   3492.99436    174.89232
-DYNA CROSS>      -948.92809      0.00000      0.00000      0.00000
-DYNA EXTERN>    19154.35859-226669.90979      0.00000      0.00000      0.00000
-DYNA IMAGES>     -270.64146   -414.55491      0.00000      0.00000      0.00000
-DYNA EWALD>       4470.4268-1329208.0435 1296297.4890       0.0000       0.0000
-DYNA PRESS>     20902.93828 -43710.28714  -1844.36117  -3035.53299 777113.59078
-DYNA XTLE>                 -215717.16567    432.77959     11.33642      0.00000
+DYNA>        7      0.00700-166135.73916  23859.01476-189994.75393    163.93231
+DYNA PROP>         15.71787-166114.85306  23931.01145     20.88611 -22104.27298
+DYNA INTERN>     1155.03530   3775.40844    599.60946   3462.24226    205.40656
+DYNA CROSS>      -904.85689      0.00000      0.00000      0.00000
+DYNA EXTERN>    19680.84952-194734.33920      0.00000      0.00000      0.00000
+DYNA IMAGES>     -309.99398     29.46310      0.00000      0.00000      0.00000
+DYNA EWALD>       9906.0376-1328985.5489 1296125.9327       0.0000       0.0000
+DYNA PRESS>      9673.27769   5062.90430   -850.50958   1847.92680 779861.68440
+DYNA XTLE>                 -166103.18477    -24.74472     11.37157      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.93795 B    =   91.93795 C     =   91.93795
+      DYNA A     =   92.04620 B    =   92.04620 C     =   92.04620
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -3679.86 PIYY =   -3003.77 PIZZ =   -2422.97
-      DYNA PIXY =       57.13 PIXZ =    -371.59 PIYZ =    -110.59
-      DYNA Gradient Norm =  682.07755
+      DYNA PIXX =     1312.87 PIYY =    2429.14 PIZZ =    1801.77
+      DYNA PIXY =     -372.67 PIXZ =    -513.76 PIYZ =     144.32
+      DYNA Gradient Norm =  315.27465
 
-DYNA>        8      0.00800-215749.29415  13438.97163-229188.26578     92.32426
-DYNA PROP>         16.27162-215744.34568  13475.84655      4.94847  31273.91098
-DYNA INTERN>      985.04641   2877.69849    287.63230   3506.36530    183.20545
-DYNA CROSS>      -948.45779      0.00000      0.00000      0.00000
-DYNA EXTERN>    19320.14361-226091.09934      0.00000      0.00000      0.00000
-DYNA IMAGES>     -270.80143   -415.32330      0.00000      0.00000      0.00000
-DYNA EWALD>       4285.2093-1329208.0435 1296300.1587       0.0000       0.0000
-DYNA PRESS>     21024.29500 -41873.56898  -1855.53824  -2902.76596 776917.07999
-DYNA XTLE>                 -215725.91858    427.98351     11.33343      0.00000
+DYNA>        8      0.00800-166140.30366  25172.74188-191313.04554    172.95876
+DYNA PROP>         15.74715-166113.05594  25242.51354     27.24772 -18291.42160
+DYNA INTERN>     1102.00099   3770.87135    587.87062   3491.85370    223.51897
+DYNA CROSS>      -905.73591      0.00000      0.00000      0.00000
+DYNA EXTERN>    19506.06491-195160.71884      0.00000      0.00000      0.00000
+DYNA IMAGES>     -309.90918     19.39157      0.00000      0.00000      0.00000
+DYNA EWALD>       9220.1644-1328985.5489 1296127.1308       0.0000       0.0000
+DYNA PRESS>     10230.24225   1964.03881   -899.34141   1652.08270 779981.78940
+DYNA XTLE>                 -166102.50076    -32.28855     11.37351      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.93020 B    =   91.93020 C     =   91.93020
+      DYNA A     =   92.05092 B    =   92.05092 C     =   92.05092
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -3535.65 PIYY =   -2877.37 PIZZ =   -2295.28
-      DYNA PIXY =       50.49 PIXZ =    -366.58 PIYZ =    -101.04
-      DYNA Gradient Norm =  686.09535
+      DYNA PIXX =     1130.64 PIYY =    2237.67 PIZZ =    1587.94
+      DYNA PIXY =     -368.63 PIXZ =    -509.27 PIYZ =     147.39
+      DYNA Gradient Norm =  333.41030
 
-DYNA>        9      0.00900-215758.49331  13069.23329-228827.72660     89.78420
-DYNA PROP>         16.15522-215751.10445  13103.26149      7.38886  28455.37667
-DYNA INTERN>      938.09717   2751.82987    274.78797   3513.92940    188.16675
-DYNA CROSS>      -948.45917      0.00000      0.00000      0.00000
-DYNA EXTERN>    19488.48700-225539.05280      0.00000      0.00000      0.00000
-DYNA IMAGES>     -270.94683   -416.17123      0.00000      0.00000      0.00000
-DYNA EWALD>       4096.6593-1329208.0435 1296302.9895       0.0000       0.0000
-DYNA PRESS>     21146.10120 -40116.35232  -1866.73984  -2770.26879 776729.22395
-DYNA XTLE>                 -215733.61254    424.39921     11.33056      0.00000
+ UPDECI: Image update at step         8
+
+ SELECTED IMAGES ATOMS BEING CENTERED ABOUT  0.000000  0.000000  0.000000
+ UPDECI: Nonbond update at step         8
+Using Image CUBE search
+DYNA>        9      0.00900-166138.83725  26436.63197-192575.46922    181.64280
+DYNA PROP>         16.08593-166110.57405  26510.68295     28.26320 -14794.07588
+DYNA INTERN>     1053.43249   3745.84606    574.62132   3523.04041    241.44873
+DYNA CROSS>      -907.08258      0.00000      0.00000      0.00000
+DYNA EXTERN>    19360.14093-195540.18141      0.00000      0.00000      0.00000
+DYNA IMAGES>     -309.83564      8.27836      0.00000      0.00000      0.00000
+DYNA EWALD>       8532.3867-1328985.5489 1296127.9843       0.0000       0.0000
+DYNA PRESS>     10817.81879   -955.10154   -950.86439   1469.58022 780089.18019
+DYNA XTLE>                 -166100.72433    -44.87104     11.37526      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.92279 B    =   91.92279 C     =   91.92279
+      DYNA A     =   92.05515 B    =   92.05515 C     =   92.05515
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -3391.17 PIYY =   -2753.55 PIZZ =   -2166.09
-      DYNA PIXY =       43.43 PIXZ =    -360.93 PIYZ =     -92.91
-      DYNA Gradient Norm =  690.12593
+      DYNA PIXX =      963.67 PIYY =    2068.83 PIZZ =    1376.25
+      DYNA PIXY =     -379.06 PIXZ =    -502.56 PIYZ =     148.11
+      DYNA Gradient Norm =  352.54363
 
 
      10   COORDINATE SETS STARTING FROM
@@ -1397,22 +874,22 @@ DYNA XTLE>                 -215733.61254    424.39921     11.33056      0.00000
      WRITTEN ON UNIT   21
 
  VCLOSE: Closing unit   21 with status "KEEP"
-DYNA>       10      0.01000-215766.88399  12772.62489-228539.50888     87.74653
-DYNA PROP>         16.04941-215756.96018  12803.78630      9.92381  25796.63714
-DYNA INTERN>      889.23342   2617.45382    255.92820   3515.90139    189.67941
-DYNA CROSS>      -948.82645      0.00000      0.00000      0.00000
-DYNA EXTERN>    19660.36424-225039.03942      0.00000      0.00000      0.00000
-DYNA IMAGES>     -271.07711   -417.09314      0.00000      0.00000      0.00000
-DYNA EWALD>       3910.1872-1329208.0435 1296305.8231       0.0000       0.0000
-DYNA PRESS>     21265.04224 -38462.80033  -1877.67301  -2642.52846 776549.99681
-DYNA XTLE>                 -215740.31398    422.05143     11.32782      0.00000
+DYNA>       10      0.01000-166131.31655  27664.74422-193796.06077    190.08100
+DYNA PROP>         16.46504-166109.01594  27745.14055     22.30061 -11389.69817
+DYNA INTERN>     1009.81874   3709.34567    559.54711   3554.81892    256.28184
+DYNA CROSS>      -908.81035      0.00000      0.00000      0.00000
+DYNA EXTERN>    19183.17166-195852.94377      0.00000      0.00000      0.00000
+DYNA IMAGES>     -309.77281     -3.74556      0.00000      0.00000      0.00000
+DYNA EWALD>       7863.3371-1328985.5489 1296128.4396       0.0000       0.0000
+DYNA PRESS>     11423.90080  -3830.76869  -1004.01481   1288.99255 780184.71759
+DYNA XTLE>                 -166098.27651    -65.29333     11.37683      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Crystal Parameters : Crystal Type = CUBI
-      DYNA A     =   91.91572 B    =   91.91572 C     =   91.91572
+      DYNA A     =   92.05891 B    =   92.05891 C     =   92.05891
       DYNA Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      DYNA PIXX =    -3251.02 PIYY =   -2636.61 PIZZ =   -2039.95
-      DYNA PIXY =       36.42 PIXZ =    -354.99 PIYZ =     -86.63
-      DYNA Gradient Norm =  694.06109
+      DYNA PIXX =      786.41 PIYY =    1907.59 PIZZ =    1172.98
+      DYNA PIXY =     -385.61 PIXZ =    -492.59 PIYZ =     151.83
+      DYNA Gradient Norm =  372.28014
 
  DYNAMC> Averages for the last       10  steps:
 AVER DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
@@ -1425,67 +902,67 @@ AVER EWALD:          EWKSum       EWSElf       EWEXcl       EWQCor       EWUTil
 AVER PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
 AVER XTLE:                       XTLTe         SURFtension  XTLPe        XTLtemp
  ----------       ---------    ---------    ---------    ---------    ---------
-AVER>       10      0.01000-215732.67098  15166.46855-230899.13954    104.19197
-AVER PROP>         16.21163-215718.69728  15196.00055     13.97370  38345.54741
-AVER INTERN>      882.94435   2655.53944    241.16712   3454.99848    153.54517
-AVER CROSS>      -951.99339      0.00000      0.00000      0.00000
-AVER EXTERN>    18933.17178-227329.11744      0.00000      0.00000      0.00000
-AVER IMAGES>     -270.32552   -413.79363      0.00000      0.00000      0.00000
-AVER EWALD>       4656.9006-1329208.0435 1296295.8670       0.0000       0.0000
-AVER PRESS>     20760.93162 -46324.62989  -1831.04960  -3191.93824 777454.53375
-AVER XTLE>                 -215701.06078    445.93097     11.34152      0.00000
+AVER>       10      0.01000-166129.10679  22400.82533-188529.93212    153.91327
+AVER PROP>         15.86943-166113.21800  22476.68104     15.88879 -27645.51264
+AVER INTERN>     1189.41569   3632.14996    612.59231   3435.05569    187.42051
+AVER CROSS>      -905.99860      0.00000      0.00000      0.00000
+AVER EXTERN>    19975.77571-194156.27593      0.00000      0.00000      0.00000
+AVER IMAGES>     -310.18723     36.89135      0.00000      0.00000      0.00000
+AVER EWALD>      10634.9661-1328985.5489 1296123.8112       0.0000       0.0000
+AVER PRESS>      9168.92442   9261.41734   -806.37190   2132.81166 779606.43326
+AVER XTLE>                 -166098.51340    -19.51354     11.36760      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Lattice Parameters> Averages for the last       10 steps:
  Crystal Parameters : Crystal Type = CUBI
-      AVER A     =   91.95139 B    =   91.95139 C     =   91.95139
+      AVER A     =   92.03615 B    =   92.03615 C     =   92.03615
       AVER Alpha =   90.00000 Beta =   90.00000 Gamma =   90.00000
-      AVER PIXX =    -3847.05 PIYY =   -3166.47 PIZZ =   -2562.29
-      AVER PIXY =       60.71 PIXZ =    -372.46 PIYZ =    -128.51
-      AVER Gradient Norm =  677.34736
+      AVER PIXX =     1599.06 PIYY =    2705.58 PIZZ =    2093.79
+      AVER PIXY =     -392.58 PIXZ =    -511.58 PIYZ =     155.43
+      AVER Gradient Norm =  298.86215
 
  DYNAMC> RMS fluctuations for the last       10  steps:
-FLUC>       10      0.01000     19.84785   1818.34099   1799.05398     12.49180
-FLUC PROP>          0.15542     28.51828   1811.00196     10.27160   7896.52479
-FLUC INTERN>      123.80782    274.20619     47.22282     51.01370     29.35090
-FLUC CROSS>         3.60328      0.00000      0.00000      0.00000
-FLUC EXTERN>      445.86834   1372.30831      0.00000      0.00000      0.00000
-FLUC IMAGES>        0.53078      1.86310      0.00000      0.00000      0.00000
-FLUC EWALD>       429.71838      0.00000      5.25056      0.00000      0.00000
-FLUC PRESS>       300.95979   4963.85042     27.96290    330.30459    607.50847
-FLUC XTLE>                      26.77363     19.32788      0.00915      0.00000
+FLUC>       10      0.01000      7.61421   3118.40348   3124.91922     21.42616
+FLUC PROP>          0.22157      2.38232   3117.24016      7.90485  10371.18529
+FLUC INTERN>       98.04872    147.54222     30.16184     67.27699     40.76856
+FLUC CROSS>         1.30238      0.00000      0.00000      0.00000
+FLUC EXTERN>      522.57967   1075.60162      0.00000      0.00000      0.00000
+FLUC IMAGES>        0.30880     21.72280      0.00000      0.00000      0.00000
+FLUC EWALD>      1618.31902      0.00000      3.31276      0.00000      0.00000
+FLUC PRESS>      1261.21240   8164.16674    110.49838    537.09413    418.78861
+FLUC XTLE>                       8.74059     21.03296      0.00659      0.00000
  ----------       ---------    ---------    ---------    ---------    ---------
  Lattice Parameters> RMS fluctuations for the last       10 steps:
  Crystal Parameters : Crystal Type = CUBI
-      FLUC A     =    0.02395 B    =    0.02395 C     =    0.02395
+      FLUC A     =    0.01648 B    =    0.01648 C     =    0.01648
       FLUC Alpha =    0.00000 Beta =    0.00000 Gamma =    0.00000
-      FLUC PIXX =      356.46 PIYY =     327.04 PIZZ =     307.65
-      FLUC PIXY =       12.64 PIXZ =       8.35 PIYZ =      29.52
-      FLUC Gradient Norm =    9.99408
+      FLUC PIXX =      521.95 PIYY =     515.21 PIZZ =     574.31
+      FLUC PIXY =       16.84 PIXZ =       9.06 PIYZ =      11.69
+      FLUC Gradient Norm =   41.05742
 
 
-     DRIFT/STEP (LAST-TOTAL):    -9.8476421       -9.8476421    
-     E AT STEP 0            :    -215664.54       -215664.54    
-     CORR. COEFFICIENT      :   -0.99182694      -0.99182694    
+     DRIFT/STEP (LAST-TOTAL):    0.22367992       0.22367992    
+     E AT STEP 0            :    -166114.45       -166114.45    
+     CORR. COEFFICIENT      :    0.26968317       0.26968317    
 
      DETAILS ABOUT CENTRE OF MASS
-     POSITION          :  -0.16068177       9.28741240E-02   3.62606564E-02
-     VELOCITY          :   6.67236898E-09   5.35779003E-09  -3.89501350E-09
-     ANGULAR MOMENTUM  :   -18600.922       -12099.493       -2398.7164    
-     KINETIC ENERGY    :   1.93855725E-11
+     POSITION          :  -0.16033921       9.06727594E-02   3.84562741E-02
+     VELOCITY          :  -2.70699380E-09   1.95668967E-08  -5.74419786E-09
+     ANGULAR MOMENTUM  :   -16011.720       -2943.7908       -6639.5918    
+     KINETIC ENERGY    :   9.27930116E-11
  WRIDYN: RESTart file was written at step      10
  VCLOSE: Closing unit   12 with status "KEEP"
 
      DETAILS ABOUT CENTRE OF MASS
-     POSITION          :  -0.16068177       9.28741240E-02   3.62606564E-02
-     VELOCITY          :   2.49471250E-18   3.54988058E-18  -7.97710616E-18
-     ANGULAR MOMENTUM  :   -18600.922       -12099.493       -2398.7164    
-     KINETIC ENERGY    :   1.80833508E-29
+     POSITION          :  -0.16033921       9.06727594E-02   3.84562741E-02
+     VELOCITY          :  -1.50580355E-18   1.38853922E-17  -2.21867419E-18
+     ANGULAR MOMENTUM  :   -16011.720       -2943.7908       -6639.5918    
+     KINETIC ENERGY    :   4.38530710E-29
   
  CHARMM>    !CENT NCRES 1
  CHARMM>     
   
- CHARMM>    write coor card name sys-equ_y213a_y97a.cor
- VOPEN> Attempting to open::sys-equ_y213a_y97a.cor::
+ CHARMM>    write coor card name sys-equ_y97a_f195a.cor
+ VOPEN> Attempting to open::sys-equ_y97a_f195a.cor::
  RDTITL> * SYS CEL48-PORE-PHE
  RDTITL> *
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -1496,72 +973,72 @@ FLUC XTLE>                      26.77363     19.32788      0.00915      0.00000
  CHARMM>    stop
  Parallel load balance (sec.):
  Node Eext      Eint   Wait    Comm    EComm   List   Integ   Total
-   0   177.9     1.4     0.0     0.0     0.0   115.3     0.4   294.9
+   0    38.4     0.3     0.0     0.0     0.0    35.0     0.3    74.0
  VCLOSE: Closing unit   22 with status "KEEP"
 
       $$$$$$  New timer profile Local node$$$$$
 
    Shake Setup                     0.05 Other:            0.00
-   First List                      1.45 Other:            0.00
-   Shake time                      3.14 Other:            0.00
+   First List                      1.42 Other:            0.00
+   Shake time                      0.53 Other:            0.00
       Comm coords                     0.00 Other:            0.00
       dynamc                          0.27 Other:            0.00
-   Dynamics total                  1.02 Other:            0.75
-      Image Update                    0.08 Other:            0.00
+   Dynamics total                  0.99 Other:            0.72
+      Image Update                    0.02 Other:            0.00
       xdistm setup                    0.00 Other:            0.00
-      xdistm Build list               1.42 Other:            0.00
-   List time                       1.50 Other:            0.00
-         Electrostatic & VDW           169.37 Other:            0.00
-            Direct Ewald time               5.69 Other:            0.00
-               Fill charge grid                0.78 Other:            0.00
+      xdistm Build list               2.09 Other:            0.00
+   List time                       2.12 Other:            0.00
+         Electrostatic & VDW            30.08 Other:            0.00
+            Direct Ewald time               5.55 Other:            0.00
+               Fill charge grid                0.76 Other:            0.00
                Scalar sum                      0.29 Other:            0.00
-               Grad sum                        1.36 Other:            0.00
-               FFT                             0.31 Other:            0.00
-            Recip Ewald time                2.76 Other:            0.01
-         Ewald time                      8.45 Other:            0.00
-      Nonbond force                 177.87 Other:            0.04
-         Bond energy                     0.17 Other:            0.00
-         Angle energy                    0.42 Other:            0.00
-         Dihedral energy                 0.46 Other:            0.00
+               Grad sum                        1.35 Other:            0.00
+               FFT                             0.30 Other:            0.00
+            Recip Ewald time                2.71 Other:            0.01
+         Ewald time                      8.27 Other:            0.00
+      Nonbond force                  38.38 Other:            0.04
+         Bond energy                     0.04 Other:            0.00
+         Angle energy                    0.10 Other:            0.00
+         Dihedral energy                 0.11 Other:            0.00
          Restraints energy               0.00 Other:            0.00
-      INTRNL energy                   1.14 Other:            0.08
+      INTRNL energy                   0.26 Other:            0.02
       Comm force                      0.00 Other:            0.00
-   Energy time                   179.34 Other:            0.33
- Total time                    320.25 Other:          133.75
+   Energy time                    38.72 Other:            0.08
+ Total time                     92.16 Other:           48.33
 
          $$$$$$  Average   profile $$$$$
 
    Shake Setup                     0.05 Other:            0.00
-   First List                      1.45 Other:            0.00
-   Shake time                      3.14 Other:            0.00
+   First List                      1.42 Other:            0.00
+   Shake time                      0.53 Other:            0.00
       Comm coords                     0.00 Other:            0.00
       dynamc                          0.27 Other:            0.00
-   Dynamics total                  1.02 Other:            0.75
-      Image Update                    0.08 Other:            0.00
+   Dynamics total                  0.99 Other:            0.72
+      Image Update                    0.02 Other:            0.00
       xdistm setup                    0.00 Other:            0.00
-      xdistm Build list               1.42 Other:            0.00
-   List time                       1.50 Other:            0.00
-         Electrostatic & VDW           169.37 Other:            0.00
-            Direct Ewald time               5.69 Other:            0.00
-               Fill charge grid                0.78 Other:            0.00
+      xdistm Build list               2.09 Other:            0.00
+   List time                       2.12 Other:            0.00
+         Electrostatic & VDW            30.08 Other:            0.00
+            Direct Ewald time               5.55 Other:            0.00
+               Fill charge grid                0.76 Other:            0.00
                Scalar sum                      0.29 Other:            0.00
-               Grad sum                        1.36 Other:            0.00
-               FFT                             0.31 Other:            0.00
-            Recip Ewald time                2.76 Other:            0.01
-         Ewald time                      8.45 Other:            0.00
-      Nonbond force                 177.87 Other:            0.04
-         Bond energy                     0.17 Other:            0.00
-         Angle energy                    0.42 Other:            0.00
-         Dihedral energy                 0.46 Other:            0.00
+               Grad sum                        1.35 Other:            0.00
+               FFT                             0.30 Other:            0.00
+            Recip Ewald time                2.71 Other:            0.01
+         Ewald time                      8.27 Other:            0.00
+      Nonbond force                  38.38 Other:            0.04
+         Bond energy                     0.04 Other:            0.00
+         Angle energy                    0.10 Other:            0.00
+         Dihedral energy                 0.11 Other:            0.00
          Restraints energy               0.00 Other:            0.00
-      INTRNL energy                   1.14 Other:            0.08
+      INTRNL energy                   0.26 Other:            0.02
       Comm force                      0.00 Other:            0.00
-   Energy time                   179.34 Other:            0.33
- Total time                    320.25 Other:          133.75
+   Energy time                    38.72 Other:            0.08
+ Total time                     92.16 Other:           48.33
 
                     NORMAL TERMINATION BY NORMAL STOP
                     MOST SEVERE WARNING WAS AT LEVEL  5
 
                     $$$$$ JOB ACCOUNTING INFORMATION $$$$$
-                     ELAPSED TIME:     5.34  MINUTES 
-                         CPU TIME:     5.34  MINUTES 
+                     ELAPSED TIME:     1.54  MINUTES 
+                         CPU TIME:     1.53  MINUTES 

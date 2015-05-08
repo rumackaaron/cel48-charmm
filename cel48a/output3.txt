@@ -4,7 +4,7 @@
        Copyright(c) 1984-2001  President and Fellows of Harvard College
                               All Rights Reserved
      Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
-                 Created on  5/6/15 at 14:31:10 by user: rumack      
+                 Created on  5/8/15 at 13:08:27 by user: rumack      
 
             Maximum number of ATOMS:    360720, and RESidues:      120240
  RDTITL> * CEL48F(SUB)+BGLC
@@ -107,11 +107,11 @@
   
  CHARMM>     
   
- CHARMM>    read sequ pdb name cel48a_y213a_y97a_1.pdb
- VOPEN> Attempting to open::cel48a_y213a_y97a_1.pdb::
+ CHARMM>    read sequ pdb name cel48a_y97a_f195a_1.pdb
+ VOPEN> Attempting to open::cel48a_y97a_f195a_1.pdb::
  MAINIO> Sequence information being read from unit  90.
  TITLE>   CEL48A FIT TO CELF_RC
- TITLE>    DATE:     5/ 6/15     14:30:59      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13: 8:14      CREATED BY USER: RUMACK
  TITLE>  *
 
           RESIDUE SEQUENCE --   639 RESIDUES
@@ -124,8 +124,8 @@
           ASN ASN VAL PRO VAL GLY GLN ASP PRO LEU ALA GLN GLU LEU SER SER THR TYR GLY THR 
           ASN GLU ILE TYR GLY MET HSD TRP LEU LEU ASP VAL ASP ASN VAL TYR GLY PHE GLY PHE 
           CYS GLY ASP GLY THR ASP ASP ALA PRO ALA TYR ILE ASN THR TYR GLN ARG GLY ALA ARG 
-          GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP PHE THR HSD GLY GLY PRO 
-          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN ALA ALA LYS GLN TRP ARG TYR THR 
+          GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP ALA THR HSD GLY GLY PRO 
+          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN TYR ALA LYS GLN TRP ARG TYR THR 
           ASN ALA PRO ASP ALA ASP ALA ARG ALA VAL GLN VAL MET PHE TRP ALA HSD GLU TRP ALA 
           LYS GLU GLN GLY LYS GLU ASN GLU ILE ALA GLY LEU MET ASP LYS ALA SER LYS MET GLY 
           ASP TYR LEU ARG TYR ALA MET PHE ASP LYS TYR PHE LYS LYS ILE GLY ASN CYS VAL GLY 
@@ -147,9 +147,9 @@
           GLY ALA THR PHE LEU SER ILE ARG SER PHE TYR LYS ASN ASP PRO LEU TRP PRO GLN VAL 
           GLU ALA HSD LEU ASN ASP PRO GLN ASN VAL PRO ALA PRO ILE VAL GLU ARG HSD ARG PHE 
           TRP ALA GLN VAL GLU ILE ALA THR ALA PHE ALA ALA HSD ASP GLU LEU PHE GLY ALA 
- ***** Message from SEQRDR ***** THE SYSTEM CONTAINS137 TITRATABLE GROUPS
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS138 TITRATABLE GROUPS
  THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
- HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 37
+ HIS -  0  ASP - 50  GLU - 32  LYS - 18  TYR - 38
  VCLOSE: Closing unit   90 with status "KEEP"
   
  CHARMM>    gene PROT setup
@@ -159,21 +159,21 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        1   Number of residues   =      639
-         Number of atoms         =     9665   Number of groups     =     3006
-         Number of bonds         =     9840   Number of angles     =    17644
-         Number of dihedrals     =    26101   Number of impropers  =     1729
+         Number of atoms         =     9666   Number of groups     =     3006
+         Number of bonds         =     9841   Number of angles     =    17645
+         Number of dihedrals     =    26103   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
  QXFORM> Expanded format used.
          More than 4 character atom type used.
   
- CHARMM>    read coor pdb name cel48a_y213a_y97a_1.pdb
- VOPEN> Attempting to open::cel48a_y213a_y97a_1.pdb::
+ CHARMM>    read coor pdb name cel48a_y97a_f195a_1.pdb
+ VOPEN> Attempting to open::cel48a_y97a_f195a_1.pdb::
   read CHARMM-pdb format
           SPATIAL COORDINATES BEING READ FROM UNIT 90
  TITLE>   CEL48A FIT TO CELF_RC
- TITLE>    DATE:     5/ 6/15     14:30:59      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13: 8:14      CREATED BY USER: RUMACK
  TITLE>  *
  VCLOSE: Closing unit   90 with status "KEEP"
   
@@ -188,11 +188,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9881   Number of groups     =     3051
-         Number of bonds         =    10056   Number of angles     =    18022
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of atoms         =     9882   Number of groups     =     3051
+         Number of bonds         =    10057   Number of angles     =    18023
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 1 sub 2 setup
@@ -208,11 +208,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9878   Number of groups     =     3051
-         Number of bonds         =    10054   Number of angles     =    18017
-         Number of dihedrals     =    26685   Number of impropers  =     1729
+         Number of atoms         =     9879   Number of groups     =     3051
+         Number of bonds         =    10055   Number of angles     =    18018
+         Number of dihedrals     =    26687   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 2 sub 3 setup
@@ -228,11 +228,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9875   Number of groups     =     3051
-         Number of bonds         =    10052   Number of angles     =    18012
-         Number of dihedrals     =    26675   Number of impropers  =     1729
+         Number of atoms         =     9876   Number of groups     =     3051
+         Number of bonds         =    10053   Number of angles     =    18013
+         Number of dihedrals     =    26677   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 3 sub 4 setup
@@ -248,11 +248,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9872   Number of groups     =     3051
-         Number of bonds         =    10050   Number of angles     =    18007
-         Number of dihedrals     =    26665   Number of impropers  =     1729
+         Number of atoms         =     9873   Number of groups     =     3051
+         Number of bonds         =    10051   Number of angles     =    18008
+         Number of dihedrals     =    26667   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 4 sub 5 setup
@@ -268,11 +268,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9869   Number of groups     =     3051
-         Number of bonds         =    10048   Number of angles     =    18002
-         Number of dihedrals     =    26655   Number of impropers  =     1729
+         Number of atoms         =     9870   Number of groups     =     3051
+         Number of bonds         =    10049   Number of angles     =    18003
+         Number of dihedrals     =    26657   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 5 sub 6 setup
@@ -288,11 +288,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9866   Number of groups     =     3051
-         Number of bonds         =    10046   Number of angles     =    17997
-         Number of dihedrals     =    26645   Number of impropers  =     1729
+         Number of atoms         =     9867   Number of groups     =     3051
+         Number of bonds         =    10047   Number of angles     =    17998
+         Number of dihedrals     =    26647   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 6 sub 7 setup
@@ -308,11 +308,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9863   Number of groups     =     3051
-         Number of bonds         =    10044   Number of angles     =    17992
-         Number of dihedrals     =    26635   Number of impropers  =     1729
+         Number of atoms         =     9864   Number of groups     =     3051
+         Number of bonds         =    10045   Number of angles     =    17993
+         Number of dihedrals     =    26637   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 7 sub 8 setup
@@ -328,11 +328,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9860   Number of groups     =     3051
-         Number of bonds         =    10042   Number of angles     =    17987
-         Number of dihedrals     =    26625   Number of impropers  =     1729
+         Number of atoms         =     9861   Number of groups     =     3051
+         Number of bonds         =    10043   Number of angles     =    17988
+         Number of dihedrals     =    26627   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    patch 14bb sub 8 sub 9 setup
@@ -348,11 +348,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9857   Number of groups     =     3051
-         Number of bonds         =    10040   Number of angles     =    17982
-         Number of dihedrals     =    26615   Number of impropers  =     1729
+         Number of atoms         =     9858   Number of groups     =     3051
+         Number of bonds         =    10041   Number of angles     =    17983
+         Number of dihedrals     =    26617   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    autogenerate angle dihedral
@@ -361,11 +361,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        2   Number of residues   =      648
-         Number of atoms         =     9857   Number of groups     =     3051
-         Number of bonds         =    10040   Number of angles     =    18014
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of atoms         =     9858   Number of groups     =     3051
+         Number of bonds         =    10041   Number of angles     =    18015
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =     1003   Number of HB donors  =     1036
+         Number of HB acceptors  =     1004   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    read coor pdb append name cel48f-sub-rc_sub.pdb
@@ -391,11 +391,11 @@
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
          Number of segments      =        3   Number of residues   =    33416
-         Number of atoms         =   108161   Number of groups     =    35819
-         Number of bonds         =   108344   Number of angles     =    50782
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of atoms         =   108162   Number of groups     =    35819
+         Number of bonds         =   108345   Number of angles     =    50783
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    33771   Number of HB donors  =     1036
+         Number of HB acceptors  =    33772   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    read coor card append name tips32keqexp.cor
@@ -412,22 +412,22 @@
  CHARMM>     
   
  CHARMM>    delete atom sort select .byres. (segid wat .and. type OH2 .and. (.not. (segid wat .or. hydrogen) .around. 2.5 )) end
- SELRPN>   9801 atoms have been selected out of 108161
+ SELRPN>   9813 atoms have been selected out of 108162
 
  Message from MAPIC: Atom numbers are changed.
 
- Message from MAPIC:       3267 residues deleted.
- DELTIC:      9801 bonds deleted
- DELTIC:      3267 angles deleted
- DELTIC:      3267 acceptors deleted
+ Message from MAPIC:       3271 residues deleted.
+ DELTIC:      9813 bonds deleted
+ DELTIC:      3271 angles deleted
+ DELTIC:      3271 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    30149
-         Number of atoms         =    98360   Number of groups     =    32552
-         Number of bonds         =    98543   Number of angles     =    47515
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    30145
+         Number of atoms         =    98349   Number of groups     =    32548
+         Number of bonds         =    98532   Number of angles     =    47512
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    30504   Number of HB donors  =     1036
+         Number of HB acceptors  =    30501   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>     
@@ -444,7 +444,7 @@ Evaluating: 0.5*90
   
  CHARMM>    dele atom sele .byres.  prop x .ge.  @maxDim  end
  Parameter: MAXDIM -> "45"
- SELRPN>   5136 atoms have been selected out of  98360
+ SELRPN>   5136 atoms have been selected out of  98349
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -454,17 +454,17 @@ Evaluating: 0.5*90
  DELTIC:      1712 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    28437
-         Number of atoms         =    93224   Number of groups     =    30840
-         Number of bonds         =    93407   Number of angles     =    45803
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    28433
+         Number of atoms         =    93213   Number of groups     =    30836
+         Number of bonds         =    93396   Number of angles     =    45800
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    28792   Number of HB donors  =     1036
+         Number of HB acceptors  =    28789   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    dele atom sele .byres.  prop x .le. -@maxDim  end
  Parameter: MAXDIM -> "45"
- SELRPN>   4944 atoms have been selected out of  93224
+ SELRPN>   4944 atoms have been selected out of  93213
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -474,17 +474,17 @@ Evaluating: 0.5*90
  DELTIC:      1648 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    26789
-         Number of atoms         =    88280   Number of groups     =    29192
-         Number of bonds         =    88463   Number of angles     =    44155
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    26785
+         Number of atoms         =    88269   Number of groups     =    29188
+         Number of bonds         =    88452   Number of angles     =    44152
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    27144   Number of HB donors  =     1036
+         Number of HB acceptors  =    27141   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    dele atom sele .byres.  prop y .ge.  @maxDim  end
  Parameter: MAXDIM -> "45"
- SELRPN>   4452 atoms have been selected out of  88280
+ SELRPN>   4452 atoms have been selected out of  88269
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -494,17 +494,17 @@ Evaluating: 0.5*90
  DELTIC:      1484 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    25305
-         Number of atoms         =    83828   Number of groups     =    27708
-         Number of bonds         =    84011   Number of angles     =    42671
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    25301
+         Number of atoms         =    83817   Number of groups     =    27704
+         Number of bonds         =    84000   Number of angles     =    42668
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    25660   Number of HB donors  =     1036
+         Number of HB acceptors  =    25657   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    dele atom sele .byres.  prop y .le. -@maxDim  end
  Parameter: MAXDIM -> "45"
- SELRPN>   4752 atoms have been selected out of  83828
+ SELRPN>   4752 atoms have been selected out of  83817
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -514,17 +514,17 @@ Evaluating: 0.5*90
  DELTIC:      1584 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    23721
-         Number of atoms         =    79076   Number of groups     =    26124
-         Number of bonds         =    79259   Number of angles     =    41087
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    23717
+         Number of atoms         =    79065   Number of groups     =    26120
+         Number of bonds         =    79248   Number of angles     =    41084
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    24076   Number of HB donors  =     1036
+         Number of HB acceptors  =    24073   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    dele atom sele .byres.  prop z .ge.  @maxDim  end
  Parameter: MAXDIM -> "45"
- SELRPN>   4275 atoms have been selected out of  79076
+ SELRPN>   4275 atoms have been selected out of  79065
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -534,17 +534,17 @@ Evaluating: 0.5*90
  DELTIC:      1425 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    22296
-         Number of atoms         =    74801   Number of groups     =    24699
-         Number of bonds         =    74984   Number of angles     =    39662
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    22292
+         Number of atoms         =    74790   Number of groups     =    24695
+         Number of bonds         =    74973   Number of angles     =    39659
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    22651   Number of HB donors  =     1036
+         Number of HB acceptors  =    22648   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>    dele atom sele .byres.  prop z .le. -@maxDim  end
  Parameter: MAXDIM -> "45"
- SELRPN>   4056 atoms have been selected out of  74801
+ SELRPN>   4056 atoms have been selected out of  74790
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -554,12 +554,12 @@ Evaluating: 0.5*90
  DELTIC:      1352 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        3   Number of residues   =    20944
-         Number of atoms         =    70745   Number of groups     =    23347
-         Number of bonds         =    70928   Number of angles     =    38310
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        3   Number of residues   =    20940
+         Number of atoms         =    70734   Number of groups     =    23343
+         Number of bonds         =    70917   Number of angles     =    38307
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    21299   Number of HB donors  =     1036
+         Number of HB acceptors  =    21296   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =  -46.00000
   
  CHARMM>     
@@ -578,12 +578,12 @@ Evaluating: 0.5*90
  CHARMM>    .or. resid  31944 .or. resid  27194 .or. resid  3443 .or. resid  1732 -
  CHARMM>    .or. resid  12382 .or. resid  30668 .or. resid  29882 .or. resid  4961 -
  CHARMM>    .or. resid  13943 .or. resid  32592 ) end
- SELRPN>    138 atoms have been selected out of  70745
+ SELRPN>    138 atoms have been selected out of  70734
   
  CHARMM>     
   
  CHARMM>    coor stat sele watrepl .and. .not. hydrogen end
- SELRPN>     46 atoms have been selected out of  70745
+ SELRPN>     46 atoms have been selected out of  70734
  STATISTICS FOR        46 SELECTED ATOMS:
     XMIN =  -43.866280 XMAX =   44.249420 XAVE =    8.318762
     YMIN =  -44.230030 YMAX =   43.789950 YAVE =    7.738006
@@ -604,20 +604,20 @@ Evaluating: 0.5*90
  GENPSF> Segment   4 has been generated. Its identifier is IONP.
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        4   Number of residues   =    20990
-         Number of atoms         =    70791   Number of groups     =    23393
-         Number of bonds         =    70928   Number of angles     =    38310
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        4   Number of residues   =    20986
+         Number of atoms         =    70780   Number of groups     =    23389
+         Number of bonds         =    70917   Number of angles     =    38307
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    21299   Number of HB donors  =     1036
+         Number of HB acceptors  =    21296   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =    0.00000
   
  CHARMM>    coor dupl sele watrepl .and. .not. hydrogen end sele segid ionp end
- SELRPN>     46 atoms have been selected out of  70791
- SELRPN>     46 atoms have been selected out of  70791
+ SELRPN>     46 atoms have been selected out of  70780
+ SELRPN>     46 atoms have been selected out of  70780
   
  CHARMM>    delete atom sele .byres. watrepl end
- SELRPN>    138 atoms have been selected out of  70791
+ SELRPN>    138 atoms have been selected out of  70780
 
  Message from MAPIC: Atom numbers are changed.
 
@@ -627,32 +627,32 @@ Evaluating: 0.5*90
  DELTIC:        46 acceptors deleted
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        4   Number of residues   =    20944
-         Number of atoms         =    70653   Number of groups     =    23347
-         Number of bonds         =    70790   Number of angles     =    38264
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        4   Number of residues   =    20940
+         Number of atoms         =    70642   Number of groups     =    23343
+         Number of bonds         =    70779   Number of angles     =    38261
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    21253   Number of HB donors  =     1036
+         Number of HB acceptors  =    21250   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =    0.00000
   
  CHARMM>    join wat renumber ! fix numbering of residues in the modified water segment
  THE RESIDUE IDENTIFIERS HAVE BEEN RENUMBERED
  PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
  PSFSUM> Summary of the structure file counters :
-         Number of segments      =        4   Number of residues   =    20944
-         Number of atoms         =    70653   Number of groups     =    23347
-         Number of bonds         =    70790   Number of angles     =    38264
-         Number of dihedrals     =    26695   Number of impropers  =     1729
+         Number of segments      =        4   Number of residues   =    20940
+         Number of atoms         =    70642   Number of groups     =    23343
+         Number of bonds         =    70779   Number of angles     =    38261
+         Number of dihedrals     =    26697   Number of impropers  =     1729
          Number of cross-terms   =      637
-         Number of HB acceptors  =    21253   Number of HB donors  =     1036
+         Number of HB acceptors  =    21250   Number of HB donors  =     1037
          Number of NB exclusions =        0   Total charge =    0.00000
   
  CHARMM>    return
   
  CHARMM>     
   
- CHARMM>    write coor card name sys_pore_y213a_y97a_step3.cor
- VOPEN> Attempting to open::sys_pore_y213a_y97a_step3.cor::
+ CHARMM>    write coor card name sys_pore_y97a_f195a_step3.cor
+ VOPEN> Attempting to open::sys_pore_y97a_f195a_step3.cor::
  RDTITL> * SYS CEL48A-PORE-PHE
  RDTITL> *
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -660,8 +660,8 @@ Evaluating: 0.5*90
   
  CHARMM>     
   
- CHARMM>    write psf card name sys_pore_y213a_y97a_step3.psf
- VOPEN> Attempting to open::sys_pore_y213a_y97a_step3.psf::
+ CHARMM>    write psf card name sys_pore_y97a_f195a_step3.psf
+ VOPEN> Attempting to open::sys_pore_y97a_f195a_step3.psf::
  RDTITL> * SYS CEL48A-PORE-PHE
  RDTITL> *
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -677,15 +677,15 @@ Evaluating: 0.5*90
 
       $$$$$$  New timer profile Local node$$$$$
 
- Total time                     17.57 Other:            0.00
+ Total time                     17.33 Other:            0.00
 
          $$$$$$  Average   profile $$$$$
 
- Total time                     17.57 Other:            0.00
+ Total time                     17.33 Other:            0.00
 
                     NORMAL TERMINATION BY NORMAL STOP
                     NO WARNINGS WERE ISSUED
 
                     $$$$$ JOB ACCOUNTING INFORMATION $$$$$
-                     ELAPSED TIME:    17.57  SECONDS 
-                         CPU TIME:    17.57  SECONDS 
+                     ELAPSED TIME:    17.33  SECONDS 
+                         CPU TIME:    17.32  SECONDS 
