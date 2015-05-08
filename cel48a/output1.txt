@@ -4,7 +4,7 @@
        Copyright(c) 1984-2001  President and Fellows of Harvard College
                               All Rights Reserved
      Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
-                 Created on  5/8/15 at 13:07:46 by user: rumack      
+                 Created on  5/8/15 at 13:37:11 by user: rumack      
 
             Maximum number of ATOMS:    360720, and RESidues:      120240
  RDTITL> * CEL48A(SUB)+BGLC
@@ -276,7 +276,7 @@
  CHARMM>     
   
  CHARMM>    ! Delete side chain atoms (delete everything not in backbone)
- CHARMM>    delete atom select (resid 97 .and. .not. (type n .or. type ca .or. type c .or. type o .or. type ha .or. type hn)) end
+ CHARMM>    delete atom select (resid 213 .and. .not. (type n .or. type ca .or. type c .or. type o .or. type ha .or. type hn)) end
  SELRPN>     15 atoms have been selected out of   9687
 
  Message from MAPIC: Atom numbers are changed.
@@ -297,9 +297,9 @@
   
  CHARMM>     
   
- CHARMM>    rename resname ala select resid 97 end
+ CHARMM>    rename resname ala select resid 213 end
  SELRPN>      6 atoms have been selected out of   9672
- FOR SEGMENT 'PROT    ' RESIDUE '97      ', RESNAME 'TYR     ' IS RENAMED TO 'ALA     '
+ FOR SEGMENT 'PROT    ' RESIDUE '213     ', RESNAME 'TYR     ' IS RENAMED TO 'ALA     '
   
  CHARMM>     
   
@@ -381,7 +381,7 @@
  CHARMM>    read sequence pdb unit 14
  MAINIO> Sequence information being read from unit  14.
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 8/15     13: 7:47      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13:37:12      CREATED BY USER: RUMACK
  TITLE>  *
 
           RESIDUE SEQUENCE --   639 RESIDUES
@@ -389,13 +389,13 @@
           PHE     ARG     GLU     PHE     ASN     GLY     LEU     LEU     VAL     PRO     TYR     HSD     SER     VAL     GLU     THR     MET     ILE     VAL     GLU     
           ALA     PRO     ASP     HSD     GLY     HSD     GLN     THR     THR     SER     GLU     ALA     PHE     SER     TYR     TYR     LEU     TRP     LEU     GLU     
           ALA     TYR     TYR     GLY     ARG     VAL     THR     GLY     ASP     TRP     LYS     PRO     LEU     HSD     ASP     ALA     TRP     GLU     SER     MET     
-          GLU     THR     PHE     ILE     ILE     PRO     GLY     THR     LYS     ASP     GLN     PRO     THR     ASN     SER     ALA     ALA     ASN     PRO     ASN     
+          GLU     THR     PHE     ILE     ILE     PRO     GLY     THR     LYS     ASP     GLN     PRO     THR     ASN     SER     ALA     TYR     ASN     PRO     ASN     
           SER     PRO     ALA     THR     TYR     ILE     PRO     GLU     GLN     PRO     ASN     ALA     ASP     GLY     TYR     PRO     SER     PRO     LEU     MET     
           ASN     ASN     VAL     PRO     VAL     GLY     GLN     ASP     PRO     LEU     ALA     GLN     GLU     LEU     SER     SER     THR     TYR     GLY     THR     
           ASN     GLU     ILE     TYR     GLY     MET     HSD     TRP     LEU     LEU     ASP     VAL     ASP     ASN     VAL     TYR     GLY     PHE     GLY     PHE     
           CYS     GLY     ASP     GLY     THR     ASP     ASP     ALA     PRO     ALA     TYR     ILE     ASN     THR     TYR     GLN     ARG     GLY     ALA     ARG     
           GLU     SER     VAL     TRP     GLU     THR     ILE     PRO     HSD     PRO     SER     CYS     ASP     ASP     ALA     THR     HSD     GLY     GLY     PRO     
-          ASN     GLY     TYR     LEU     ASP     LEU     PHE     THR     ASP     ASP     GLN     ASN     TYR     ALA     LYS     GLN     TRP     ARG     TYR     THR     
+          ASN     GLY     TYR     LEU     ASP     LEU     PHE     THR     ASP     ASP     GLN     ASN     ALA     ALA     LYS     GLN     TRP     ARG     TYR     THR     
           ASN     ALA     PRO     ASP     ALA     ASP     ALA     ARG     ALA     VAL     GLN     VAL     MET     PHE     TRP     ALA     HSD     GLU     TRP     ALA     
           LYS     GLU     GLN     GLY     LYS     GLU     ASN     GLU     ILE     ALA     GLY     LEU     MET     ASP     LYS     ALA     SER     LYS     MET     GLY     
           ASP     TYR     LEU     ARG     TYR     ALA     MET     PHE     ASP     LYS     TYR     PHE     LYS     LYS     ILE     GLY     ASN     CYS     VAL     GLY     
@@ -442,16 +442,16 @@
   read CHARMM-pdb format
           SPATIAL COORDINATES BEING READ FROM UNIT 14
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 8/15     13: 7:47      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13:37:12      CREATED BY USER: RUMACK
  TITLE>  *
- ** WARNING ** After reading, there are no coordinates for selected atom:  1513    97 ALA  CB  
- ** WARNING ** After reading, there are no coordinates for selected atom:  1514    97 ALA  HB1 
- ** WARNING ** After reading, there are no coordinates for selected atom:  1515    97 ALA  HB2 
- ** WARNING ** After reading, there are no coordinates for selected atom:  1516    97 ALA  HB3 
- ** WARNING ** After reading, there are no coordinates for selected atom:  2937   195 ALA  CB  
- ** WARNING ** After reading, there are no coordinates for selected atom:  2938   195 ALA  HB1 
- ** WARNING ** After reading, there are no coordinates for selected atom:  2939   195 ALA  HB2 
- ** WARNING ** After reading, there are no coordinates for selected atom:  2940   195 ALA  HB3 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  2948   195 ALA  CB  
+ ** WARNING ** After reading, there are no coordinates for selected atom:  2949   195 ALA  HB1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  2950   195 ALA  HB2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  2951   195 ALA  HB3 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  3198   213 ALA  CB  
+ ** WARNING ** After reading, there are no coordinates for selected atom:  3199   213 ALA  HB1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  3200   213 ALA  HB2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:  3201   213 ALA  HB3 
  ** WARNING ** After reading, there are no coordinates for selected atom:  9665   639 ALA  OT1 
  ** WARNING ** After reading, there are no coordinates for selected atom:  9666   639 ALA  OT2 
 
@@ -840,8 +840,8 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write coor pdb name cel48a_y97a_f195a_step1.pdb
- VOPEN> Attempting to open::cel48a_y97a_f195a_step1.pdb::
+ CHARMM>    write coor pdb name cel48a_y213a_f195a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_f195a_step1.pdb::
  RDTITL>  
  RDTITL> No title read.
   Write CHARMM-pdb format
@@ -849,8 +849,8 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write coor card name cel48a_y97a_f195a_step1.cor
- VOPEN> Attempting to open::cel48a_y97a_f195a_step1.cor::
+ CHARMM>    write coor card name cel48a_y213a_f195a_step1.cor
+ VOPEN> Attempting to open::cel48a_y213a_f195a_step1.cor::
  RDTITL>  
  RDTITL> No title read.
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -858,8 +858,8 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write psf card name cel48a_y97a_f195a_step1.psf
- VOPEN> Attempting to open::cel48a_y97a_f195a_step1.psf::
+ CHARMM>    write psf card name cel48a_y213a_f195a_step1.psf
+ VOPEN> Attempting to open::cel48a_y213a_f195a_step1.psf::
  RDTITL> * PSF
  RDTITL> *
  VCLOSE: Closing unit   90 with status "KEEP"
@@ -877,18 +877,18 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
    First List                      0.04 Other:            0.00
    Shake time                      0.06 Other:            0.00
       Comm coords                     0.00 Other:            0.00
-      dynamc                          0.52 Other:            0.00
-   Dynamics total                  0.61 Other:            0.09
-   List time                       1.39 Other:            0.00
+      dynamc                          0.51 Other:            0.00
+   Dynamics total                  0.60 Other:            0.09
+   List time                       1.37 Other:            0.00
          Electrostatic & VDW             0.43 Other:            0.00
-      Nonbond force                   8.68 Other:            8.25
+      Nonbond force                   8.70 Other:            8.27
          Bond energy                     0.02 Other:            0.00
          Angle energy                    0.11 Other:            0.00
          Dihedral energy                 0.28 Other:            0.00
          Restraints energy               0.00 Other:            0.00
       INTRNL energy                   0.44 Other:            0.03
       Comm force                      0.00 Other:            0.00
-   Energy time                     9.30 Other:            0.18
+   Energy time                     9.32 Other:            0.18
  Total time                     12.63 Other:            1.24
 
          $$$$$$  Average   profile $$$$$
@@ -897,18 +897,18 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
    First List                      0.04 Other:            0.00
    Shake time                      0.06 Other:            0.00
       Comm coords                     0.00 Other:            0.00
-      dynamc                          0.52 Other:            0.00
-   Dynamics total                  0.61 Other:            0.09
-   List time                       1.39 Other:            0.00
+      dynamc                          0.51 Other:            0.00
+   Dynamics total                  0.60 Other:            0.09
+   List time                       1.37 Other:            0.00
          Electrostatic & VDW             0.43 Other:            0.00
-      Nonbond force                   8.68 Other:            8.25
+      Nonbond force                   8.70 Other:            8.27
          Bond energy                     0.02 Other:            0.00
          Angle energy                    0.11 Other:            0.00
          Dihedral energy                 0.28 Other:            0.00
          Restraints energy               0.00 Other:            0.00
       INTRNL energy                   0.44 Other:            0.03
       Comm force                      0.00 Other:            0.00
-   Energy time                     9.30 Other:            0.18
+   Energy time                     9.32 Other:            0.18
  Total time                     12.63 Other:            1.24
 
                     NORMAL TERMINATION BY NORMAL STOP
@@ -916,4 +916,4 @@ FLUC PRESS>       826.07882    353.17435      0.00000      0.00000      0.00000
 
                     $$$$$ JOB ACCOUNTING INFORMATION $$$$$
                      ELAPSED TIME:    12.63  SECONDS 
-                         CPU TIME:    12.61  SECONDS 
+                         CPU TIME:    12.63  SECONDS 

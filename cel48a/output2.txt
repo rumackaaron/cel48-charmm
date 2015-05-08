@@ -4,7 +4,7 @@
        Copyright(c) 1984-2001  President and Fellows of Harvard College
                               All Rights Reserved
      Current operating system: Linux-2.6.32-71.29.1.el6.x86_64(x86_64)@suga     
-                 Created on  5/8/15 at 13:08:14 by user: rumack      
+                 Created on  5/8/15 at 13:37:56 by user: rumack      
 
             Maximum number of ATOMS:    360720, and RESidues:      120240
  RDTITL> * CEL48A(SUB)+BGLC
@@ -110,11 +110,11 @@
  CHARMM>     
   
  CHARMM>    !(2) build the OT1 and OT2 of the last residue in cel48a
- CHARMM>    read sequ pdb name cel48a_y97a_f195a_step1.pdb
- VOPEN> Attempting to open::cel48a_y97a_f195a_step1.pdb::
+ CHARMM>    read sequ pdb name cel48a_y213a_f195a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_f195a_step1.pdb::
  MAINIO> Sequence information being read from unit  90.
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 8/15     13: 7:59      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13:37:24      CREATED BY USER: RUMACK
  TITLE>  *
 
           RESIDUE SEQUENCE --   639 RESIDUES
@@ -122,13 +122,13 @@
           PHE ARG GLU PHE ASN GLY LEU LEU VAL PRO TYR HSD SER VAL GLU THR MET ILE VAL GLU 
           ALA PRO ASP HSD GLY HSD GLN THR THR SER GLU ALA PHE SER TYR TYR LEU TRP LEU GLU 
           ALA TYR TYR GLY ARG VAL THR GLY ASP TRP LYS PRO LEU HSD ASP ALA TRP GLU SER MET 
-          GLU THR PHE ILE ILE PRO GLY THR LYS ASP GLN PRO THR ASN SER ALA ALA ASN PRO ASN 
+          GLU THR PHE ILE ILE PRO GLY THR LYS ASP GLN PRO THR ASN SER ALA TYR ASN PRO ASN 
           SER PRO ALA THR TYR ILE PRO GLU GLN PRO ASN ALA ASP GLY TYR PRO SER PRO LEU MET 
           ASN ASN VAL PRO VAL GLY GLN ASP PRO LEU ALA GLN GLU LEU SER SER THR TYR GLY THR 
           ASN GLU ILE TYR GLY MET HSD TRP LEU LEU ASP VAL ASP ASN VAL TYR GLY PHE GLY PHE 
           CYS GLY ASP GLY THR ASP ASP ALA PRO ALA TYR ILE ASN THR TYR GLN ARG GLY ALA ARG 
           GLU SER VAL TRP GLU THR ILE PRO HSD PRO SER CYS ASP ASP ALA THR HSD GLY GLY PRO 
-          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN TYR ALA LYS GLN TRP ARG TYR THR 
+          ASN GLY TYR LEU ASP LEU PHE THR ASP ASP GLN ASN ALA ALA LYS GLN TRP ARG TYR THR 
           ASN ALA PRO ASP ALA ASP ALA ARG ALA VAL GLN VAL MET PHE TRP ALA HSD GLU TRP ALA 
           LYS GLU GLN GLY LYS GLU ASN GLU ILE ALA GLY LEU MET ASP LYS ALA SER LYS MET GLY 
           ASP TYR LEU ARG TYR ALA MET PHE ASP LYS TYR PHE LYS LYS ILE GLY ASN CYS VAL GLY 
@@ -173,12 +173,12 @@
   
  CHARMM>     
   
- CHARMM>    read coor pdb name cel48a_y97a_f195a_step1.pdb
- VOPEN> Attempting to open::cel48a_y97a_f195a_step1.pdb::
+ CHARMM>    read coor pdb name cel48a_y213a_f195a_step1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_f195a_step1.pdb::
   read CHARMM-pdb format
           SPATIAL COORDINATES BEING READ FROM UNIT 90
  TITLE>   TEMPORARY
- TITLE>    DATE:     5/ 8/15     13: 7:59      CREATED BY USER: RUMACK
+ TITLE>    DATE:     5/ 8/15     13:37:24      CREATED BY USER: RUMACK
  TITLE>  *
  VCLOSE: Closing unit   90 with status "KEEP"
   
@@ -285,8 +285,8 @@ STPD EXTERN>       -1.03556     37.46240      0.00000      0.00000      0.00000
   
  CHARMM>     
   
- CHARMM>    write coor pdb name cel48a_y97a_f195a_1.pdb
- VOPEN> Attempting to open::cel48a_y97a_f195a_1.pdb::
+ CHARMM>    write coor pdb name cel48a_y213a_f195a_1.pdb
+ VOPEN> Attempting to open::cel48a_y213a_f195a_1.pdb::
  RDTITL> * CEL48A FIT TO CELF_RC
  RDTITL> *
   Write CHARMM-pdb format
